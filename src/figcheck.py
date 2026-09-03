@@ -58,7 +58,20 @@ def texts_of(fig):
 
 
 def bbox(t, r):
+    """Bounding box of the *text*, excluding a leader arrow.
+
+    matplotlib's Annotation.get_window_extent returns the union of the label
+    and its arrow, which would report a collision whenever two leader lines
+    pass near each other rather than when the labels actually touch.
+    """
+    from matplotlib.text import Annotation
     try:
+        if isinstance(t, Annotation) and t.arrow_patch is not None:
+            keep, t.arrow_patch = t.arrow_patch, None
+            try:
+                return t.get_window_extent(renderer=r)
+            finally:
+                t.arrow_patch = keep
         return t.get_window_extent(renderer=r)
     except Exception:
         return None

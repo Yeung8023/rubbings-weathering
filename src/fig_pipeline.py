@@ -15,7 +15,7 @@ from PIL import Image
 from figures import FIG
 import segment as SG, synth as S, weather as W, physics as P
 
-FIGW, FIGH = 7.2, 6.2
+FIGW, FIGH = 7.2, 6.4
 AR = FIGW / FIGH
 
 BLUE_F, BLUE_E = "#DCE8F6", "#2E5C8A"
@@ -105,33 +105,33 @@ def main(out=f"{FIG}/fig1_pipeline.png"):
                  ha="left", va="top", zorder=7)
 
     # ============ data pipeline =========================================
-    plet(0.014, 0.977, "a)")
-    frame(fig, 0.030, 0.775, 0.940, 0.190, "Data pipeline", BLUE_F, BLUE_E)
+    plet(0.014, 0.980, "a)")
+    frame(fig, 0.030, 0.788, 0.940, 0.180, "Data pipeline", BLUE_F, BLUE_E)
     pth = "data/raw/npm_images/20595/A2I000332N000000002PAA.jpg"
     page = SG.load_gray(pth)
     small = np.asarray(Image.fromarray((np.clip(page, 0, 1) * 255).astype(np.uint8))
                        .resize((240, 180), Image.LANCZOS)) / 255.0
-    ty, tw = 0.820, 0.086
+    ty, tw = 0.828, 0.082
     thumb(fig, 0.052, ty, tw, small, "museum IIIF page", cmap="gray")
-    module(fig, 0.176, ty + 0.012, 0.098, 0.072, "Panel and", GRY_F, GRY_E,
+    module(fig, 0.170, ty + 0.014, 0.092, 0.068, "Panel and", GRY_F, GRY_E,
            sub="lattice fit")
-    a2 = thumb(fig, 0.302, ty, tw, small, "cells", cmap="gray")
+    a2 = thumb(fig, 0.290, ty, tw, small, "cells", cmap="gray")
     _, cells, _ = SG.page_cells(pth)
     sy, sx = small.shape[0] / page.shape[0], small.shape[1] / page.shape[1]
     for c in cells:
         r0, r1, c0, c1 = c["box"]
         a2.add_patch(plt.Rectangle((c0 * sx, r0 * sy), (c1 - c0) * sx,
                                    (r1 - r0) * sy, fill=False, ec=ORG_E, lw=0.35))
-    module(fig, 0.426, ty + 0.012, 0.098, 0.072, "Cross-sheet", GRY_F, GRY_E,
+    module(fig, 0.408, ty + 0.014, 0.092, 0.068, "Cross-sheet", GRY_F, GRY_E,
            sub="alignment")
     z = np.load("data/interim/stacks4.npz", allow_pickle=True)
     st, sims = z["stack"], z["sims"]
     idx = np.random.default_rng(1).choice(
         np.where(sims.min(1) >= 0.5)[0], 3, replace=False)
-    fx, fw = 0.552, 0.086
+    fx, fw = 0.528, 0.082
     fh = fw * AR
     for k in (3, 2, 1):
-        dx, dy = 0.009 * k, 0.011 * k
+        dx, dy = 0.007 * k, 0.008 * k
         fig.patches.append(Rectangle((fx + dx, ty + dy), fw, fh,
                                      transform=fig.transFigure,
                                      facecolor="white", edgecolor=BLUE_E,
@@ -151,19 +151,28 @@ def main(out=f"{FIG}/fig1_pipeline.png"):
         edgecolor=BLUE_E, linewidth=0.8, linestyle=(0, (3, 2))))
     fig.text(fx + fw / 2, ty - 0.014, "aligned stack", fontsize=6.0,
              fontweight="bold", color=INK, ha="center", va="top", zorder=6)
-    fig.text(0.795, ty + fh / 2 + 0.012,
+    yc = ty + fh / 2
+    rrect(fig, 0.688, yc - 0.036, 0.128, 0.072, "white", BLUE_E, lw=0.9)
+    fig.text(0.752, yc + 0.014,
              r"$\mathbf{Y}\in\mathbb{R}^{C\times n\times H\times W}$",
-             fontsize=7.6, color=INK, ha="center", va="center", zorder=6)
-    fig.text(0.795, ty + fh / 2 - 0.016,
-             "C characters, n dated sheets", fontsize=6.0, color=INK,
-             ha="center", va="center", zorder=6)
-    for xa, xb in [(0.142, 0.172), (0.278, 0.298), (0.392, 0.422),
-                   (0.530, 0.548), (0.674, 0.706)]:
-        arrow(fig, (xa, ty + fh / 2), (xb, ty + fh / 2))
+             fontsize=7.2, color=INK, ha="center", va="center", zorder=6)
+    fig.text(0.752, yc - 0.014, "C characters\non n dated sheets", fontsize=5.8,
+             color=INK, ha="center", va="center", zorder=6, linespacing=1.4)
+    rrect(fig, 0.830, yc - 0.046, 0.132, 0.092, "white", GRY_E, lw=0.8,
+          ls=(0, (3, 2)))
+    fig.text(0.896, yc + 0.033, "catalogue supplies", fontsize=5.8,
+             fontweight="bold", color=INK, ha="center", va="center", zorder=6)
+    fig.text(0.896, yc - 0.007,
+             "period of each sheet\nsheet size in cm\nunreadable marks",
+             fontsize=5.5, color=INK, ha="center", va="center", zorder=6,
+             linespacing=1.7)
+    for xa, xb in [(0.134, 0.166), (0.266, 0.286), (0.372, 0.404),
+                   (0.502, 0.524), (0.646, 0.684)]:
+        arrow(fig, (xa, yc), (xb, yc))
 
     # ============ forward model =========================================
-    plet(0.014, 0.722, "b)")
-    frame(fig, 0.030, 0.530, 0.940, 0.180, "Forward model of one sheet",
+    plet(0.014, 0.757, "b)")
+    frame(fig, 0.030, 0.560, 0.940, 0.185, "Forward model of one sheet",
           ORG_F, ORG_E)
     rng = np.random.default_rng(5)
     mask = W.glyph_mask("醴", S.FONT_KAI, 192)
@@ -177,7 +186,7 @@ def main(out=f"{FIG}/fig1_pipeline.png"):
     obs = np.load("results/real_style_free.npz")["images"][3, 0]
 
     tw2, mw, gap = 0.070, 0.086, 0.008
-    y2 = 0.578
+    y2 = 0.606
     h2 = tw2 * AR
     xs = 0.048
     seq = [("t", h0, dict(cmap="magma", vmin=0), r"$h_0$  carving"),
@@ -213,12 +222,12 @@ def main(out=f"{FIG}/fig1_pipeline.png"):
              va="bottom", zorder=6)
 
     # ============ detail panels =========================================
-    plet(0.014, 0.492, "c)")
-    rrect(fig, 0.030, 0.050, 0.455, 0.435, TINT_B, ORG_E, lw=0.8, r=0.010, z=1)
-    fig.text(0.2575, 0.462, "Paper bridging: why craft is not weather",
+    plet(0.014, 0.512, "c)")
+    rrect(fig, 0.030, 0.042, 0.455, 0.455, TINT_B, ORG_E, lw=0.8, r=0.010, z=1)
+    fig.text(0.2575, 0.472, "Paper bridging: why craft is not weather",
              fontsize=7.0, fontweight="bold", color=INK, ha="center",
              va="center", zorder=6)
-    ax = fig.add_axes([0.078, 0.110, 0.382, 0.312])
+    ax = fig.add_axes([0.080, 0.105, 0.372, 0.330])
     ax.set_zorder(3); ax.set_facecolor("white")
     xg = np.arange(-6, 6, 0.02)
 
@@ -237,34 +246,39 @@ def main(out=f"{FIG}/fig1_pipeline.png"):
         return np.max(np.stack([pad[i:i + len(h)] - b[2 * k - i]
                                 for i in range(2 * k + 1)]), 0)
 
-    ax.fill_between(xg, -prof, -2.2, facecolor="#E6DFD3", edgecolor="none")
-    ax.plot(xg, -prof, color="#5B5348", lw=1.0)
+    ax.fill_between(xg, -prof, -2.2, facecolor="#EDE7DB", edgecolor="#D6CDBB",
+                    hatch="////", linewidth=0.0)
+    ax.plot(xg, -prof, color="#5A5246", lw=1.1)
     for lam, col, off, nm in [(0.95, ORG_E, 0.0, r"heavy sheet  $\lambda=0.95$"),
-                              (0.22, BLUE_E, 0.45, r"light sheet  $\lambda=0.22$")]:
+                              (0.22, BLUE_E, 0.42, r"light sheet  $\lambda=0.22$")]:
         uu = open1d(prof, lam)
-        ax.fill_between(xg, -uu + off, -uu + off + 0.14, where=uu < 0.12,
-                        color=col, lw=0, alpha=0.85, zorder=4)
-        ax.plot(xg, -uu + off, color=col, lw=1.3, zorder=5, label=nm)
-    ax.set_xlim(-5.2, 4.6); ax.set_ylim(-2.0, 1.15)
+        ax.fill_between(xg, -uu + off, -uu + off + 0.13, where=uu < 0.12,
+                        color=col, lw=0, alpha=0.9, zorder=4)
+        ax.plot(xg, -uu + off, color=col, lw=1.4, zorder=5)
+        ax.text(-5.0, off + 0.15, nm, color=col, fontsize=5.8, ha="left",
+                va="bottom", fontweight="bold")
+    ax.set_xlim(-5.2, 4.6); ax.set_ylim(-1.75, 1.60)
     ax.set_yticks([0, -1]); ax.set_xticks([-4, -2, 0, 2, 4])
     ax.tick_params(labelsize=5.6, length=2, pad=1)
     ax.set_xlabel("across the stroke (mm)", fontsize=6.0, labelpad=1)
     ax.set_ylabel("depth (mm)", fontsize=6.0, labelpad=1)
-    ax.legend(frameon=False, fontsize=5.8, loc="upper left",
-              bbox_to_anchor=(0.0, 1.03), handlelength=1.3)
-    ax.annotate("wide cut prints white", xy=(-1.7, -1.30), xytext=(-1.7, -1.85),
-                fontsize=5.6, ha="center",
-                arrowprops=dict(arrowstyle="->", lw=0.6, color="#555"))
-    ax.annotate("hairline is bridged\nand prints black", xy=(2.5, -0.20),
-                xytext=(2.4, -1.55), fontsize=5.6, ha="center",
-                arrowprops=dict(arrowstyle="->", lw=0.6, color="#555"))
+    ax.annotate("wide cut: both sheets enter,\nso it prints white",
+                xy=(-1.7, -0.80), xytext=(-1.4, 1.56), fontsize=5.6,
+                ha="center", va="top", zorder=6,
+                arrowprops=dict(arrowstyle="->", lw=0.7, color="#444",
+                                shrinkA=2, shrinkB=2))
+    ax.annotate("hairline: the heavy sheet\nbridges it, so it prints black",
+                xy=(2.55, 0.14), xytext=(3.1, 1.56), fontsize=5.6, ha="center",
+                va="top", zorder=6,
+                arrowprops=dict(arrowstyle="->", lw=0.7, color="#444",
+                                shrinkA=2, shrinkB=2))
 
-    plet(0.499, 0.492, "d)")
-    rrect(fig, 0.515, 0.050, 0.455, 0.435, TINT_A, BLUE_E, lw=0.8, r=0.010, z=1)
-    fig.text(0.7425, 0.462, "What is shared between sheets and characters",
+    plet(0.499, 0.512, "d)")
+    rrect(fig, 0.515, 0.042, 0.455, 0.455, TINT_A, BLUE_E, lw=0.8, r=0.010, z=1)
+    fig.text(0.7425, 0.472, "What is shared between sheets and characters",
              fontsize=7.0, fontweight="bold", color=INK, ha="center",
              va="center", zorder=6)
-    R, ny = 0.0145, 0.330
+    R, ny = 0.0145, 0.325
     circ(fig, 0.560, ny + 0.028, r"$a$", R)
     circ(fig, 0.560, ny - 0.028, r"$b$", R)
     fig.text(0.560, ny + 0.062, "rate law", fontsize=5.8, color=INK,
@@ -288,9 +302,10 @@ def main(out=f"{FIG}/fig1_pipeline.png"):
                          zorder=7)
             else:
                 circ(fig, xn, ny, sym, R)
-    for x0 in (0.575, 0.659, 0.751, 0.801, 0.889):
-        arrow(fig, (x0, ny), (0.905, ny), c="#9AA0A6", lw=0.7, ms=5)
-    fig.text(0.7425, 0.150,
+    for x0, rd in ((0.575, -0.17), (0.659, -0.13), (0.751, -0.09),
+                   (0.801, -0.06), (0.889, 0.0)):
+        arrow(fig, (x0, ny), (0.906, ny), c="#9AA0A6", lw=0.7, ms=5, rad=rd)
+    fig.text(0.7425, 0.175,
              r"$nC$ images constrain $6n$ shared nuisance parameters;"
              "\nimpression style is independent between sheets, weathering is\n"
              "shared and monotone in time",
