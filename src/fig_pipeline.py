@@ -76,6 +76,7 @@ def frame(fig, x, y, w, h, title, fc, ec):
     tw = 0.008 * len(title) + 0.030
     rrect(fig, x + (w - tw) / 2, y + h - 0.017, tw, 0.034, fc, ec, lw=0.9,
           r=0.017, z=5)
+    fig.patches[-1].set_gid("deco")          # the tag sits on the frame line
     fig.text(x + w / 2, y + h, title, fontsize=7.2, fontweight="bold",
              color=INK, ha="center", va="center", zorder=6)
 
@@ -136,12 +137,14 @@ def main(out=f"{FIG}/fig1_pipeline.png"):
                                      transform=fig.transFigure,
                                      facecolor="white", edgecolor=BLUE_E,
                                      linewidth=0.6, zorder=2))
+        fig.patches[-1].set_gid("deco")      # offset planes overlap by design
     cw = fw / 3
     for r in range(3):
         for c in range(3):
             a = fig.add_axes([fx + c * cw, ty + (2 - r) * cw * AR, cw, cw * AR])
             a.imshow(st[idx[c], r], cmap="gray", aspect="auto")
             a.set_xticks([]); a.set_yticks([]); a.set_zorder(3)
+            a.set_gid("deco")                # contact-sheet mosaic
             for s in a.spines.values():
                 s.set_visible(False)
     fig.patches.append(FancyBboxPatch(
@@ -185,10 +188,10 @@ def main(out=f"{FIG}/fig1_pipeline.png"):
     yh = P.acquire(1 - sty.alpha * cc, rng, px)
     obs = np.load("results/real_style_free.npz")["images"][3, 0]
 
-    tw2, mw, gap = 0.070, 0.086, 0.008
+    tw2, mw, gap = 0.070, 0.082, 0.016
     y2 = 0.606
     h2 = tw2 * AR
-    xs = 0.048
+    xs = 0.034
     seq = [("t", h0, dict(cmap="magma", vmin=0), r"$h_0$  carving"),
            ("m", "Weathering", r"$\kappa_j,\ \sigma_j,\ P_j$", GRN_F, GRN_E),
            ("t", hj, dict(cmap="magma", vmin=0), r"$h_j$  at epoch $j$"),
@@ -213,7 +216,7 @@ def main(out=f"{FIG}/fig1_pipeline.png"):
     for (a0, a1), (b0, b1) in zip(centers[:-1], centers[1:]):
         arrow(fig, (a1 + 0.001, y2 + h2 / 2), (b0 - 0.001, y2 + h2 / 2), ms=6)
 
-    xo = x + 0.046
+    xo = x + 0.030
     thumb(fig, xo, y2, tw2, obs, r"$y$  observed", cmap="gray", vmin=0, vmax=1)
     arrow(fig, (x - gap + 0.005, y2 + h2 / 2), (xo - 0.006, y2 + h2 / 2),
           c=RED, lw=1.1, ms=7)

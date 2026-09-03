@@ -120,7 +120,44 @@ def data_boxes(ax, r):
     return out
 
 
-def check(fig, name, tol=1.0, min_area=6.0):
+def solid_boxes(fig, r):
+    """Every drawn rectangle: image axes, module blocks, dashed frames.
+
+    Text-only checks miss the commonest defect in a block diagram, which is a
+    module butting into the frame of the thumbnail beside it.  A box that
+    fully contains another is a container (a grouping frame or a tinted
+    panel) and is not a collision, so only partial overlaps are reported.
+    """
+    from matplotlib.patches import FancyBboxPatch, Rectangle
+    out = []
+    for ax in fig.axes:
+        if ax.get_gid() == "deco":          # deliberately tight or stacked
+            continue
+        out.append((ax.bbox, "image/axes"))
+    for pa in fig.patches:
+        if not isinstance(pa, (FancyBboxPatch, Rectangle)):
+            continue
+        if pa.get_gid() == "deco":
+            continue
+        try:
+            out.append((pa.get_window_extent(r), "box"))
+        except Exception:
+            pass
+    return out
+
+
+def contains(a, b, tol=1.0):
+    return (a.x0 <= b.x0 + tol and a.x1 >= b.x1 - tol
+            and a.y0 <= b.y0 + tol and a.y1 >= b.y1 - tol)
+
+
+def gap(a, b):
+    dx = max(a.x0 - b.x1, b.x0 - a.x1, 0.0)
+    dy = max(a.y0 - b.y1, b.y0 - a.y1, 0.0)
+    return max(dx, dy) if (dx > 0 or dy > 0) else 0.0
+
+
+def check(fig, name, tol=1.0, min_area=6.0, min_gap=6.0):
     fig.canvas.draw()
     r = fig.canvas.get_renderer()
     fb = fig.bbox
@@ -188,6 +225,43 @@ def check(fig, name, tol=1.0, min_area=6.0):
             problems.append(
                 f"TEXT ON DATA    [{kind}] {t.get_text()[:40]!r} "
                 f"sits on plotted data ({worst:.0f} px2)")
+
+    # boxes and image frames butting into one another
+    sb = solid_boxes(fig, r)
+    for i in range(len(sb)):
+        for j in range(i + 1, len(sb)):
+            b1, k1 = sb[i]
+            b2, k2 = sb[j]
+            if contains(b1, b2) or contains(b2, b1):
+                continue
+            ov, area = overlap(b1, b2)
+            if ov and area > 12:
+                problems.append(
+                    f"BOXES OVERLAP   {k1} x {k2}  at "
+                    f"({b1.x0:.0f},{b1.y0:.0f})-({b1.x1:.0f},{b1.y1:.0f}) "
+                    f"and ({b2.x0:.0f},{b2.y0:.0f})-({b2.x1:.0f},{b2.y1:.0f}) "
+                    f"({area:.0f} px2)")
+            elif not ov:
+                g = gap(b1, b2)
+                if 0 < g < min_gap:
+                    # only flag boxes that actually face each other
+                    ox = min(b1.x1, b2.x1) - max(b1.x0, b2.x0)
+                    oy = min(b1.y1, b2.y1) - max(b1.y0, b2.y0)
+                    if max(ox, oy) > 8:
+                        problems.append(
+                            f"BOXES TOO CLOSE {k1} x {k2}  gap {g:.1f} px at "
+                            f"({b2.x0:.0f},{b2.y0:.0f})")
+
+    # a label sitting on an image
+    for ax, t, kind, bb in items:
+        for other in fig.axes:
+            if other is ax or not other.images:
+                continue
+            ov, area = overlap(bb, other.bbox)
+            if ov and area > 20:
+                problems.append(
+                    f"TEXT ON IMAGE   [{kind}] {t.get_text()[:36]!r} "
+                    f"({area:.0f} px2)")
 
     # text landing on a different axes than its own
     for ax, t, kind, bb in items:

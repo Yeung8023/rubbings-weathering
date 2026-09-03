@@ -120,6 +120,7 @@ def main(out=f"{FIG}/fig2_mechanism.png"):
     axes.append(a0)
     for j in range(4):
         a = fig.add_subplot(sub[j + 1])
+        a.set_gid("deco")
         a.imshow(d["images"][0, j], cmap="gray", vmin=0, vmax=1)
         a.set_title(f"impression, {years[j]} CE", fontsize=6.6, pad=5)
         axes.append(a)

@@ -49,6 +49,7 @@ def fig1_stack(out=f"{FIG}/fig1_stack.png"):
         k = cids.index(c)
         for jj, ii in enumerate(idx):
             ax = fig.add_subplot(gsL[r, jj])
+            ax.set_gid("deco")               # contact sheet, deliberately tight
             ax.imshow(st[ii, k], cmap="gray")
             ax.set_xticks([]); ax.set_yticks([])
             for sp in ax.spines.values():
