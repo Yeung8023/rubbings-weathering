@@ -1,115 +1,225 @@
-"""Overview schematic: acquisition, physics, model and inference."""
+"""Method overview, drawn in the block-diagram idiom this journal uses:
+pastel module blocks, pill-tagged grouping frames, dashed image frames,
+a red loss arrow, and tinted detail panels underneath.
+"""
 import sys, json
 sys.path.insert(0, "src")
 import numpy as np
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-from matplotlib.patches import FancyArrowPatch, FancyBboxPatch, Circle, Polygon
+from matplotlib.patches import (FancyArrowPatch, FancyBboxPatch, Polygon,
+                                Circle, Rectangle)
 from PIL import Image
-from scipy import ndimage as ndi
 
 from figures import FIG
 import segment as SG, synth as S, weather as W, physics as P
 
-INK, MID, HAIR = "#1A1A1A", "#6B7078", "#C8CCD2"
-ACC, ACC2 = "#B4532A", "#2F6B8F"
-FIGW, FIGH = 7.2, 4.1
-AR = FIGW / FIGH                       # multiply a width fraction to keep square
+FIGW, FIGH = 7.2, 6.2
+AR = FIGW / FIGH
+
+BLUE_F, BLUE_E = "#DCE8F6", "#2E5C8A"
+GRN_F, GRN_E = "#DFEEDD", "#3F7A3F"
+ORG_F, ORG_E = "#FBE5D5", "#C0703A"
+GRY_F, GRY_E = "#E9EAEC", "#6B7078"
+TINT_A, TINT_B = "#EDF3FA", "#FBF1E8"
+RED = "#C0392B"
+INK = "#111111"
 
 
-def im(fig, x, y, w, img, ec=HAIR, **kw):
-    a = fig.add_axes([x, y, w, w * AR])
+def rrect(fig, x, y, w, h, fc, ec, lw=0.9, r=0.008, z=2, ls="-"):
+    fig.patches.append(FancyBboxPatch(
+        (x, y), w, h, transform=fig.transFigure, zorder=z,
+        boxstyle=f"round,pad=0,rounding_size={r}", facecolor=fc,
+        edgecolor=ec, linewidth=lw, linestyle=ls))
+
+
+def module(fig, x, y, w, h, text, fc=BLUE_F, ec=BLUE_E, fs=6.4, sub=None):
+    rrect(fig, x, y, w, h, fc, ec)
+    fig.text(x + w / 2, y + h / 2 + (0.011 if sub else 0), text, fontsize=fs,
+             fontweight="bold", color=INK, ha="center", va="center", zorder=6)
+    if sub:
+        fig.text(x + w / 2, y + h / 2 - 0.014, sub, fontsize=6.0, color=INK,
+                 ha="center", va="center", zorder=6)
+
+
+def trapz(fig, x, y, w, h, text, fc=GRY_F, ec=GRY_E, fs=6.4, flip=False):
+    d = 0.28 * h
+    pts = ([(x, y), (x + w, y + d), (x + w, y + h - d), (x, y + h)] if not flip
+           else [(x, y + d), (x + w, y), (x + w, y + h), (x, y + h - d)])
+    fig.patches.append(Polygon(pts, transform=fig.transFigure, facecolor=fc,
+                               edgecolor=ec, linewidth=0.9, zorder=2))
+    fig.text(x + w / 2, y + h / 2, text, fontsize=fs, fontweight="bold",
+             color=INK, ha="center", va="center", zorder=6, rotation=90)
+
+
+def thumb(fig, x, y, w, img, cap, **kw):
+    h = w * AR
+    a = fig.add_axes([x, y, w, h])
     a.imshow(img, aspect="auto", **kw)
     a.set_xticks([]); a.set_yticks([]); a.set_zorder(3)
     for s in a.spines.values():
-        s.set_edgecolor(ec); s.set_linewidth(0.5)
+        s.set_visible(False)
+    fig.patches.append(FancyBboxPatch(
+        (x - 0.004, y - 0.004), w + 0.008, h + 0.008,
+        transform=fig.transFigure, zorder=4,
+        boxstyle="round,pad=0,rounding_size=0.006", facecolor="none",
+        edgecolor=BLUE_E, linewidth=0.8, linestyle=(0, (3, 2))))
+    if cap:
+        fig.text(x + w / 2, y - 0.014, cap, fontsize=6.0, fontweight="bold",
+                 color=INK, ha="center", va="top", zorder=6)
     return a
 
 
-def arr(fig, p0, p1, c=MID, lw=0.9, rad=0.0, dashed=False, ms=6):
+def frame(fig, x, y, w, h, title, fc, ec):
+    rrect(fig, x, y, w, h, "none", ec, lw=1.1, r=0.010, z=1)
+    tw = 0.008 * len(title) + 0.030
+    rrect(fig, x + (w - tw) / 2, y + h - 0.017, tw, 0.034, fc, ec, lw=0.9,
+          r=0.017, z=5)
+    fig.text(x + w / 2, y + h, title, fontsize=7.2, fontweight="bold",
+             color=INK, ha="center", va="center", zorder=6)
+
+
+def arrow(fig, p0, p1, c=INK, lw=0.9, ms=7, rad=0.0, ls="-"):
     fig.patches.append(FancyArrowPatch(
         p0, p1, transform=fig.transFigure, arrowstyle="-|>", mutation_scale=ms,
-        linewidth=lw, color=c, zorder=5, linestyle="--" if dashed else "-",
+        linewidth=lw, color=c, zorder=5, linestyle=ls,
         connectionstyle=f"arc3,rad={rad}"))
 
 
-def lab(fig, x, y, s, size=6.0, c=MID, ha="center", va="top", **kw):
-    fig.text(x, y, s, fontsize=size, color=c, ha=ha, va=va, zorder=6, **kw)
-
-
-def letter(fig, x, y, s):
-    fig.text(x, y, s, fontsize=9, fontweight="bold", color=INK,
-             ha="left", va="top", zorder=7)
-
-
-def node(fig, x, y, r, s, shaded=False):
+def circ(fig, x, y, s, r=0.011):
     fig.patches.append(Circle((x, y), r, transform=fig.transFigure,
-                              facecolor="#E6E8EB" if shaded else "white",
-                              edgecolor=INK, linewidth=0.7, zorder=4))
-    fig.text(x, y, s, fontsize=6.2, ha="center", va="center", zorder=6)
+                              facecolor="white", edgecolor=INK, linewidth=0.8,
+                              zorder=6))
+    fig.text(x, y, s, fontsize=6.6, ha="center", va="center", zorder=7)
 
 
-def plate(fig, x, y, w, h, s):
-    fig.patches.append(FancyBboxPatch(
-        (x, y), w, h, transform=fig.transFigure, zorder=2,
-        boxstyle="round,pad=0,rounding_size=0.005", facecolor="none",
-        edgecolor=MID, linewidth=0.6, linestyle=(0, (3, 2))))
-    fig.text(x + w - 0.004, y + 0.005, s, fontsize=5.4, color=MID,
-             ha="right", va="bottom", zorder=6)
-
-
+# --------------------------------------------------------------------------
 def main(out=f"{FIG}/fig1_pipeline.png"):
     fig = plt.figure(figsize=(FIGW, FIGH))
     fig.patch.set_facecolor("white")
     px = 30.0 / 192
 
-    # ---------------- a  acquisition ------------------------------------
-    letter(fig, 0.020, 0.982, "a")
+    def plet(x, y, t):
+        fig.text(x, y, t, fontsize=8.5, fontweight="bold", color=INK,
+                 ha="left", va="top", zorder=7)
+
+    # ============ data pipeline =========================================
+    plet(0.014, 0.977, "a)")
+    frame(fig, 0.030, 0.775, 0.940, 0.190, "Data pipeline", BLUE_F, BLUE_E)
     pth = "data/raw/npm_images/20595/A2I000332N000000002PAA.jpg"
     page = SG.load_gray(pth)
-    thumb = np.asarray(Image.fromarray((np.clip(page, 0, 1) * 255).astype(np.uint8))
+    small = np.asarray(Image.fromarray((np.clip(page, 0, 1) * 255).astype(np.uint8))
                        .resize((240, 180), Image.LANCZOS)) / 255.0
-    im(fig, 0.030, 0.790, 0.088, thumb, cmap="gray")
-    lab(fig, 0.074, 0.782, "page")
-    a2 = im(fig, 0.152, 0.790, 0.088, thumb, cmap="gray")
+    ty, tw = 0.820, 0.086
+    thumb(fig, 0.052, ty, tw, small, "museum IIIF page", cmap="gray")
+    module(fig, 0.176, ty + 0.012, 0.098, 0.072, "Panel and", GRY_F, GRY_E,
+           sub="lattice fit")
+    a2 = thumb(fig, 0.302, ty, tw, small, "cells", cmap="gray")
     _, cells, _ = SG.page_cells(pth)
-    sy, sx = thumb.shape[0] / page.shape[0], thumb.shape[1] / page.shape[1]
+    sy, sx = small.shape[0] / page.shape[0], small.shape[1] / page.shape[1]
     for c in cells:
         r0, r1, c0, c1 = c["box"]
         a2.add_patch(plt.Rectangle((c0 * sx, r0 * sy), (c1 - c0) * sx,
-                                   (r1 - r0) * sy, fill=False, ec=ACC, lw=0.35))
-    lab(fig, 0.196, 0.782, "cells")
-    arr(fig, (0.122, 0.865), (0.146, 0.865))
-    arr(fig, (0.244, 0.865), (0.268, 0.865))
-
+                                   (r1 - r0) * sy, fill=False, ec=ORG_E, lw=0.35))
+    module(fig, 0.426, ty + 0.012, 0.098, 0.072, "Cross-sheet", GRY_F, GRY_E,
+           sub="alignment")
     z = np.load("data/interim/stacks4.npz", allow_pickle=True)
     st, sims = z["stack"], z["sims"]
     idx = np.random.default_rng(1).choice(
         np.where(sims.min(1) >= 0.5)[0], 3, replace=False)
-    fx, fy, fw = 0.274, 0.790, 0.096
+    fx, fw = 0.552, 0.086
     fh = fw * AR
-    for k in (3, 2, 1):                      # back planes
-        dx, dy = 0.011 * k, 0.013 * k
-        fig.patches.append(Polygon(
-            [(fx + dx, fy + dy), (fx + dx + fw, fy + dy),
-             (fx + dx + fw, fy + dy + fh), (fx + dx, fy + dy + fh)],
-            transform=fig.transFigure, facecolor="white", edgecolor=MID,
-            linewidth=0.5, zorder=2))
+    for k in (3, 2, 1):
+        dx, dy = 0.009 * k, 0.011 * k
+        fig.patches.append(Rectangle((fx + dx, ty + dy), fw, fh,
+                                     transform=fig.transFigure,
+                                     facecolor="white", edgecolor=BLUE_E,
+                                     linewidth=0.6, zorder=2))
     cw = fw / 3
     for r in range(3):
         for c in range(3):
-            im(fig, fx + c * cw, fy + (2 - r) * cw * AR, cw, st[idx[c], r],
-               cmap="gray", ec="white")
-    lab(fig, fx + fw / 2, fy - 0.008, "aligned stack")
-    fig.text(fx + fw / 2, fy - 0.030,
-             r"$\mathbf{Y}\!\in\!\mathbb{R}^{C\times n\times H\times W}$",
-             fontsize=7.2, color=INK, ha="center", va="top", zorder=6)
+            a = fig.add_axes([fx + c * cw, ty + (2 - r) * cw * AR, cw, cw * AR])
+            a.imshow(st[idx[c], r], cmap="gray", aspect="auto")
+            a.set_xticks([]); a.set_yticks([]); a.set_zorder(3)
+            for s in a.spines.values():
+                s.set_visible(False)
+    fig.patches.append(FancyBboxPatch(
+        (fx - 0.004, ty - 0.004), fw + 0.008, fh + 0.008,
+        transform=fig.transFigure, zorder=4,
+        boxstyle="round,pad=0,rounding_size=0.006", facecolor="none",
+        edgecolor=BLUE_E, linewidth=0.8, linestyle=(0, (3, 2))))
+    fig.text(fx + fw / 2, ty - 0.014, "aligned stack", fontsize=6.0,
+             fontweight="bold", color=INK, ha="center", va="top", zorder=6)
+    fig.text(0.795, ty + fh / 2 + 0.012,
+             r"$\mathbf{Y}\in\mathbb{R}^{C\times n\times H\times W}$",
+             fontsize=7.6, color=INK, ha="center", va="center", zorder=6)
+    fig.text(0.795, ty + fh / 2 - 0.016,
+             "C characters, n dated sheets", fontsize=6.0, color=INK,
+             ha="center", va="center", zorder=6)
+    for xa, xb in [(0.142, 0.172), (0.278, 0.298), (0.392, 0.422),
+                   (0.530, 0.548), (0.674, 0.706)]:
+        arrow(fig, (xa, ty + fh / 2), (xb, ty + fh / 2))
 
-    # ---------------- b  cross-section ----------------------------------
-    letter(fig, 0.560, 0.982, "b")
-    ax = fig.add_axes([0.620, 0.788, 0.355, 0.168])
-    ax.set_zorder(3)
+    # ============ forward model =========================================
+    plet(0.014, 0.722, "b)")
+    frame(fig, 0.030, 0.530, 0.940, 0.180, "Forward model of one sheet",
+          ORG_F, ORG_E)
+    rng = np.random.default_rng(5)
+    mask = W.glyph_mask("醴", S.FONT_KAI, 192)
+    h0 = W.relief_from_mask(mask, px, rng=rng)
+    pot = W.spall_potential(mask.shape, rng, px)
+    hj = W.weather(h0, W.Epoch(0.42, 0.52, 0.07), pot, px)
+    sty = P.TakingStyle(rho=0.62, eps=0.12, s=0.05, alpha=0.9)
+    u = P.grey_open(hj, sty.rho, px)
+    cc = P.ink_coverage(u, sty)
+    yh = P.acquire(1 - sty.alpha * cc, rng, px)
+    obs = np.load("results/real_style_free.npz")["images"][3, 0]
+
+    tw2, mw, gap = 0.070, 0.086, 0.008
+    y2 = 0.578
+    h2 = tw2 * AR
+    xs = 0.048
+    seq = [("t", h0, dict(cmap="magma", vmin=0), r"$h_0$  carving"),
+           ("m", "Weathering", r"$\kappa_j,\ \sigma_j,\ P_j$", GRN_F, GRN_E),
+           ("t", hj, dict(cmap="magma", vmin=0), r"$h_j$  at epoch $j$"),
+           ("m", "Paper bridging", r"opening by $\lambda_i$", ORG_F, ORG_E),
+           ("t", u, dict(cmap="magma", vmin=0), r"$u$  reached"),
+           ("m", "Ink transfer", r"$\varepsilon_i,\ s_i$", ORG_F, ORG_E),
+           ("t", cc, dict(cmap="gray_r"), r"$c$  coverage"),
+           ("m", "Density, warp", r"$\alpha_i,\ w_{ij}$", ORG_F, ORG_E),
+           ("t", yh, dict(cmap="gray", vmin=0, vmax=1), r"$\hat{y}$  predicted")]
+    x = xs
+    centers = []
+    for item in seq:
+        if item[0] == "t":
+            thumb(fig, x, y2, tw2, item[1], item[3], **item[2])
+            centers.append((x, x + tw2))
+            x += tw2 + gap
+        else:
+            module(fig, x, y2 + (h2 - 0.062) / 2, mw, 0.062, item[1], item[3],
+                   item[4], fs=6.0, sub=item[2])
+            centers.append((x, x + mw))
+            x += mw + gap
+    for (a0, a1), (b0, b1) in zip(centers[:-1], centers[1:]):
+        arrow(fig, (a1 + 0.001, y2 + h2 / 2), (b0 - 0.001, y2 + h2 / 2), ms=6)
+
+    xo = x + 0.046
+    thumb(fig, xo, y2, tw2, obs, r"$y$  observed", cmap="gray", vmin=0, vmax=1)
+    arrow(fig, (x - gap + 0.005, y2 + h2 / 2), (xo - 0.006, y2 + h2 / 2),
+          c=RED, lw=1.1, ms=7)
+    fig.text((x - gap + xo) / 2 + 0.002, y2 + h2 + 0.012, "Cauchy residual",
+             fontsize=5.8, fontweight="bold", color=RED, ha="center",
+             va="bottom", zorder=6)
+
+    # ============ detail panels =========================================
+    plet(0.014, 0.492, "c)")
+    rrect(fig, 0.030, 0.050, 0.455, 0.435, TINT_B, ORG_E, lw=0.8, r=0.010, z=1)
+    fig.text(0.2575, 0.462, "Paper bridging: why craft is not weather",
+             fontsize=7.0, fontweight="bold", color=INK, ha="center",
+             va="center", zorder=6)
+    ax = fig.add_axes([0.078, 0.110, 0.382, 0.312])
+    ax.set_zorder(3); ax.set_facecolor("white")
     xg = np.arange(-6, 6, 0.02)
 
     def vcut(c0, wd, d):
@@ -127,123 +237,65 @@ def main(out=f"{FIG}/fig1_pipeline.png"):
         return np.max(np.stack([pad[i:i + len(h)] - b[2 * k - i]
                                 for i in range(2 * k + 1)]), 0)
 
-    ax.fill_between(xg, -prof, -2.2, facecolor="#EDE8DF", edgecolor="none")
-    ax.plot(xg, -prof, color="#6B6257", lw=1.0)
-    for lam, col, off in [(0.95, ACC, 0.0), (0.22, ACC2, 0.42)]:
-        u = open1d(prof, lam)
-        ax.fill_between(xg, -u + off, -u + off + 0.13, where=u < 0.12,
-                        color=col, lw=0, alpha=0.80, zorder=4)
-        ax.plot(xg, -u + off, color=col, lw=1.2, zorder=5)
-    ax.set_xlim(-5.2, 4.6); ax.set_ylim(-1.95, 0.95)
-    ax.set_yticks([0, -1]); ax.tick_params(labelsize=5.6, colors=MID,
-                                            length=2, pad=1)
-    ax.set_xticks([-4, -2, 0, 2, 4])
-    ax.set_ylabel("mm", fontsize=5.8, color=MID, labelpad=1)
-    ax.set_xlabel("mm", fontsize=5.8, color=MID, labelpad=1)
-    for sp in ax.spines.values():
-        sp.set_color(HAIR)
-    ax.text(-4.9, 0.62, r"$\lambda=0.22$", color=ACC2, fontsize=6.0, ha="left")
-    ax.text(-4.9, 0.20, r"$\lambda=0.95$", color=ACC, fontsize=6.0, ha="left")
+    ax.fill_between(xg, -prof, -2.2, facecolor="#E6DFD3", edgecolor="none")
+    ax.plot(xg, -prof, color="#5B5348", lw=1.0)
+    for lam, col, off, nm in [(0.95, ORG_E, 0.0, r"heavy sheet  $\lambda=0.95$"),
+                              (0.22, BLUE_E, 0.45, r"light sheet  $\lambda=0.22$")]:
+        uu = open1d(prof, lam)
+        ax.fill_between(xg, -uu + off, -uu + off + 0.14, where=uu < 0.12,
+                        color=col, lw=0, alpha=0.85, zorder=4)
+        ax.plot(xg, -uu + off, color=col, lw=1.3, zorder=5, label=nm)
+    ax.set_xlim(-5.2, 4.6); ax.set_ylim(-2.0, 1.15)
+    ax.set_yticks([0, -1]); ax.set_xticks([-4, -2, 0, 2, 4])
+    ax.tick_params(labelsize=5.6, length=2, pad=1)
+    ax.set_xlabel("across the stroke (mm)", fontsize=6.0, labelpad=1)
+    ax.set_ylabel("depth (mm)", fontsize=6.0, labelpad=1)
+    ax.legend(frameon=False, fontsize=5.8, loc="upper left",
+              bbox_to_anchor=(0.0, 1.03), handlelength=1.3)
+    ax.annotate("wide cut prints white", xy=(-1.7, -1.30), xytext=(-1.7, -1.85),
+                fontsize=5.6, ha="center",
+                arrowprops=dict(arrowstyle="->", lw=0.6, color="#555"))
+    ax.annotate("hairline is bridged\nand prints black", xy=(2.5, -0.20),
+                xytext=(2.4, -1.55), fontsize=5.6, ha="center",
+                arrowprops=dict(arrowstyle="->", lw=0.6, color="#555"))
 
-    # ---------------- c  operator chain ---------------------------------
-    letter(fig, 0.020, 0.690, "c")
-    rng = np.random.default_rng(5)
-    mask = W.glyph_mask("醴", S.FONT_KAI, 192)
-    h0 = W.relief_from_mask(mask, px, rng=rng)
-    pot = W.spall_potential(mask.shape, rng, px)
-    hj = W.weather(h0, W.Epoch(0.42, 0.52, 0.07), pot, px)
-    sty = P.TakingStyle(rho=0.62, eps=0.12, s=0.05, alpha=0.9)
-    u = P.grey_open(hj, sty.rho, px)
-    cc = P.ink_coverage(u, sty)
-    yh = P.acquire(1 - sty.alpha * cc, rng, px)
-
-    w = 0.092
-    xs = [0.030, 0.212, 0.394, 0.576, 0.758]
-    yb = 0.478
-    top = yb + w * AR
-    syms = [r"$h_0$", r"$h_j$", r"$u$", r"$c$", r"$\hat{y}$"]
-    imgs = [(h0, dict(cmap="magma", vmin=0)), (hj, dict(cmap="magma", vmin=0)),
-            (u, dict(cmap="magma", vmin=0)), (cc, dict(cmap="gray_r")),
-            (yh, dict(cmap="gray", vmin=0, vmax=1))]
-    for x, sym, (img, kw) in zip(xs, syms, imgs):
-        im(fig, x, yb, w, img, **kw)
-        fig.text(x + w / 2, top + 0.006, sym, fontsize=8, color=INK,
-                 ha="center", va="bottom", zorder=6)
-    ops = [r"$\kappa_j(\,\cdot\,*G_{\sigma_j})+P_j$",
-           r"$\gamma_{\lambda_i}$",
-           r"$\sigma\!\left(\frac{\varepsilon_i-\,\cdot\,}{s_i}\right)$",
-           r"$1-\alpha_i\,\cdot\;,\;w$"]
-    for k, o in enumerate(ops):
-        arr(fig, (xs[k] + w + 0.006, yb + w * AR / 2),
-            (xs[k + 1] - 0.006, yb + w * AR / 2))
-        fig.text((xs[k] + w + xs[k + 1]) / 2, yb + w * AR / 2 + 0.010, o,
-                 fontsize=6.0, color=ACC, ha="center", va="bottom", zorder=6)
-
-    # the observed sheet, beside the prediction
-    xo = xs[4] + w + 0.014
-    im(fig, xo, yb, w, np.load("results/real_style_free.npz")["images"][3, 0],
-       cmap="gray", vmin=0, vmax=1)
-    fig.text(xo + w / 2, top + 0.006, r"$y$", fontsize=8, color=INK,
+    plet(0.499, 0.492, "d)")
+    rrect(fig, 0.515, 0.050, 0.455, 0.435, TINT_A, BLUE_E, lw=0.8, r=0.010, z=1)
+    fig.text(0.7425, 0.462, "What is shared between sheets and characters",
+             fontsize=7.0, fontweight="bold", color=INK, ha="center",
+             va="center", zorder=6)
+    R, ny = 0.0145, 0.330
+    circ(fig, 0.560, ny + 0.028, r"$a$", R)
+    circ(fig, 0.560, ny - 0.028, r"$b$", R)
+    fig.text(0.560, ny + 0.062, "rate law", fontsize=5.8, color=INK,
              ha="center", va="bottom", zorder=6)
-    fig.patches.append(FancyArrowPatch(
-        (xs[4] + w + 0.003, yb + w * AR / 2), (xo - 0.003, yb + w * AR / 2),
-        transform=fig.transFigure, arrowstyle="<|-|>", mutation_scale=6,
-        linewidth=0.9, color=ACC, zorder=5))
-    fig.text(xs[4] + w + 0.007, yb - 0.012, "residual", fontsize=5.8,
-             color=ACC, ha="center", va="top", zorder=6)
-
-    # ---------------- d  graphical model --------------------------------
-    letter(fig, 0.020, 0.395, "d")
-    R, ny = 0.0130, 0.235
-    node(fig, 0.062, ny + 0.030, R, r"$a$")
-    node(fig, 0.062, ny - 0.030, R, r"$b$")
-    lab(fig, 0.062, ny + 0.058, "rate law", 5.4, va="bottom")
-    groups = [(0.116, 0.088, r"sheet $i$", [(0.160, r"$\theta_i$")]),
-              (0.226, 0.118, r"character $c$", [(0.262, r"$h_0$"),
-                                                (0.312, r"$\Phi$")]),
-              (0.362, 0.098, r"$c\times i$", [(0.392, r"$w$"),
-                                              (0.436, r"$y$")])]
-    for x0, wd, pl, nodes in groups:
-        plate(fig, x0, ny - 0.056, wd, 0.112, pl)
+    groups = [(0.600, 0.088, "sheet $i$", [(0.644, r"$\theta_i$")], GRN_E),
+              (0.700, 0.128, "character $c$", [(0.736, r"$h_0$"),
+                                               (0.786, r"$\Phi$")], ORG_E),
+              (0.840, 0.110, r"$c\times i$", [(0.874, r"$w$"),
+                                              (0.920, r"$y$")], BLUE_E)]
+    for x0, wd, pl, nodes, ec in groups:
+        rrect(fig, x0, ny - 0.052, wd, 0.104, "none", ec, lw=0.8, r=0.006, z=2,
+              ls=(0, (3, 2)))
+        fig.text(x0 + wd - 0.005, ny - 0.046, pl, fontsize=5.6, color=ec,
+                 ha="right", va="bottom", zorder=6)
         for xn, sym in nodes:
-            node(fig, xn, ny, R, sym, shaded=(sym == r"$y$"))
-    for x0 in (0.075, 0.173, 0.325, 0.275, 0.405):
-        arr(fig, (x0, ny), (0.423, ny), c=HAIR, lw=0.6, ms=5)
-
-    # ---------------- e  profile ----------------------------------------
-    letter(fig, 0.560, 0.395, "e")
-    ide = json.load(open("results/real_profile.json"))
-    aa = np.array([r["a"] for r in ide["rows"]])
-    dd = np.array([r["data"] for r in ide["rows"]])
-    ax2 = fig.add_axes([0.640, 0.130, 0.150, 0.200])
-    ax2.set_zorder(3)
-    band = aa[dd <= 1.10 * dd.min()]
-    ax2.axvspan(band.min(), band.max(), color=ACC, alpha=0.10, lw=0)
-    ax2.plot(aa, dd / dd.min(), "o-", color=ACC, ms=2.4, lw=1.0)
-    ax2.set_xscale("log"); ax2.set_xticks([0.004, 0.024, 0.085])
-    ax2.set_xticklabels(["0.004", "0.024", "0.085"], fontsize=5.4, color=MID)
-    ax2.minorticks_off()
-    ax2.tick_params(labelsize=5.4, colors=MID, length=2, pad=1)
-    ax2.set_xlabel(r"$a$  (mm per century)", fontsize=5.8, color=MID, labelpad=1)
-    ax2.set_ylabel("residual", fontsize=5.8, color=MID, labelpad=1)
-    for sp in ax2.spines.values():
-        sp.set_color(HAIR)
-    ax3 = fig.add_axes([0.850, 0.130, 0.125, 0.200])
-    ax3.set_zorder(3)
-    e = json.load(open("results/exp_dating.json"))
-    rows = e["rows"] if isinstance(e, dict) else e
-    tr = np.array([r["true_year"] for r in rows])
-    es = np.array([r["est_year"] for r in rows])
-    ax3.plot([1150, 2050], [1150, 2050], color=HAIR, lw=0.8, ls="--")
-    ax3.plot(tr + np.random.default_rng(0).normal(0, 10, len(tr)), es, "o",
-             color=ACC2, ms=3, alpha=0.85)
-    ax3.set_xlim(1250, 1950); ax3.set_ylim(1150, 2050)
-    ax3.set_xticks([1400, 1800]); ax3.set_yticks([1400, 1800])
-    ax3.tick_params(labelsize=5.4, colors=MID, length=2, pad=1)
-    ax3.set_xlabel("true date", fontsize=5.8, color=MID, labelpad=1)
-    ax3.set_ylabel("estimated", fontsize=5.8, color=MID, labelpad=1)
-    for sp in ax3.spines.values():
-        sp.set_color(HAIR)
+            if sym == r"$y$":
+                fig.patches.append(Circle((xn, ny), R, transform=fig.transFigure,
+                                          facecolor="#DDE0E4", edgecolor=INK,
+                                          linewidth=0.8, zorder=6))
+                fig.text(xn, ny, sym, fontsize=6.6, ha="center", va="center",
+                         zorder=7)
+            else:
+                circ(fig, xn, ny, sym, R)
+    for x0 in (0.575, 0.659, 0.751, 0.801, 0.889):
+        arrow(fig, (x0, ny), (0.905, ny), c="#9AA0A6", lw=0.7, ms=5)
+    fig.text(0.7425, 0.150,
+             r"$nC$ images constrain $6n$ shared nuisance parameters;"
+             "\nimpression style is independent between sheets, weathering is\n"
+             "shared and monotone in time",
+             fontsize=6.0, color=INK, ha="center", va="center", zorder=6,
+             linespacing=1.6)
 
     fig.savefig(out, dpi=300, facecolor="white")
     plt.close(fig)

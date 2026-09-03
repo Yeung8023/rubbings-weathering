@@ -145,17 +145,22 @@ def check(fig, name, tol=1.0, min_area=6.0):
             pass
     for ax, t, kind, bb in items:
         area_t = max(bb.width * bb.height, 1e-6)
+        touching, contained = [], False
         for pb in boxes:
             ov, area = overlap(bb, pb)
-            if not ov:
+            if not ov or area / area_t <= 0.30:
                 continue
-            inside = (bb.x0 >= pb.x0 - tol and bb.x1 <= pb.x1 + tol
-                      and bb.y0 >= pb.y0 - tol and bb.y1 <= pb.y1 + tol)
-            if 0.30 < area / area_t < 0.995 and not inside:
-                problems.append(
-                    f"SPILLS OUT BOX  [{kind}] {t.get_text()[:40]!r} "
-                    f"({100 * area / area_t:.0f}% inside)")
+            touching.append(area / area_t)
+            if (bb.x0 >= pb.x0 - tol and bb.x1 <= pb.x1 + tol
+                    and bb.y0 >= pb.y0 - tol and bb.y1 <= pb.y1 + tol):
+                contained = True
                 break
+        # a label that straddles one box on purpose (a title tag sitting on a
+        # frame border) is still fine if some other box contains it fully
+        if touching and not contained and max(touching) < 0.995:
+            problems.append(
+                f"SPILLS OUT BOX  [{kind}] {t.get_text()[:40]!r} "
+                f"({100 * max(touching):.0f}% inside its nearest box)")
 
     # text sitting on top of drawn data
     for ax, t, kind, bb in items:
