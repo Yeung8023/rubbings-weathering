@@ -131,6 +131,27 @@ def check(fig, name, tol=1.0, min_area=6.0):
             problems.append(
                 f"TEXT OVERLAP    [{k1}] {t1.get_text()[:30]!r}  x  "
                 f"[{k2}] {t2.get_text()[:30]!r}   ({area:.0f} px2)")
+    # text spilling out of the rounded box it belongs to
+    boxes = []
+    for pa in fig.patches:
+        try:
+            boxes.append(pa.get_window_extent(r))
+        except Exception:
+            pass
+    for ax, t, kind, bb in items:
+        area_t = max(bb.width * bb.height, 1e-6)
+        for pb in boxes:
+            ov, area = overlap(bb, pb)
+            if not ov:
+                continue
+            inside = (bb.x0 >= pb.x0 - tol and bb.x1 <= pb.x1 + tol
+                      and bb.y0 >= pb.y0 - tol and bb.y1 <= pb.y1 + tol)
+            if 0.30 < area / area_t < 0.995 and not inside:
+                problems.append(
+                    f"SPILLS OUT BOX  [{kind}] {t.get_text()[:40]!r} "
+                    f"({100 * area / area_t:.0f}% inside)")
+                break
+
     # text sitting on top of drawn data
     for ax, t, kind, bb in items:
         if ax is None or kind in ("xtick", "ytick", "xlabel", "ylabel", "title"):
@@ -170,7 +191,9 @@ def check(fig, name, tol=1.0, min_area=6.0):
 def main():
     Figure.savefig = _savefig
     plt.close = _close
-    import figures as F, fig_mechanism, fig_results, fig_real, fig_ablation
+    import figures as F, fig_pipeline, fig_mechanism, fig_results, fig_real
+    import fig_ablation
+    fig_pipeline.main()
     F.fig1_stack(); fig_mechanism.main(); F.fig3_shiwen(); F.fig4_identify()
     fig_results.fig5(); fig_results.fig6(); fig_real.main(); fig_ablation.main()
     Figure.savefig = _orig_savefig
