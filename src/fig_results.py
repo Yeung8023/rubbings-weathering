@@ -6,7 +6,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-from figures import FIG, C_OBS, C_FIT, C_TRUE, C_BASE
+from figures import FIG, C_OBS, C_FIT, C_TRUE, C_BASE, panel_letter, logticks
 
 SCEN = [("Song_first", "Song\n1050 CE"), ("Ming_first", "Ming\n1450 CE"),
         ("Qing_first", "Qing\n1700 CE"), ("modern_only", "modern\n1900 CE")]
@@ -14,7 +14,7 @@ SCEN = [("Song_first", "Song\n1050 CE"), ("Ming_first", "Ming\n1450 CE"),
 
 def fig5(out=f"{FIG}/fig5_restoration.png"):
     d = json.load(open("results/exp_late.json"))
-    fig, ax = plt.subplots(1, 2, figsize=(7.2, 2.8),
+    fig, ax = plt.subplots(1, 2, figsize=(7.2, 3.1),
                            gridspec_kw=dict(width_ratios=[1.35, 1]))
     keys = [k for k, _ in SCEN if k in d]
     labs = [l for k, l in SCEN if k in d]
@@ -31,11 +31,12 @@ def fig5(out=f"{FIG}/fig5_restoration.png"):
     ax[0].set_xticklabels(labs, fontsize=7)
     ax[0].set_ylabel("IoU with the original carving")
     ax[0].set_xlabel("earliest surviving impression", fontsize=7.5)
-    ax[0].legend(frameon=False, fontsize=6.4, loc="upper right")
+    ax[0].set_ylim(0, 0.72)
+    ax[0].legend(frameon=False, fontsize=6.3, loc="upper center", ncol=1,
+                 bbox_to_anchor=(0.62, 1.02), handlelength=1.2)
     ax[0].set_title("stacking impressions does not restore more text",
-                    fontsize=8)
-    ax[0].text(-0.13, 1.07, "a", fontweight="bold", fontsize=10,
-               transform=ax[0].transAxes)
+                    fontsize=8, pad=6)
+    panel_letter(ax[0], "a", dx=-0.12, dy=1.19)
 
     ide = json.load(open("results/exp_identify.json"))
     rows = ide["settings"]["style_free"]
@@ -49,17 +50,15 @@ def fig5(out=f"{FIG}/fig5_restoration.png"):
                       label="earliest sheet, thresholded")
     ax[1].axvline(ide["a_true"], color=C_BASE, lw=0.8, ls=":")
     ax[1].set_xscale("log")
-    ax[1].set_xticks([0.02, 0.035, 0.05, 0.075, 0.11])
-    ax[1].set_xticklabels(["0.02", "0.035", "0.05", "0.075", "0.11"],
-                          fontsize=7)
-    ax[1].minorticks_off()
+    logticks(ax[1], [0.02, 0.05, 0.11])
     ax[1].set_xlabel("arris-rounding rate assumed (mm per century)", fontsize=7.5)
     ax[1].set_ylabel("IoU with the original carving")
-    ax[1].legend(frameon=False, fontsize=6.4, loc="lower center")
-    ax[1].set_title("at best it only reaches the single sheet", fontsize=8)
-    ax[1].text(-0.16, 1.07, "b", fontweight="bold", fontsize=10,
-               transform=ax[1].transAxes)
-    fig.tight_layout()
+    ax[1].legend(frameon=False, fontsize=6.3, loc="lower left",
+                 handlelength=1.2)
+    ax[1].set_title("at best it only reaches the single sheet", fontsize=8,
+                    pad=6)
+    panel_letter(ax[1], "b", dx=-0.19, dy=1.19)
+    fig.tight_layout(rect=(0, 0, 1, 0.94))
     fig.savefig(out, dpi=300)
     plt.close(fig)
     print("wrote", out)
@@ -73,7 +72,7 @@ def fig6(out=f"{FIG}/fig6_external.png"):
     ll = np.array([r["labels"] for r in v["rows"]])
     ok = (ll >= 0).all(1)
 
-    fig, ax = plt.subplots(1, 2, figsize=(7.2, 2.8),
+    fig, ax = plt.subplots(1, 2, figsize=(7.2, 3.1),
                            gridspec_kw=dict(width_ratios=[1.25, 1]))
     rng = np.random.default_rng(0)
     for j, c in enumerate(cids):
@@ -86,18 +85,17 @@ def fig6(out=f"{FIG}/fig6_external.png"):
                        label=nm if j == 0 else None)
             ax[0].plot([j + (k - 0.5) * 0.42 - 0.13, j + (k - 0.5) * 0.42 + 0.13],
                        [dd.mean()] * 2, color=col, lw=2)
-        ax[0].text(j, 0.83, "p = %.0e" % v["per_impression"][c]["p"],
+        ax[0].text(j, 0.90, "p = %.0e" % v["per_impression"][c]["p"],
                    ha="center", fontsize=6.5)
     ax[0].set_xticks(range(len(cids)))
     ax[0].set_xticklabels([lab[c] for c in cids], fontsize=7.5)
     ax[0].set_ylabel("flaked area of the character cell")
-    ax[0].set_ylim(0, 1.0)
+    ax[0].set_ylim(0, 1.14)
     ax[0].legend(frameon=False, fontsize=6.5, loc="upper center", ncol=2,
-                 columnspacing=1.0)
+                 columnspacing=1.2, bbox_to_anchor=(0.5, 1.03))
     ax[0].set_title("characters the cataloguers could not read are the ones\n"
-                    "our measurement finds flaked", fontsize=8)
-    ax[0].text(-0.13, 1.10, "a", fontweight="bold", fontsize=10,
-               transform=ax[0].transAxes)
+                    "our measurement finds flaked", fontsize=8, pad=6)
+    panel_letter(ax[0], "a", dx=-0.12, dy=1.24)
 
     rng2 = np.random.default_rng(1)
     ratios, lo, hi = [], [], []
@@ -114,16 +112,15 @@ def fig6(out=f"{FIG}/fig6_external.png"):
               yerr=[ratios - lo, hi - ratios], error_kw=dict(lw=0.8, capsize=2.5))
     ax[1].axhline(1.0, color=C_BASE, lw=0.9, ls="--")
     for j, r in enumerate(ratios):
-        ax[1].text(j, hi[j] + 0.12, "%.1f x" % r, ha="center", fontsize=7)
+        ax[1].text(j, hi[j] + 0.22, "%.1f x" % r, ha="center", fontsize=7)
     ax[1].set_xticks(range(len(cids)))
     ax[1].set_xticklabels([lab[c] for c in cids], fontsize=7.5)
     ax[1].set_ylabel("flaked area, unreadable / legible")
-    ax[1].set_ylim(0, float(hi.max()) + 0.9)
+    ax[1].set_ylim(0, float(hi.max()) + 1.2)
     ax[1].set_title("the same effect size in every impression\n"
-                    "(95 % bootstrap interval)", fontsize=8)
-    ax[1].text(-0.16, 1.10, "b", fontweight="bold", fontsize=10,
-               transform=ax[1].transAxes)
-    fig.tight_layout()
+                    "(95 % bootstrap interval)", fontsize=8, pad=6)
+    panel_letter(ax[1], "b", dx=-0.20, dy=1.24)
+    fig.tight_layout(rect=(0, 0, 1, 0.93))
     fig.savefig(out, dpi=300)
     plt.close(fig)
     print("wrote", out)

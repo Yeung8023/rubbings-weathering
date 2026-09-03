@@ -7,7 +7,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from scipy import ndimage as ndi
 
-from figures import FIG, C_OBS, C_FIT, C_TRUE
+from figures import FIG, C_OBS, C_FIT, C_TRUE, panel_letter
 import synth as S
 
 PXS = 0.02
@@ -32,10 +32,10 @@ def open1d(h, lam):
 def main(out=f"{FIG}/fig2_mechanism.png"):
     prof = np.maximum(vcut(-1.6, 2.8, 1.40), vcut(2.6, 0.42, 0.60))
 
-    fig = plt.figure(figsize=(7.2, 5.4))
-    gs = fig.add_gridspec(3, 3, height_ratios=[1.28, 1.0, 0.82],
-                          hspace=1.05, wspace=0.36,
-                          left=0.085, right=0.985, top=0.855, bottom=0.055)
+    fig = plt.figure(figsize=(7.2, 6.0))
+    gs = fig.add_gridspec(3, 3, height_ratios=[1.24, 1.0, 0.80],
+                          hspace=1.30, wspace=0.40,
+                          left=0.095, right=0.982, top=0.845, bottom=0.055)
 
     # (a) the impression ---------------------------------------------------
     ax = fig.add_subplot(gs[0, :])
@@ -47,20 +47,20 @@ def main(out=f"{FIG}/fig2_mechanism.png"):
         ax.plot(X, -u, color=col, lw=1.5, zorder=4, label=lab)
         ax.fill_between(X, -u, -u + 0.15, where=u < 0.12, color=col, alpha=0.85,
                         lw=0, zorder=5)
-    ax.set_ylim(-2.15, 0.68); ax.set_xlim(-5.4, 5.0)
+    ax.set_ylim(-2.15, 1.15); ax.set_xlim(-5.4, 5.0)
     ax.set_ylabel("depth below the face (mm)", fontsize=7.5)
     ax.set_xlabel("across the stroke (mm)", fontsize=7.5, labelpad=1)
     ax.tick_params(labelsize=7)
-    ax.legend(frameon=False, fontsize=6.6, loc="lower left", handlelength=1.5)
-    ax.text(-0.070, 1.16, "a", fontweight="bold", fontsize=10,
-            transform=ax.transAxes)
-    ax.set_title("A tamped sheet sags into the cut like a loaded membrane; the "
-                 "pad inks only what stays near the face", fontsize=7.8, pad=6)
-    ax.annotate("wide cut: both sheets reach in\nand it prints white",
-                xy=(-1.6, -1.32), xytext=(-5.2, 0.30), fontsize=6.4,
+    ax.legend(frameon=False, fontsize=6.6, loc="lower left",
+              bbox_to_anchor=(0.0, 0.0), handlelength=1.5)
+    panel_letter(ax, "a", dx=-0.085, dy=1.26)
+    ax.set_title("a tamped sheet sags into the cut like a loaded membrane; the "
+                 "pad inks only what stays near the face", fontsize=7.8, pad=8)
+    ax.annotate("wide cut: both sheets reach in,\nso it prints white",
+                xy=(-1.6, -1.32), xytext=(-4.9, 0.95), fontsize=6.4, va="top",
                 arrowprops=dict(arrowstyle="->", lw=0.6, color="#555"))
-    ax.annotate("hairline: the heavy sheet bridges it\nand it prints black",
-                xy=(2.6, -0.30), xytext=(1.5, 0.32), fontsize=6.4,
+    ax.annotate("hairline: the heavy sheet bridges it,\nso it prints black",
+                xy=(2.6, -0.30), xytext=(0.35, 0.95), fontsize=6.4, va="top",
                 arrowprops=dict(arrowstyle="->", lw=0.6, color="#555"))
 
     base = vcut(0.0, 2.8, 1.40)
@@ -70,9 +70,8 @@ def main(out=f"{FIG}/fig2_mechanism.png"):
 
     def panel(k, letter, title):
         a = fig.add_subplot(gs[1, k])
-        a.text(-0.30, 1.22, letter, fontweight="bold", fontsize=10,
-               transform=a.transAxes)
-        a.set_title(title, fontsize=7.2, pad=5)
+        panel_letter(a, letter, dx=-0.32, dy=1.36)
+        a.set_title(title, fontsize=7.2, pad=7)
         a.tick_params(labelsize=6.5)
         a.set_xlim(-2.6, 2.6)
         a.set_xlabel("mm", fontsize=7, labelpad=1)
@@ -85,14 +84,20 @@ def main(out=f"{FIG}/fig2_mechanism.png"):
     a.plot(X, open1d(base, 0.95), color=C_FIT, lw=1.3, ls="--",
            label="tamped (opening)")
     a.set_ylabel("depth (mm)", fontsize=7)
-    a.legend(frameon=False, fontsize=5.9, loc="upper left", handlelength=1.2)
+    a.set_ylim(-0.06, 2.90)
+    a.set_yticks([0, 1])
+    a.legend(frameon=False, fontsize=5.8, loc="upper left", handlelength=1.1,
+             labelspacing=0.3, borderaxespad=0.15)
 
     a = panel(1, "c", "the cut, monotonically\nrounded and shallowed")
     for s_, k_, col, lab in steps:
         a.plot(X, ndi.gaussian_filter1d(base, max(s_, 1e-3) / PXS) * k_,
                color=col, lw=1.2, label=lab)
     a.set_ylabel("depth (mm)", fontsize=7)
-    a.legend(frameon=False, fontsize=5.9, loc="upper left", handlelength=1.2)
+    a.set_ylim(-0.06, 2.90)
+    a.set_yticks([0, 1])
+    a.legend(frameon=False, fontsize=5.8, loc="upper left", handlelength=1.1,
+             labelspacing=0.3, borderaxespad=0.15)
 
     a = panel(2, "d", "what the sheet then\nshows across the stroke")
     for s_, k_, col, _ in steps:
@@ -110,14 +115,13 @@ def main(out=f"{FIG}/fig2_mechanism.png"):
     axes = []
     a0 = fig.add_subplot(sub[0])
     a0.imshow(d["h0"][0], cmap="magma")
-    a0.set_title("the carving, 632 CE", fontsize=6.6, pad=3)
-    a0.text(-0.16, 1.34, "e", fontweight="bold", fontsize=10,
-            transform=a0.transAxes)
+    a0.set_title("the carving, 632 CE", fontsize=6.6, pad=5)
+    panel_letter(a0, "e", dx=-0.20, dy=1.52)
     axes.append(a0)
     for j in range(4):
         a = fig.add_subplot(sub[j + 1])
         a.imshow(d["images"][0, j], cmap="gray", vmin=0, vmax=1)
-        a.set_title(f"impression, {years[j]} CE", fontsize=6.6, pad=3)
+        a.set_title(f"impression, {years[j]} CE", fontsize=6.6, pad=5)
         axes.append(a)
     for a in axes:
         a.set_xticks([]); a.set_yticks([])
@@ -125,7 +129,7 @@ def main(out=f"{FIG}/fig2_mechanism.png"):
             sp.set_visible(False)
 
     fig.suptitle("How a rubbing is made, and how the stone changes underneath it",
-                 fontsize=10, y=0.968)
+                 fontsize=10, y=0.975)
     fig.savefig(out, dpi=300)
     plt.close(fig)
     print("wrote", out)
