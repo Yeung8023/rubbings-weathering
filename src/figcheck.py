@@ -41,14 +41,16 @@ def texts_of(fig):
         items += [(t, "annotation") for t in ax.texts]
         # only ticks actually inside the view are drawn; matplotlib keeps the
         # rest as Text objects and they would otherwise be false positives
-        lo, hi = sorted(ax.get_xlim())
-        items += [(t, "xtick") for t, loc in zip(ax.get_xticklabels(),
-                                                 ax.get_xticks())
-                  if lo - 1e-9 <= loc <= hi + 1e-9]
-        lo, hi = sorted(ax.get_ylim())
-        items += [(t, "ytick") for t, loc in zip(ax.get_yticklabels(),
-                                                 ax.get_yticks())
-                  if lo - 1e-9 <= loc <= hi + 1e-9]
+        if ax.xaxis.get_visible():
+            lo, hi = sorted(ax.get_xlim())
+            items += [(t, "xtick") for t, loc in zip(ax.get_xticklabels(),
+                                                     ax.get_xticks())
+                      if lo - 1e-9 <= loc <= hi + 1e-9]
+        if ax.yaxis.get_visible():
+            lo, hi = sorted(ax.get_ylim())
+            items += [(t, "ytick") for t, loc in zip(ax.get_yticklabels(),
+                                                     ax.get_yticks())
+                      if lo - 1e-9 <= loc <= hi + 1e-9]
         leg = ax.get_legend()
         if leg is not None:
             items += [(t, "legend") for t in leg.get_texts()]

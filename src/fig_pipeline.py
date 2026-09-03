@@ -230,8 +230,11 @@ def main(out=f"{FIG}/fig1_pipeline.png"):
     fig.text(0.2575, 0.472, "Paper bridging: why craft is not weather",
              fontsize=7.0, fontweight="bold", color=INK, ha="center",
              va="center", zorder=6)
-    ax = fig.add_axes([0.080, 0.105, 0.372, 0.330])
-    ax.set_zorder(3); ax.set_facecolor("white")
+    ax = fig.add_axes([0.080, 0.098, 0.372, 0.338])
+    ax.set_zorder(3)
+    ax.set_facecolor("none")            # a drawing, not a plot: let the panel
+    ax.spines["top"].set_visible(False)  # ground show through
+    ax.spines["right"].set_visible(False)
     xg = np.arange(-6, 6, 0.02)
 
     def vcut(c0, wd, d):
@@ -249,7 +252,7 @@ def main(out=f"{FIG}/fig1_pipeline.png"):
         return np.max(np.stack([pad[i:i + len(h)] - b[2 * k - i]
                                 for i in range(2 * k + 1)]), 0)
 
-    ax.fill_between(xg, -prof, -2.2, facecolor="#EDE7DB", edgecolor="#D6CDBB",
+    ax.fill_between(xg, -prof, -1.60, facecolor="#EDE7DB", edgecolor="#D6CDBB",
                     hatch="////", linewidth=0.0)
     ax.plot(xg, -prof, color="#5A5246", lw=1.1)
     for lam, col, off, nm in [(0.95, ORG_E, 0.0, r"heavy sheet  $\lambda=0.95$"),
@@ -260,18 +263,18 @@ def main(out=f"{FIG}/fig1_pipeline.png"):
         ax.plot(xg, -uu + off, color=col, lw=1.4, zorder=5)
         ax.text(-5.0, off + 0.15, nm, color=col, fontsize=5.8, ha="left",
                 va="bottom", fontweight="bold")
-    ax.set_xlim(-5.2, 4.6); ax.set_ylim(-1.75, 1.60)
+    ax.set_xlim(-5.2, 4.6); ax.set_ylim(-1.58, 1.32)
     ax.set_yticks([0, -1]); ax.set_xticks([-4, -2, 0, 2, 4])
     ax.tick_params(labelsize=5.6, length=2, pad=1)
     ax.set_xlabel("across the stroke (mm)", fontsize=6.0, labelpad=1)
     ax.set_ylabel("depth (mm)", fontsize=6.0, labelpad=1)
     ax.annotate("wide cut: both sheets enter,\nso it prints white",
-                xy=(-1.7, -0.80), xytext=(-1.4, 1.56), fontsize=5.6,
+                xy=(-1.7, -0.80), xytext=(-1.4, 1.29), fontsize=5.6,
                 ha="center", va="top", zorder=6,
                 arrowprops=dict(arrowstyle="->", lw=0.7, color="#444",
                                 shrinkA=2, shrinkB=2))
     ax.annotate("hairline: the heavy sheet\nbridges it, so it prints black",
-                xy=(2.55, 0.14), xytext=(3.1, 1.56), fontsize=5.6, ha="center",
+                xy=(2.55, 0.14), xytext=(3.1, 1.29), fontsize=5.6, ha="center",
                 va="top", zorder=6,
                 arrowprops=dict(arrowstyle="->", lw=0.7, color="#444",
                                 shrinkA=2, shrinkB=2))
@@ -281,11 +284,13 @@ def main(out=f"{FIG}/fig1_pipeline.png"):
     fig.text(0.7425, 0.472, "What is shared between sheets and characters",
              fontsize=7.0, fontweight="bold", color=INK, ha="center",
              va="center", zorder=6)
-    R, ny = 0.0145, 0.325
-    circ(fig, 0.560, ny + 0.028, r"$a$", R)
-    circ(fig, 0.560, ny - 0.028, r"$b$", R)
-    fig.text(0.560, ny + 0.062, "rate law", fontsize=5.8, color=INK,
-             ha="center", va="bottom", zorder=6)
+    R, ny = 0.0145, 0.395
+    rrect(fig, 0.534, ny - 0.052, 0.052, 0.104, "none", GRY_E, lw=0.8,
+          r=0.006, z=2, ls=(0, (3, 2)))
+    fig.text(0.581, ny - 0.046, "rate law", fontsize=5.6, color=GRY_E,
+             ha="right", va="bottom", zorder=6)
+    circ(fig, 0.560, ny + 0.026, r"$a$", R)
+    circ(fig, 0.560, ny - 0.022, r"$b$", R)
     groups = [(0.600, 0.088, "sheet $i$", [(0.644, r"$\theta_i$")], GRN_E),
               (0.700, 0.128, "character $c$", [(0.736, r"$h_0$"),
                                                (0.786, r"$\Phi$")], ORG_E),
@@ -308,11 +313,40 @@ def main(out=f"{FIG}/fig1_pipeline.png"):
     for x0, rd in ((0.575, -0.17), (0.659, -0.13), (0.751, -0.09),
                    (0.801, -0.06), (0.889, 0.0)):
         arrow(fig, (x0, ny), (0.906, ny), c="#9AA0A6", lw=0.7, ms=5, rad=rd)
-    fig.text(0.7425, 0.175,
-             r"$nC$ images constrain $6n$ shared nuisance parameters;"
-             "\nimpression style is independent between sheets, weathering is\n"
-             "shared and monotone in time",
+    fig.text(0.7425, 0.302,
+             r"$nC$ images constrain $6n$ shared nuisance parameters:  style"
+             "\nindependent between sheets, weathering shared and monotone",
              fontsize=6.0, color=INK, ha="center", va="center", zorder=6,
+             linespacing=1.7)
+
+    # the monotone trajectory the sharing buys, on the real stele
+    rj = json.load(open("results/real_jiucheng.json"))
+    dt = np.array(rj["dt"])
+    sg = np.array(rj["style_free"]["sigma"])
+    kp = np.array(rj["style_free"]["kappa"])
+    yrs = 632 + 100 * dt
+    axd = fig.add_axes([0.585, 0.078, 0.300, 0.148])
+    axd.set_zorder(3); axd.set_facecolor("white")
+    axd.plot(yrs, sg, "o-", color=ORG_E, ms=3.4, lw=1.2)
+    axd.set_ylabel(r"$\sigma_j$ (mm)", fontsize=5.8, color=ORG_E, labelpad=1)
+    axd.tick_params(labelsize=5.6, length=2, pad=1)
+    axd.set_xticks([1150, 1780]); axd.set_xticklabels(["Song\n1150", "Qing\n1780"],
+                                                      fontsize=5.6)
+    axd.set_xlim(1050, 1900); axd.set_ylim(0, 0.15)
+    axd2 = axd.twinx()
+    axd2.plot(yrs, kp, "s--", color=BLUE_E, ms=3.0, lw=1.1)
+    axd2.set_ylabel(r"$\kappa_j$", fontsize=5.8, color=BLUE_E, labelpad=1)
+    axd2.tick_params(labelsize=5.6, length=2, pad=1)
+    axd2.set_ylim(0, 0.55)
+    axd2.xaxis.set_visible(False)
+    for a_ in (axd, axd2):
+        for sp in a_.spines.values():
+            sp.set_color("#C8CCD2")
+    axd2.spines["right"].set_visible(True)
+    fig.text(0.7425, 0.250,
+             "the fitted state of the stone at each dated sheet:\n"
+             r"rounding $\sigma_j$ up, depth retention $\kappa_j$ down",
+             fontsize=5.9, color=INK, ha="center", va="center", zorder=6,
              linespacing=1.6)
 
     fig.savefig(out, dpi=300, facecolor="white")
