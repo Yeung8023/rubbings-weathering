@@ -1,0 +1,50 @@
+{
+ "20595": {
+  "cols_per_sheet": 4.25,
+  "rows_per_col": 7.0,
+  "pitch_mm_w": 32.94117647058823,
+  "pitch_mm_h": 35.857142857142854,
+  "pitch_px": 201.5,
+  "sheet_cm": [
+   25.1,
+   14.0
+  ],
+  "mm_per_px": 0.16347978397314258
+ },
+ "24592": {
+  "cols_per_sheet": 4.0,
+  "rows_per_col": 7.0,
+  "pitch_mm_w": 33.5,
+  "pitch_mm_h": 34.142857142857146,
+  "pitch_px": 174.5,
+  "sheet_cm": [
+   23.9,
+   13.4
+  ],
+  "mm_per_px": 0.19197707736389685
+ },
+ "27587": {
+  "cols_per_sheet": 4.0,
+  "rows_per_col": 6.75,
+  "pitch_mm_w": 32.25,
+  "pitch_mm_h": 35.25925925925926,
+  "pitch_px": 188.75,
+  "sheet_cm": [
+   23.8,
+   12.9
+  ],
+  "mm_per_px": 0.17086092715231788
+ },
+ "24521": {
+  "cols_per_sheet": 4.0,
+  "rows_per_col": 7.0,
+  "pitch_mm_w": 17.25,
+  "pitch_mm_h": 17.714285714285715,
+  "pitch_px": 148.25,
+  "sheet_cm": [
+   12.4,
+   6.9
+  ],
+  "mm_per_px": 0.1163575042158516
+ }
+}

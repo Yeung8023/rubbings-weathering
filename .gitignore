@@ -1,0 +1,8 @@
+data/raw/npm_images/
+data/raw/*.jsonl
+data/interim/scan_*.npz
+results/_*.npz
+results/_*.log
+__pycache__/
+*.pyc
+.pytest_cache/

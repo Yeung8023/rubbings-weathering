@@ -1,0 +1,13 @@
+[20595]
+  [cached] 1204 cells
+  -> 1204 cells
+[24592]
+  [cached] 1299 cells
+  -> 1299 cells
+[27587]
+  [cached] 782 cells
+  -> 782 cells
+  align 20595->24592: line j=0.964i+112.0 (724 inliers); 1151 pairs, 1014 above sim 0.25, mean sim 0.600
+  align 20595->27587: line j=0.883i+-29.3 (132 inliers); 780 pairs, 471 above sim 0.25, mean sim 0.337
+characters present in all 3 impressions: 416
+wrote data/interim/stacks.npz (416, 3, 96, 96)

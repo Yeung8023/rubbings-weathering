@@ -1,0 +1,34 @@
+[拓片] total=1261 pages=43
+  page 10/43 (300 items)
+  page 20/43 (600 items)
+  page 30/43 (900 items)
+  page 40/43 (1200 items)
+[法帖] total=7243 pages=242
+  page 10/242 (300 items)
+  page 20/242 (600 items)
+  page 30/242 (900 items)
+  page 40/242 (1200 items)
+  page 50/242 (1500 items)
+  page 60/242 (1800 items)
+  page 70/242 (2100 items)
+  page 80/242 (2400 items)
+  page 90/242 (2700 items)
+  page 100/242 (3000 items)
+  page 110/242 (3300 items)
+  page 120/242 (3600 items)
+  page 130/242 (3900 items)
+  page 140/242 (4200 items)
+  page 150/242 (4500 items)
+  page 160/242 (4800 items)
+  page 170/242 (5100 items)
+  page 180/242 (5400 items)
+  !! page 185 parsed 0 rows
+  !! page 186 parsed 0 rows
+  !! page 187 parsed 0 rows
+  page 190/242 (5610 items)
+  page 200/242 (5910 items)
+  page 210/242 (6210 items)
+  page 220/242 (6510 items)
+  page 230/242 (6810 items)
+  page 240/242 (7110 items)
+wrote 8414 records -> data/raw/npm_catalog.jsonl

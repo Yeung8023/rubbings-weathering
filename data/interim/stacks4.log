@@ -1,0 +1,17 @@
+[24521]
+  [cached] 1086 cells
+  -> 1086 cells
+[20595]
+  [cached] 1204 cells
+  -> 1204 cells
+[24592]
+  [cached] 1299 cells
+  -> 1299 cells
+[27587]
+  [cached] 782 cells
+  -> 782 cells
+  align 24521->20595: line j=1.110i+-7.6 (306 inliers); 1084 pairs, 872 above sim 0.25, mean sim 0.482
+  align 24521->24592: line j=1.075i+99.2 (434 inliers); 1086 pairs, 949 above sim 0.25, mean sim 0.566
+  align 24521->27587: line j=0.729i+-37.7 (95 inliers); 780 pairs, 556 above sim 0.25, mean sim 0.344
+characters present in all 4 impressions: 448
+wrote data/interim/stacks4.npz (448, 4, 96, 96)
