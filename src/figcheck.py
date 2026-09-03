@@ -41,12 +41,12 @@ def texts_of(fig):
         items += [(t, "annotation") for t in ax.texts]
         # only ticks actually inside the view are drawn; matplotlib keeps the
         # rest as Text objects and they would otherwise be false positives
-        if ax.xaxis.get_visible():
+        if getattr(ax, "axison", True) and ax.xaxis.get_visible():
             lo, hi = sorted(ax.get_xlim())
             items += [(t, "xtick") for t, loc in zip(ax.get_xticklabels(),
                                                      ax.get_xticks())
                       if lo - 1e-9 <= loc <= hi + 1e-9]
-        if ax.yaxis.get_visible():
+        if getattr(ax, "axison", True) and ax.yaxis.get_visible():
             lo, hi = sorted(ax.get_ylim())
             items += [(t, "ytick") for t, loc in zip(ax.get_yticklabels(),
                                                      ax.get_yticks())
@@ -119,6 +119,25 @@ def data_boxes(ax, r):
             out.append((pa.get_window_extent(r), "bar"))
         except Exception:
             pass
+    # filled bands (fill_between) are collections, not patches, and a label
+    # laid over one is just as much a defect as a label laid over a curve
+    for co in ax.collections:
+        if not co.get_visible() or co.get_transform() is not ax.transData:
+            continue
+        try:
+            for path in co.get_paths():
+                v = path.vertices
+                v = v[np.isfinite(v).all(1)]
+                if len(v) < 3:
+                    continue
+                pts = ax.transData.transform(v)
+                step = max(1, len(pts) // 60)
+                for a, b in zip(pts[::step][:-1], pts[::step][1:]):
+                    out.append((Bbox([[min(a[0], b[0]), min(a[1], b[1])],
+                                      [max(a[0], b[0]) + 1,
+                                       max(a[1], b[1]) + 1]]), "band"))
+        except Exception:
+            pass
     return out
 
 
@@ -159,7 +178,7 @@ def gap(a, b):
     return max(dx, dy) if (dx > 0 or dy > 0) else 0.0
 
 
-def check(fig, name, tol=1.0, min_area=6.0, min_gap=6.0):
+def check(fig, name, tol=1.0, min_area=6.0, min_gap=10.0):
     fig.canvas.draw()
     r = fig.canvas.get_renderer()
     fb = fig.bbox

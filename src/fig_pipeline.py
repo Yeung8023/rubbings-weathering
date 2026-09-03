@@ -155,22 +155,22 @@ def main(out=f"{FIG}/fig1_pipeline.png"):
     fig.text(fx + fw / 2, ty - 0.014, "aligned stack", fontsize=6.0,
              fontweight="bold", color=INK, ha="center", va="top", zorder=6)
     yc = ty + fh / 2
-    rrect(fig, 0.688, yc - 0.036, 0.128, 0.072, "white", BLUE_E, lw=0.9)
-    fig.text(0.752, yc + 0.014,
+    rrect(fig, 0.684, yc - 0.036, 0.126, 0.072, "white", BLUE_E, lw=0.9)
+    fig.text(0.747, yc + 0.014,
              r"$\mathbf{Y}\in\mathbb{R}^{C\times n\times H\times W}$",
              fontsize=7.2, color=INK, ha="center", va="center", zorder=6)
-    fig.text(0.752, yc - 0.014, "C characters\non n dated sheets", fontsize=5.8,
+    fig.text(0.747, yc - 0.014, "C characters\non n dated sheets", fontsize=5.8,
              color=INK, ha="center", va="center", zorder=6, linespacing=1.4)
-    rrect(fig, 0.830, yc - 0.046, 0.132, 0.092, "white", GRY_E, lw=0.8,
+    rrect(fig, 0.836, yc - 0.046, 0.126, 0.092, "white", GRY_E, lw=0.8,
           ls=(0, (3, 2)))
-    fig.text(0.896, yc + 0.033, "catalogue supplies", fontsize=5.8,
+    fig.text(0.899, yc + 0.033, "catalogue supplies", fontsize=5.8,
              fontweight="bold", color=INK, ha="center", va="center", zorder=6)
-    fig.text(0.896, yc - 0.007,
+    fig.text(0.899, yc - 0.007,
              "period of each sheet\nsheet size in cm\nunreadable marks",
              fontsize=5.5, color=INK, ha="center", va="center", zorder=6,
              linespacing=1.7)
     for xa, xb in [(0.134, 0.166), (0.266, 0.286), (0.372, 0.404),
-                   (0.502, 0.524), (0.646, 0.684)]:
+                   (0.502, 0.524), (0.646, 0.680)]:
         arrow(fig, (xa, yc), (xb, yc))
 
     # ============ forward model =========================================
@@ -188,10 +188,10 @@ def main(out=f"{FIG}/fig1_pipeline.png"):
     yh = P.acquire(1 - sty.alpha * cc, rng, px)
     obs = np.load("results/real_style_free.npz")["images"][3, 0]
 
-    tw2, mw, gap = 0.070, 0.082, 0.016
+    tw2, mw, gap = 0.064, 0.078, 0.020
     y2 = 0.606
     h2 = tw2 * AR
-    xs = 0.034
+    xs = 0.036
     seq = [("t", h0, dict(cmap="magma", vmin=0), r"$h_0$  carving"),
            ("m", "Weathering", r"$\kappa_j,\ \sigma_j,\ P_j$", GRN_F, GRN_E),
            ("t", hj, dict(cmap="magma", vmin=0), r"$h_j$  at epoch $j$"),
@@ -225,129 +225,121 @@ def main(out=f"{FIG}/fig1_pipeline.png"):
              va="bottom", zorder=6)
 
     # ============ detail panels =========================================
-    plet(0.014, 0.512, "c)")
-    rrect(fig, 0.030, 0.042, 0.455, 0.455, TINT_B, ORG_E, lw=0.8, r=0.010, z=1)
-    fig.text(0.2575, 0.472, "Paper bridging: why craft is not weather",
-             fontsize=7.0, fontweight="bold", color=INK, ha="center",
-             va="center", zorder=6)
-    ax = fig.add_axes([0.080, 0.098, 0.372, 0.338])
-    ax.set_zorder(3)
-    ax.set_facecolor("none")            # a drawing, not a plot: let the panel
-    ax.spines["top"].set_visible(False)  # ground show through
-    ax.spines["right"].set_visible(False)
-    xg = np.arange(-6, 6, 0.02)
+    PY0, PY1 = 0.042, 0.500
+    for x0, wd, fc, ec, letter_, title in [
+            (0.030, 0.368, TINT_B, ORG_E, "c)",
+             "Paper bridging: why craft is not weather"),
+            (0.414, 0.324, TINT_A, BLUE_E, "d)",
+             "What is shared"),
+            (0.754, 0.216, TINT_A, BLUE_E, "e)",
+             "Fitted state")]:
+        rrect(fig, x0, PY0, wd, PY1 - PY0, fc, ec, lw=0.8, r=0.010, z=1)
+        plet(x0 - 0.016, PY1 + 0.012, letter_)
+        fig.text(x0 + wd / 2, PY1 - 0.026, title, fontsize=7.0,
+                 fontweight="bold", color=INK, ha="center", va="center",
+                 zorder=6)
 
-    def vcut(c0, wd, d):
-        return np.clip((wd / 2 - np.abs(xg - c0)) / (wd / 2), 0, 1) * d
+    # ---- c: cross-section, drawn as a schematic -------------------------
+    ax = fig.add_axes([0.052, 0.098, 0.330, 0.320])
+    ax.set_zorder(3); ax.set_facecolor("none"); ax.set_axis_off()
+    xg = np.arange(-4.2, 4.2, 0.02)
 
-    prof = np.maximum(vcut(-1.7, 2.8, 1.4), vcut(2.5, 0.42, 0.6))
+    def vcut(c0, wd_, d):
+        return np.clip((wd_ / 2 - np.abs(xg - c0)) / (wd_ / 2), 0, 1) * d
+
+    prof = np.maximum(vcut(-1.5, 2.6, 1.35), vcut(2.2, 0.40, 0.60))
 
     def open1d(h, lam):
         k = int(np.ceil(np.sqrt(2 * lam * 3.0) / 0.02))
         d = np.arange(-k, k + 1) * 0.02
         b = d ** 2 / (2 * lam)
         pad = np.pad(h, (k, k), mode="edge")
-        e = np.min(np.stack([pad[i:i + len(h)] + b[i] for i in range(2 * k + 1)]), 0)
+        e = np.min(np.stack([pad[i2:i2 + len(h)] + b[i2]
+                             for i2 in range(2 * k + 1)]), 0)
         pad = np.pad(e, (k, k), mode="edge")
-        return np.max(np.stack([pad[i:i + len(h)] - b[2 * k - i]
-                                for i in range(2 * k + 1)]), 0)
+        return np.max(np.stack([pad[i2:i2 + len(h)] - b[2 * k - i2]
+                                for i2 in range(2 * k + 1)]), 0)
 
-    ax.fill_between(xg, -prof, -1.60, facecolor="#EDE7DB", edgecolor="#D6CDBB",
-                    hatch="////", linewidth=0.0)
-    ax.plot(xg, -prof, color="#5A5246", lw=1.1)
-    for lam, col, off, nm in [(0.95, ORG_E, 0.0, r"heavy sheet  $\lambda=0.95$"),
-                              (0.22, BLUE_E, 0.42, r"light sheet  $\lambda=0.22$")]:
+    ax.fill_between(xg, -prof, -1.55, facecolor="#DFD8CA", edgecolor="none")
+    ax.plot(xg, -prof, color="#4E463C", lw=1.2)
+    for lam, col, off in [(0.95, ORG_E, 0.0), (0.22, BLUE_E, 0.50)]:
         uu = open1d(prof, lam)
-        ax.fill_between(xg, -uu + off, -uu + off + 0.13, where=uu < 0.12,
+        ax.fill_between(xg, -uu + off, -uu + off + 0.15, where=uu < 0.12,
                         color=col, lw=0, alpha=0.9, zorder=4)
-        ax.plot(xg, -uu + off, color=col, lw=1.4, zorder=5)
-        ax.text(-5.0, off + 0.15, nm, color=col, fontsize=5.8, ha="left",
-                va="bottom", fontweight="bold")
-    ax.set_xlim(-5.2, 4.6); ax.set_ylim(-1.58, 1.32)
-    ax.set_yticks([0, -1]); ax.set_xticks([-4, -2, 0, 2, 4])
-    ax.tick_params(labelsize=5.6, length=2, pad=1)
-    ax.set_xlabel("across the stroke (mm)", fontsize=6.0, labelpad=1)
-    ax.set_ylabel("depth (mm)", fontsize=6.0, labelpad=1)
-    ax.annotate("wide cut: both sheets enter,\nso it prints white",
-                xy=(-1.7, -0.80), xytext=(-1.4, 1.29), fontsize=5.6,
-                ha="center", va="top", zorder=6,
+        ax.plot(xg, -uu + off, color=col, lw=1.5, zorder=5)
+    ax.set_xlim(-4.3, 4.3); ax.set_ylim(-1.62, 1.42)
+    ax.text(-4.1, 0.74, r"light sheet  $\lambda=0.22$", color=BLUE_E,
+            fontsize=6.0, fontweight="bold", ha="left", va="bottom")
+    ax.text(-4.1, 0.24, r"heavy sheet  $\lambda=0.95$", color=ORG_E,
+            fontsize=6.0, fontweight="bold", ha="left", va="bottom")
+    ax.annotate("wide cut\nprints white", xy=(-1.5, -0.78), xytext=(-2.7, 1.38),
+                fontsize=6.0, ha="center", va="top", zorder=6,
                 arrowprops=dict(arrowstyle="->", lw=0.7, color="#444",
-                                shrinkA=2, shrinkB=2))
-    ax.annotate("hairline: the heavy sheet\nbridges it, so it prints black",
-                xy=(2.55, 0.14), xytext=(3.1, 1.29), fontsize=5.6, ha="center",
-                va="top", zorder=6,
+                                shrinkA=2, shrinkB=3))
+    ax.annotate("hairline bridged,\nprints black", xy=(2.2, 0.12),
+                xytext=(2.3, 1.38), fontsize=6.0, ha="center", va="top",
+                zorder=6,
                 arrowprops=dict(arrowstyle="->", lw=0.7, color="#444",
-                                shrinkA=2, shrinkB=2))
+                                shrinkA=2, shrinkB=3))
+    ax.plot([-4.1, -3.1], [-1.48, -1.48], color=INK, lw=1.4)
+    ax.text(-3.6, -1.43, "1 mm", fontsize=5.8, color=INK, ha="center",
+            va="bottom")
 
-    plet(0.499, 0.512, "d)")
-    rrect(fig, 0.515, 0.042, 0.455, 0.455, TINT_A, BLUE_E, lw=0.8, r=0.010, z=1)
-    fig.text(0.7425, 0.472, "What is shared between sheets and characters",
-             fontsize=7.0, fontweight="bold", color=INK, ha="center",
-             va="center", zorder=6)
-    R, ny = 0.0145, 0.395
-    rrect(fig, 0.534, ny - 0.052, 0.052, 0.104, "none", GRY_E, lw=0.8,
-          r=0.006, z=2, ls=(0, (3, 2)))
-    fig.text(0.581, ny - 0.046, "rate law", fontsize=5.6, color=GRY_E,
-             ha="right", va="bottom", zorder=6)
-    circ(fig, 0.560, ny + 0.026, r"$a$", R)
-    circ(fig, 0.560, ny - 0.022, r"$b$", R)
-    groups = [(0.600, 0.088, "sheet $i$", [(0.644, r"$\theta_i$")], GRN_E),
-              (0.700, 0.128, "character $c$", [(0.736, r"$h_0$"),
-                                               (0.786, r"$\Phi$")], ORG_E),
-              (0.840, 0.110, r"$c\times i$", [(0.874, r"$w$"),
-                                              (0.920, r"$y$")], BLUE_E)]
+    # ---- d: graphical model ---------------------------------------------
+    R, ny = 0.0155, 0.328
+    groups = [(0.422, 0.060, "rate law", [(0.452, r"$a$", 0.030),
+                                          (0.452, r"$b$", -0.030)], GRY_E),
+              (0.498, 0.060, "sheet $i$", [(0.528, r"$\theta_i$", 0.0)], GRN_E),
+              (0.574, 0.100, "character $c$", [(0.599, r"$h_0$", 0.0),
+                                               (0.649, r"$\Phi$", 0.0)], ORG_E),
+              (0.690, 0.038, r"$c\times i$", [(0.709, r"$w$", 0.0)], BLUE_E)]
     for x0, wd, pl, nodes, ec in groups:
-        rrect(fig, x0, ny - 0.052, wd, 0.104, "none", ec, lw=0.8, r=0.006, z=2,
-              ls=(0, (3, 2)))
-        fig.text(x0 + wd - 0.005, ny - 0.046, pl, fontsize=5.6, color=ec,
-                 ha="right", va="bottom", zorder=6)
-        for xn, sym in nodes:
-            if sym == r"$y$":
-                fig.patches.append(Circle((xn, ny), R, transform=fig.transFigure,
-                                          facecolor="#DDE0E4", edgecolor=INK,
-                                          linewidth=0.8, zorder=6))
-                fig.text(xn, ny, sym, fontsize=6.6, ha="center", va="center",
-                         zorder=7)
-            else:
-                circ(fig, xn, ny, sym, R)
-    for x0, rd in ((0.575, -0.17), (0.659, -0.13), (0.751, -0.09),
-                   (0.801, -0.06), (0.889, 0.0)):
-        arrow(fig, (x0, ny), (0.906, ny), c="#9AA0A6", lw=0.7, ms=5, rad=rd)
-    fig.text(0.7425, 0.302,
-             r"$nC$ images constrain $6n$ shared nuisance parameters:  style"
-             "\nindependent between sheets, weathering shared and monotone",
+        rrect(fig, x0, ny - 0.062, wd, 0.124, "none", ec, lw=0.8, r=0.006,
+              z=2, ls=(0, (3, 2)))
+        if pl:
+            fig.text(x0 + wd / 2, ny - 0.086, pl, fontsize=5.8, color=ec,
+                     ha="center", va="center", zorder=6)
+        for xn, sym, dy in nodes:
+            circ(fig, xn, ny + dy, sym, R)
+    circ(fig, 0.709, ny - 0.118, r"$y$", R)
+    fig.patches[-1].set_facecolor("#DDE0E4")
+    for xs_, dy_ in ((0.452, 0.030), (0.452, -0.030), (0.528, 0.0),
+                     (0.599, 0.0), (0.649, 0.0)):
+        arrow(fig, (xs_ + 0.013, ny + dy_ * 0.6), (0.697, ny - 0.112),
+              c="#B4B9BF", lw=0.7, ms=5, rad=-0.20)
+    arrow(fig, (0.709, ny - 0.020), (0.709, ny - 0.098), c="#B4B9BF", lw=0.7,
+          ms=5)
+    fig.text(0.570, 0.118,
+             r"$nC$ images constrain $6n$"
+             "\nshared nuisance parameters;\nstyle independent between\n"
+             "sheets, weathering shared\nand monotone in time",
              fontsize=6.0, color=INK, ha="center", va="center", zorder=6,
              linespacing=1.7)
 
-    # the monotone trajectory the sharing buys, on the real stele
+    # ---- e: fitted trajectory -------------------------------------------
     rj = json.load(open("results/real_jiucheng.json"))
     dt = np.array(rj["dt"])
-    sg = np.array(rj["style_free"]["sigma"])
-    kp = np.array(rj["style_free"]["kappa"])
     yrs = 632 + 100 * dt
-    axd = fig.add_axes([0.585, 0.078, 0.300, 0.148])
-    axd.set_zorder(3); axd.set_facecolor("white")
-    axd.plot(yrs, sg, "o-", color=ORG_E, ms=3.4, lw=1.2)
-    axd.set_ylabel(r"$\sigma_j$ (mm)", fontsize=5.8, color=ORG_E, labelpad=1)
-    axd.tick_params(labelsize=5.6, length=2, pad=1)
-    axd.set_xticks([1150, 1780]); axd.set_xticklabels(["Song\n1150", "Qing\n1780"],
-                                                      fontsize=5.6)
-    axd.set_xlim(1050, 1900); axd.set_ylim(0, 0.15)
-    axd2 = axd.twinx()
-    axd2.plot(yrs, kp, "s--", color=BLUE_E, ms=3.0, lw=1.1)
-    axd2.set_ylabel(r"$\kappa_j$", fontsize=5.8, color=BLUE_E, labelpad=1)
-    axd2.tick_params(labelsize=5.6, length=2, pad=1)
-    axd2.set_ylim(0, 0.55)
-    axd2.xaxis.set_visible(False)
-    for a_ in (axd, axd2):
+    for k2, (vals, col, ylab, rect) in enumerate([
+            (np.array(rj["style_free"]["sigma"]), ORG_E, r"$\sigma_j$ (mm)",
+             [0.812, 0.278, 0.140, 0.130]),
+            (np.array(rj["style_free"]["kappa"]), BLUE_E, r"$\kappa_j$",
+             [0.812, 0.098, 0.140, 0.130])]):
+        a_ = fig.add_axes(rect)
+        a_.set_zorder(3); a_.set_facecolor("none")
+        a_.plot(yrs, vals, "o-", color=col, ms=3.4, lw=1.3)
+        a_.set_ylabel(ylab, fontsize=6.0, color=col, labelpad=1)
+        a_.tick_params(labelsize=5.6, length=2, pad=1)
+        a_.set_xlim(1050, 1900)
+        a_.set_xticks([1150, 1780])
+        a_.set_xticklabels(["Song", "Qing"] if k2 else ["", ""], fontsize=5.8)
+        a_.set_ylim(0, max(vals) * 1.35)
         for sp in a_.spines.values():
             sp.set_color("#C8CCD2")
-    axd2.spines["right"].set_visible(True)
-    fig.text(0.7425, 0.250,
-             "the fitted state of the stone at each dated sheet:\n"
-             r"rounding $\sigma_j$ up, depth retention $\kappa_j$ down",
-             fontsize=5.9, color=INK, ha="center", va="center", zorder=6,
-             linespacing=1.6)
+        a_.spines["top"].set_visible(False)
+        a_.spines["right"].set_visible(False)
+    fig.text(0.861, 0.432, "the stone at each\ndated sheet", fontsize=6.0,
+             color=INK, ha="center", va="center", zorder=6, linespacing=1.6)
 
     fig.savefig(out, dpi=300, facecolor="white")
     plt.close(fig)
