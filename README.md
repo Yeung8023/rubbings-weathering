@@ -85,6 +85,23 @@ $CONDA src/figcheck.py                         # 版面几何检测（越界/重
 | 未断代拓本定年 | 中位误差 **146 年**（9 次留一） | `exp_dating.py` |
 | 前向模型 numpy↔torch 一致 | < 1e-5；16 项测试全过 | `tests/` |
 
+## LaTeX 投稿稿
+
+`paper/latex/` 是用 **Springer Nature 官方 LaTeX 模板**（`sn-jnl.cls`, `sn-nature.bst`，
+Nature Portfolio 期刊样式）撰写的正式投稿版，`paper/MANUSCRIPT.pdf` 是编译产物。
+
+```bash
+cd paper/latex && ./build.sh    # pdflatex → bibtex → pdflatex ×2，输出 ../MANUSCRIPT.pdf
+```
+
+- 数学公式、图模型全部原生 LaTeX（`amsmath`），不是 Markdown 里的 Unicode 近似符号
+- 29 条参考文献用 BibTeX（`refs.bib`）管理，`sn-nature.bst` 按正文引用顺序编号
+- 繁体字（拓本编号「贈拓000332」等）用 `CJKutf8` + Big5 楷体（`bsmi`）渲染——
+  GB 简体字库不含「贈」等繁体专字，之前试过会缺字
+- 从零构建 0 error，20 页，与 `paper/MANUSCRIPT.md`（工作稿）内容一致
+
+`paper/MANUSCRIPT.md` 仍保留作为可读性更好的工作稿，正式投稿以 LaTeX 版为准。
+
 ## 数据与授权
 
 全部图像与元数据来自**台北故宫典藏资料检索**（`digitalarchive.npm.gov.tw`），
