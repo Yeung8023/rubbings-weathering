@@ -132,8 +132,13 @@ def check(fig, name, tol=1.0, min_area=6.0):
                 f"TEXT OVERLAP    [{k1}] {t1.get_text()[:30]!r}  x  "
                 f"[{k2}] {t2.get_text()[:30]!r}   ({area:.0f} px2)")
     # text spilling out of the rounded box it belongs to
+    from matplotlib.patches import FancyBboxPatch
     boxes = []
     for pa in fig.patches:
+        # only framed containers; a label centred in a small node circle is
+        # meant to sit at its centre and may legitimately overhang it
+        if not isinstance(pa, FancyBboxPatch):
+            continue
         try:
             boxes.append(pa.get_window_extent(r))
         except Exception:
