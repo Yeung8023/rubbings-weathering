@@ -3,7 +3,7 @@
 同一通碑的历代拓本，不是冗余，而是**同一潜在浮雕场在不同时刻的多次观测**。
 本项目把它做成一个反问题，并回答：**这串观测到底能测出什么、测不出什么。**
 
-**论文草稿**：[`paper/DRAFT.md`](paper/DRAFT.md) ｜ **Day 0 结论**：[`FINDINGS-day0.md`](FINDINGS-day0.md)
+**论文草稿**：[`paper/MANUSCRIPT.md`](paper/MANUSCRIPT.md) ｜ **Day 0 结论**：[`FINDINGS-day0.md`](FINDINGS-day0.md)
 ｜ **研究设计**：[`lit/design.md`](lit/design.md)
 
 ## 环境
