@@ -51,8 +51,8 @@ def main(out=f"{FIG}/fig2_mechanism.png"):
     ax.set_ylabel("depth below the face (mm)", fontsize=7.5)
     ax.set_xlabel("across the stroke (mm)", fontsize=7.5, labelpad=1)
     ax.tick_params(labelsize=7)
-    ax.legend(frameon=False, fontsize=6.6, loc="lower left",
-              bbox_to_anchor=(0.0, 0.0), handlelength=1.5)
+    ax.legend(frameon=False, fontsize=6.6, loc="lower right",
+              bbox_to_anchor=(0.995, 0.02), handlelength=1.5)
     panel_letter(ax, "a", dx=-0.085, dy=1.26)
     ax.set_title("a tamped sheet sags into the cut like a loaded membrane; the "
                  "pad inks only what stays near the face", fontsize=7.8, pad=8)

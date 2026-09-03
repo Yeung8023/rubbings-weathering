@@ -111,12 +111,14 @@ def fig6(out=f"{FIG}/fig6_external.png"):
     ax[1].bar(range(len(cids)), ratios, 0.55, color=C_FIT,
               yerr=[ratios - lo, hi - ratios], error_kw=dict(lw=0.8, capsize=2.5))
     ax[1].axhline(1.0, color=C_BASE, lw=0.9, ls="--")
+    top = float(hi.max()) + 1.5
     for j, r in enumerate(ratios):
-        ax[1].text(j, hi[j] + 0.22, "%.1f x" % r, ha="center", fontsize=7)
+        ax[1].text(j, top * 0.93, "%.1f x" % r, ha="center", va="top",
+                   fontsize=7)
     ax[1].set_xticks(range(len(cids)))
     ax[1].set_xticklabels([lab[c] for c in cids], fontsize=7.5)
     ax[1].set_ylabel("flaked area, unreadable / legible")
-    ax[1].set_ylim(0, float(hi.max()) + 1.2)
+    ax[1].set_ylim(0, top)
     ax[1].set_title("the same effect size in every impression\n"
                     "(95 % bootstrap interval)", fontsize=8, pad=6)
     panel_letter(ax[1], "b", dx=-0.20, dy=1.24)

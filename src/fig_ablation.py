@@ -49,7 +49,7 @@ def main(out=f"{FIG}/fig8_ablation.png"):
                    color=C_OBS, ms=4.5, lw=1.2, capsize=2.5,
                    label="channel shallowing b")
     ax[1].axvspan(-0.5, 1.5, color=C_BASE, alpha=0.10, lw=0)
-    ax[1].text(0.5, 0.30, "not usable", ha="center", fontsize=6.8, color="#555")
+    ax[1].text(0.5, 0.10, "not usable", ha="center", fontsize=6.8, color="#555")
     ax[1].set_xticks(x); ax[1].set_xticklabels(ns, fontsize=8)
     ax[1].set_xlim(-0.5, len(ns) - 0.5)
     ax[1].set_xlabel("impressions in the stack", fontsize=7.5)

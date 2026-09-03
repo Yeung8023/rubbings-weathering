@@ -29,8 +29,18 @@ $CONDA src/exp_identify.py                     # 可辨识性（主结果）
 $CONDA src/exp_real.py                         # 《九成宫》真实反演
 $CONDA src/exp_rate.py --seeds 3               # 干扰项消融 + 拓本数消融
 $CONDA src/exp_late.py                         # 最早存世拓本越晚，融合越值钱
-$CONDA src/figures.py
+$CONDA src/figures.py                          # 图 1/3/4
+$CONDA src/fig_mechanism.py                    # 图 2
+$CONDA src/fig_results.py                      # 图 5/6
+$CONDA src/fig_real.py                         # 图 7
+$CONDA src/fig_ablation.py                     # 图 8
+$CONDA src/figcheck.py                         # 版面几何检测（越界/重叠/压数据）
 ```
+
+**版面检测**：`src/figcheck.py` 渲染每张图后读取所有文字对象的 bounding box，
+程序化判定四类缺陷——超出画布、文字互相重叠、文字压在曲线/柱子/误差棒上、
+标注侵入相邻面板。参考线（`axhline`/`axvspan`）与视野外的刻度已排除，不算误报。
+当前 **8 张图 0 问题**。
 
 ## 代码
 

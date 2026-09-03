@@ -82,36 +82,44 @@ def fig3_shiwen(out=f"{FIG}/fig3_shiwen.png"):
     order = ["24521", "20595", "24592", "16059", "27587"]
     lab = {"24521": "reduced copy", "20595": "Song A", "24592": "Song B",
            "16059": "Qing A", "27587": "Qing B"}
-    sw = {lab[c]: "".join(d[c]["meta"]["\u91cb\u6587"]) for c in order}
+    sw = {lab[c]: "".join(d[c]["meta"]["釋文"]) for c in order}
     ref, names, M = SW.damage_matrix(sw)
     r = SW.monotonicity(M, list(range(len(names))))
 
-    fig, ax = plt.subplots(1, 2, figsize=(7.2, 2.5),
-                           gridspec_kw=dict(width_ratios=[3, 1.15]))
+    fig = plt.figure(figsize=(7.2, 2.9))
+    axA = fig.add_axes([0.135, 0.30, 0.545, 0.50])
+    axB = fig.add_axes([0.755, 0.30, 0.215, 0.50])
+
     im = np.where(M < 0, np.nan, M).astype(float)
-    ax[0].imshow(im, aspect="auto", interpolation="nearest",
-                 cmap=matplotlib.colors.ListedColormap(["#EDEFF2", C_FIT]))
-    ax[0].set_yticks(range(len(names)))
-    ax[0].set_yticklabels(names, fontsize=7.5)
-    ax[0].set_xlabel(f"character position in the inscription (n = {len(ref)})",
-                     fontsize=7.5)
-    ax[0].tick_params(labelsize=7)
-    panel_letter(ax[0], "a", dx=-0.135, dy=1.22)
-    ax[0].set_title("characters the sheet does not show", fontsize=8, pad=6)
-    rate = [100 * (M[i2] == 1).sum() / max(1, (M[i2] >= 0).sum())
-            for i2 in range(len(names))]
-    ax[1].barh(range(len(names)), rate, height=0.6,
-               color=[C_FIT] + [C_OBS] * (len(names) - 1))
-    ax[1].invert_yaxis(); ax[1].set_yticks([])
-    ax[1].set_xlabel("marked unreadable (%)", fontsize=7.5)
-    ax[1].tick_params(labelsize=7)
-    for i2, v in enumerate(rate):
-        ax[1].text(v + 0.15, i2, f"{v:.1f}", va="center", fontsize=7)
-    ax[1].set_xlim(0, 6.4); ax[1].set_xticks([0, 2, 4, 6])
-    panel_letter(ax[1], "b", dx=-0.10, dy=1.22)
-    ax[1].set_title("%.1f%% consistent with monotone damage" % (100 * r["rate"]),
-                    fontsize=7.6, pad=6)
-    fig.tight_layout(rect=(0, 0, 1, 0.93))
+    axA.imshow(im, aspect="auto", interpolation="nearest",
+               cmap=matplotlib.colors.ListedColormap(["#EDEFF2", C_FIT]))
+    axA.set_yticks(range(len(names)))
+    axA.set_yticklabels(names, fontsize=7.5)
+    axA.set_xlabel(f"character position in the inscription (n = {len(ref)})",
+                   fontsize=7.5, labelpad=2)
+    axA.tick_params(labelsize=7)
+    axA.set_title("characters the sheet does not show", fontsize=8, pad=6)
+    fig.text(0.045, 0.865, "a)", fontweight="bold", fontsize=9.5, va="bottom")
+
+    rate = [100 * (M[i] == 1).sum() / max(1, (M[i] >= 0).sum())
+            for i in range(len(names))]
+    axB.barh(range(len(names)), rate, height=0.6,
+             color=[C_FIT] + [C_OBS] * (len(names) - 1))
+    axB.set_ylim(len(names) - 0.5, -0.5)
+    axB.set_yticks([])
+    axB.set_xlabel("marked unreadable (%)", fontsize=7.5, labelpad=2)
+    axB.tick_params(labelsize=7)
+    for i, v in enumerate(rate):
+        axB.text(v + 0.2, i, f"{v:.1f}", va="center", fontsize=7)
+    axB.set_xlim(0, 6.6)
+    axB.set_xticks([0, 2, 4, 6])
+    fig.text(0.705, 0.865, "b)", fontweight="bold", fontsize=9.5, va="bottom")
+
+    fig.text(0.5, 0.05,
+             "%.1f%% consistent with damage never healing "
+             "(%d violations in %s comparisons)"
+             % (100 * r["rate"], r["violations"], f"{r['total']:,}"),
+             ha="center", va="bottom", fontsize=7)
     fig.savefig(out, dpi=300)
     plt.close(fig)
     print("wrote", out)

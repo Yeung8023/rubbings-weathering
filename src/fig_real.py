@@ -35,10 +35,10 @@ def main(out=f"{FIG}/fig7_real.png"):
     ax[0].set_title("Jiucheng Palace, 48 characters,\nthree impressions",
                     fontsize=8, pad=6)
     panel_letter(ax[0], "a", dx=-0.26, dy=1.22)
-    ax[0].set_ylim(0.985, 1.24)
-    ax[0].annotate("best fit\n0.024 mm per century", xy=(0.024, 1.002),
-                   xytext=(0.0045, 1.145), fontsize=6.3, va="top",
-                   arrowprops=dict(arrowstyle="->", lw=0.6, color="#555"))
+    ax[0].set_ylim(0.985, 1.35)
+    ax[0].plot([0.024], [1.0], "v", color=C_FIT, ms=5, clip_on=False)
+    ax[0].text(0.03, 0.97, "best fit 0.024 mm per century",
+               transform=ax[0].transAxes, ha="left", va="top", fontsize=6.3)
 
     rj = json.load(open("results/real_jiucheng.json"))
     lam_free = rj["style_free"]["lam"]
