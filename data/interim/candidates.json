@@ -1,0 +1,8987 @@
+[
+ {
+  "inscription": "歐陽詢九成宮醴泉銘",
+  "n": 5,
+  "n_dated": 4,
+  "span": 630,
+  "periods": [
+   "Qing",
+   "Song",
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "16059",
+    "title": "唐歐陽詢九成宮醴泉銘清拓本 卷",
+    "period": "Qing"
+   },
+   {
+    "cid": "20595",
+    "title": "唐歐陽詢九成宮醴泉銘宋拓本 冊",
+    "period": "Song"
+   },
+   {
+    "cid": "24521",
+    "title": "唐歐陽詢九成宮醴泉銘墨拓本 冊",
+    "period": "unspecified"
+   },
+   {
+    "cid": "27587",
+    "title": "唐歐陽詢九成宮醴泉銘清拓本 冊",
+    "period": "Qing"
+   },
+   {
+    "cid": "24592",
+    "title": "唐歐陽詢九成宮醴泉銘宋拓本 冊",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "刻石殘字",
+  "n": 36,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "33809",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "33814",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34215",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34216",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34218",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34219",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34221",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34223",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34224",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34225",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34060",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34084",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34085",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34086",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34094",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34096",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34097",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34098",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34099",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34101",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34102",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34103",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34104",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34105",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34106",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34107",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34108",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34109",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34110",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34111",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34112",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34113",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34114",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34115",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34116",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34117",
+    "title": "漢刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "御製前後哨鹿賦",
+  "n": 10,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "60741",
+    "title": "御製前後哨鹿賦拓本 冊",
+    "period": "unspecified"
+   },
+   {
+    "cid": "60742",
+    "title": "御製前後哨鹿賦拓本 冊",
+    "period": "unspecified"
+   },
+   {
+    "cid": "60743",
+    "title": "御製前後哨鹿賦拓本 冊",
+    "period": "unspecified"
+   },
+   {
+    "cid": "60744",
+    "title": "御製前後哨鹿賦拓本 冊",
+    "period": "unspecified"
+   },
+   {
+    "cid": "60745",
+    "title": "御製前後哨鹿賦拓本 冊",
+    "period": "unspecified"
+   },
+   {
+    "cid": "60746",
+    "title": "御製前後哨鹿賦拓本 冊",
+    "period": "unspecified"
+   },
+   {
+    "cid": "60747",
+    "title": "御製前後哨鹿賦拓本 冊",
+    "period": "unspecified"
+   },
+   {
+    "cid": "60748",
+    "title": "御製前後哨鹿賦拓本 冊",
+    "period": "unspecified"
+   },
+   {
+    "cid": "60749",
+    "title": "御製前後哨鹿賦拓本 冊",
+    "period": "unspecified"
+   },
+   {
+    "cid": "60750",
+    "title": "御製前後哨鹿賦拓本 冊",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "畫像石",
+  "n": 9,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "31736",
+    "title": "漢畫像石拓片",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34506",
+    "title": "東漢畫像石拓片",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34376",
+    "title": "東漢畫像石拓片",
+    "period": "unspecified"
+   },
+   {
+    "cid": "30370",
+    "title": "東漢畫像石拓片",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34381",
+    "title": "東漢畫像石拓片",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34382",
+    "title": "東漢畫像石拓片",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34383",
+    "title": "東漢畫像石拓片",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34385",
+    "title": "東漢畫像石拓片",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34389",
+    "title": "魏畫像石拓片",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "聖教序",
+  "n": 6,
+  "n_dated": 4,
+  "span": 0,
+  "periods": [
+   "Song",
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "24520",
+    "title": "唐聖教序墨拓本 冊",
+    "period": "unspecified"
+   },
+   {
+    "cid": "29714",
+    "title": "唐聖教序宋拓本 冊",
+    "period": "Song"
+   },
+   {
+    "cid": "26921",
+    "title": "唐聖教序墨拓本 冊",
+    "period": "unspecified"
+   },
+   {
+    "cid": "1940",
+    "title": "宋拓聖教序 冊",
+    "period": "Song"
+   },
+   {
+    "cid": "1941",
+    "title": "宋拓聖教序 冊",
+    "period": "Song"
+   },
+   {
+    "cid": "1942",
+    "title": "宋拓聖教序 冊",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "畫像塼",
+  "n": 4,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "34138",
+    "title": "漢畫像塼拓片 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34350",
+    "title": "漢畫像塼拓片",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34139",
+    "title": "漢畫像塼拓片",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34351",
+    "title": "漢畫像塼拓片",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "刻石等殘字",
+  "n": 4,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "34069",
+    "title": "漢刻石等殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34072",
+    "title": "漢刻石等殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34074",
+    "title": "漢刻石等殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34082",
+    "title": "漢刻石等殘字墨拓本 軸",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "韋頊墓石壁線刻畫像",
+  "n": 4,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "29122",
+    "title": "唐韋頊墓石壁線刻畫像墨拓 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "29128",
+    "title": "唐韋頊墓石壁線刻畫像墨拓 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "29132",
+    "title": "唐韋頊墓石壁線刻畫像墨拓 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "29133",
+    "title": "唐韋頊墓石壁線刻畫像墨拓 軸",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "造象龕",
+  "n": 4,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "31751",
+    "title": "造象龕拓片 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "31752",
+    "title": "北魏造象龕拓片",
+    "period": "unspecified"
+   },
+   {
+    "cid": "31753",
+    "title": "北魏造象龕拓片 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "31754",
+    "title": "造象龕拓片 軸",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之安西帖",
+  "n": 4,
+  "n_dated": 4,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16775",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之安西帖",
+    "period": "Song"
+   },
+   {
+    "cid": "16818",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之安西帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23992",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之安西帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24009",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之安西帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之諸舍帖",
+  "n": 4,
+  "n_dated": 4,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16873",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之諸舍帖",
+    "period": "Song"
+   },
+   {
+    "cid": "16912",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之諸舍帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24024",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之諸舍帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24097",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之諸舍帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十） 冊 晉王獻之消息帖",
+  "n": 4,
+  "n_dated": 4,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16281",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之消息帖",
+    "period": "Song"
+   },
+   {
+    "cid": "16941",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之消息帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24250",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之消息帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24305",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之消息帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "禮器碑",
+  "n": 3,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "34647",
+    "title": "漢禮器碑墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34648",
+    "title": "漢禮器碑墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34649",
+    "title": "漢禮器碑墨拓本 軸",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "李邕雲麾將軍李思訓碑",
+  "n": 3,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "old",
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "30555",
+    "title": "唐李邕雲麾將軍李思訓碑舊拓本 冊",
+    "period": "old"
+   },
+   {
+    "cid": "30644",
+    "title": "唐李邕雲麾將軍李思訓碑舊拓本 冊",
+    "period": "old"
+   },
+   {
+    "cid": "34120",
+    "title": "唐李邕雲麾將軍李思訓碑墨拓本 軸",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "李邕嶽麓寺碑康熙 冊 譚澤闓題跋",
+  "n": 3,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "31088",
+    "title": "唐李邕嶽麓寺碑康熙拓本 冊 譚澤闓題跋",
+    "period": "unspecified"
+   },
+   {
+    "cid": "31112",
+    "title": "唐李邕嶽麓寺碑康熙拓本 冊 譚澤闓題跋",
+    "period": "unspecified"
+   },
+   {
+    "cid": "31117",
+    "title": "唐李邕嶽麓寺碑康熙拓本 冊 譚澤闓題跋",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "南詔德化碑",
+  "n": 3,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "34500",
+    "title": "唐南詔德化碑墨拓本",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34501",
+    "title": "唐南詔德化碑墨拓本",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34503",
+    "title": "唐南詔德化碑墨拓本",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "武都太守李翕碑暨碑側黃龍白鹿",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "34616",
+    "title": "漢武都太守李翕碑暨碑側黃龍白鹿拓片 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34330",
+    "title": "漢武都太守李翕碑暨碑側黃龍白鹿拓片",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "武都太守耿勳碑",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "34342",
+    "title": "漢武都太守耿勳碑墨拓本",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34343",
+    "title": "漢武都太守耿勳碑墨拓本",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "馬畫像塼",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "30290",
+    "title": "漢馬畫像塼拓片 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "32116",
+    "title": "漢馬畫像塼拓片 軸",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "孔褒碑",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "34652",
+    "title": "漢孔褒碑墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34653",
+    "title": "漢孔褒碑墨拓本 軸",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "延年益壽瓦當 冊頁",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "26565",
+    "title": "漢延年益壽瓦當墨拓 冊頁",
+    "period": "unspecified"
+   },
+   {
+    "cid": "26580",
+    "title": "漢延年益壽瓦當墨拓 冊頁",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "大吉買山地記",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "34666",
+    "title": "漢大吉買山地記墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34588",
+    "title": "漢大吉買山地記墨拓本 軸",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "長樂未央子孫益昌塼",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "20602",
+    "title": "漢長樂未央子孫益昌塼墨拓 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "26215",
+    "title": "漢長樂未央子孫益昌塼墨拓 軸",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "富樂未央子孫益昌塼",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "34354",
+    "title": "漢富樂未央子孫益昌塼墨拓 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "29121",
+    "title": "漢富樂未央子孫益昌塼墨拓 軸",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "皇帝三臨辟雍皇太子又再蒞之盛德隆熙之頌碑并碑陰",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "33682",
+    "title": "晉皇帝三臨辟雍皇太子又再蒞之盛德隆熙之頌碑并碑陰墨拓本",
+    "period": "unspecified"
+   },
+   {
+    "cid": "33683",
+    "title": "晉皇帝三臨辟雍皇太子又再蒞之盛德隆熙之頌碑并碑陰墨拓本",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "前秦廣武將軍碑并碑陰",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "33684",
+    "title": "前秦廣武將軍碑并碑陰墨拓本",
+    "period": "unspecified"
+   },
+   {
+    "cid": "33685",
+    "title": "前秦廣武將軍碑并碑陰拓片墨拓本",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "元康七年刻石殘字",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "33819",
+    "title": "晉元康七年刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "33820",
+    "title": "晉元康七年刻石殘字墨拓本 軸",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "武周朝散大夫上柱國行司府寺東市署令張府君妻田雁門縣君墓誌銘",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "34639",
+    "title": "武周朝散大夫上柱國行司府寺東市署令張府君妻田雁門縣君墓誌銘墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34744",
+    "title": "武周朝散大夫上柱國行司府寺東市署令張府君妻田雁門縣君墓誌銘墨拓本 軸",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "褚遂良書故漢太史司馬公侍妾隨清娛墓誌銘",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "33838",
+    "title": "唐褚遂良書故漢太史司馬公侍妾隨清娛墓誌銘墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "33702",
+    "title": "唐褚遂良書故漢太史司馬公侍妾隨清娛墓誌銘墨拓本",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "開府儀同三司龍山公墓誌銘",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "33731",
+    "title": "隋開府儀同三司龍山公墓誌銘墨拓本",
+    "period": "unspecified"
+   },
+   {
+    "cid": "31767",
+    "title": "隋開府儀同三司龍山公墓誌銘墨拓本",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "故河南少尹裴復墓誌銘",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "33747",
+    "title": "唐故河南少尹裴復墓誌銘墨拓本",
+    "period": "unspecified"
+   },
+   {
+    "cid": "31902",
+    "title": "唐故河南少尹裴復墓誌銘墨拓本 軸",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "清河張府君墓誌銘",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "34749",
+    "title": "唐清河張府君墓誌銘墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34844",
+    "title": "唐清河張府君墓誌銘墨拓本 軸",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "博陵崔氏中殤亡女墓誌銘",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "34752",
+    "title": "唐博陵崔氏中殤亡女墓誌銘墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34843",
+    "title": "唐博陵崔氏中殤亡女墓誌銘墨拓本 軸",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "故清河郡夫人張氏墓誌銘",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "34825",
+    "title": "唐故清河郡夫人張氏墓誌銘墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "31897",
+    "title": "唐故清河郡夫人張氏墓誌銘墨拓本 軸",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "刻石死在此等殘字",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "34078",
+    "title": "漢刻石死在此等殘字墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34081",
+    "title": "漢刻石死在此等殘字墨拓本 軸",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "故南陽縣開國男行貝州司兵參軍事張府君墓誌銘",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "33707",
+    "title": "唐故南陽縣開國男行貝州司兵參軍事張府君墓誌銘墨拓本",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34845",
+    "title": "唐故南陽縣開國男行貝州司兵參軍事張府君墓誌銘墨拓本 軸",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "故大智禪師碑銘并序",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "33776",
+    "title": "唐故大智禪師碑銘并序墨拓本",
+    "period": "unspecified"
+   },
+   {
+    "cid": "33777",
+    "title": "唐故大智禪師碑銘并序墨拓本",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "登仕郎行魏郡冠氏縣尉雲騎尉盧公招墓誌銘",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "34465",
+    "title": "唐登仕郎行魏郡冠氏縣尉雲騎尉盧公招墓誌銘墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34470",
+    "title": "唐登仕郎行魏郡冠氏縣尉雲騎尉盧公招墓誌銘墨拓本 軸",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "司隸校尉楊孟文石門頌",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Ming"
+  ],
+  "items": [
+   {
+    "cid": "31611",
+    "title": "漢司隸校尉楊孟文石門頌明拓本 冊",
+    "period": "Ming"
+   },
+   {
+    "cid": "32701",
+    "title": "漢司隸校尉楊孟文石門頌明拓本 冊",
+    "period": "Ming"
+   }
+  ]
+ },
+ {
+  "inscription": "歐陽通道因法師碑",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Ming"
+  ],
+  "items": [
+   {
+    "cid": "30559",
+    "title": "唐歐陽通道因法師碑明拓本 冊",
+    "period": "Ming"
+   },
+   {
+    "cid": "30713",
+    "title": "唐歐陽通道因法師碑明拓本 冊",
+    "period": "Ming"
+   }
+  ]
+ },
+ {
+  "inscription": "顏真卿鮮于氏離堆記",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "27047",
+    "title": "唐顏真卿鮮于氏離堆記墨拓本 冊",
+    "period": "unspecified"
+   },
+   {
+    "cid": "32046",
+    "title": "唐顏真卿鮮于氏離堆記墨拓本 冊",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "顏真卿右武衛將軍臧公神道碑",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Ming"
+  ],
+  "items": [
+   {
+    "cid": "31099",
+    "title": "唐顏真卿右武衛將軍臧公神道碑明拓本 冊",
+    "period": "Ming"
+   },
+   {
+    "cid": "31098",
+    "title": "唐顏真卿右武衛將軍臧公神道碑明拓本 冊",
+    "period": "Ming"
+   }
+  ]
+ },
+ {
+  "inscription": "故亡尼九品墓誌",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "32198",
+    "title": "唐故亡尼九品墓誌墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "32202",
+    "title": "唐故亡尼九品墓誌墨拓本 軸",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "管真墓誌",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "32203",
+    "title": "唐管真墓誌墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "32204",
+    "title": "唐管真墓誌墨拓本 軸",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "李邕書麓山寺碑",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "25743",
+    "title": "唐李邕書麓山寺碑墨拓本 冊",
+    "period": "unspecified"
+   },
+   {
+    "cid": "26514",
+    "title": "唐李邕書麓山寺碑墨拓本 冊",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "憲超塔銘",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "31966",
+    "title": "唐憲超塔銘墨拓本 軸",
+    "period": "unspecified"
+   },
+   {
+    "cid": "31967",
+    "title": "唐憲超塔銘墨拓本 軸",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "西嶽華山廟碑",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unlabelled",
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "34550",
+    "title": "漢西嶽華山廟碑墨拓本",
+    "period": "unspecified"
+   },
+   {
+    "cid": "36284",
+    "title": "西嶽華山廟碑",
+    "period": null
+   }
+  ]
+ },
+ {
+  "inscription": "杜府君夫人朱氏墓誌銘",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "32002",
+    "title": "唐杜府君夫人朱氏墓誌銘墨拓本",
+    "period": "unspecified"
+   },
+   {
+    "cid": "32005",
+    "title": "唐杜府君夫人朱氏墓誌銘墨拓本 軸",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "三武士畫像石",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "34371",
+    "title": "東漢三武士畫像石拓片",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34377",
+    "title": "東漢三武士畫像石拓片",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "四川新津崖墓石函象人畫像石",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "34378",
+    "title": "東漢四川新津崖墓石函象人畫像石拓片",
+    "period": "unspecified"
+   },
+   {
+    "cid": "34386",
+    "title": "東漢四川新津崖墓石函象人畫像石拓片",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "人物畫像石",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "32033",
+    "title": "漢人物畫像石拓片",
+    "period": "unspecified"
+   },
+   {
+    "cid": "32035",
+    "title": "漢人物畫像石拓片",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "龍門二十品片 廣川王祖母太妃侯造像記",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "old"
+  ],
+  "items": [
+   {
+    "cid": "36771",
+    "title": "北魏龍門二十品舊拓片 廣川王祖母太妃侯造像記",
+    "period": "old"
+   },
+   {
+    "cid": "36760",
+    "title": "北魏龍門二十品舊拓片 廣川王祖母太妃侯造像記",
+    "period": "old"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一）",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "1953",
+    "title": "宋拓大觀帖（一） 冊",
+    "period": "Song"
+   },
+   {
+    "cid": "23428",
+    "title": "宋搨大觀帖（一） 冊",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 漢章帝辰宿帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16272",
+    "title": "宋拓大觀帖（一） 冊 漢章帝辰宿帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23433",
+    "title": "宋搨大觀帖（一） 冊 漢章帝辰宿帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 西晉宣帝阿史帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16273",
+    "title": "宋拓大觀帖（一） 冊 西晉宣帝阿史帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23436",
+    "title": "宋搨大觀帖（一） 冊 西晉宣帝阿史帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 西晉武帝省啟帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16275",
+    "title": "宋拓大觀帖（一） 冊 西晉武帝省啟帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23439",
+    "title": "宋搨大觀帖（一） 冊 西晉武帝省啟帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 西晉武帝譙王帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17085",
+    "title": "宋拓大觀帖（一） 冊 西晉武帝譙王帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23444",
+    "title": "宋搨大觀帖（一） 冊 西晉武帝譙王帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 東晉明帝墓次帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17185",
+    "title": "宋拓大觀帖（一） 冊 東晉明帝墓次帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23448",
+    "title": "宋搨大觀帖（一） 冊 東晉明帝墓次帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 東晉康帝陸女帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17186",
+    "title": "宋拓大觀帖（一） 冊 東晉康帝陸女帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23451",
+    "title": "宋搨大觀帖（一） 冊 東晉康帝陸女帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 東晉哀帝中書帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17187",
+    "title": "宋拓大觀帖（一） 冊 東晉哀帝中書帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23453",
+    "title": "宋搨大觀帖（一） 冊 東晉哀帝中書帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 東晉簡文帝慶賜帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17188",
+    "title": "宋拓大觀帖（一） 冊 東晉簡文帝慶賜帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23454",
+    "title": "宋搨大觀帖（一） 冊 東晉簡文帝慶賜帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 南朝宋明帝鄭脩容帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17189",
+    "title": "宋拓大觀帖（一） 冊 南朝宋明帝鄭脩容帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23457",
+    "title": "宋搨大觀帖（一） 冊 南朝宋明帝鄭脩容帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 南朝齊高帝破堽帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17190",
+    "title": "宋拓大觀帖（一） 冊 南朝齊高帝破堽帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23464",
+    "title": "宋搨大觀帖（一） 冊 南朝齊高帝破堽帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 南朝梁武帝數朝帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17191",
+    "title": "宋拓大觀帖（一） 冊 南朝梁武帝數朝帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23465",
+    "title": "宋搨大觀帖（一） 冊 南朝梁武帝數朝帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 南朝梁高帝眾軍帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17192",
+    "title": "宋拓大觀帖（一） 冊 南朝梁高帝眾軍帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23470",
+    "title": "宋搨大觀帖（一） 冊 南朝梁高帝眾軍帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 南朝梁簡文帝康司馬帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17193",
+    "title": "宋拓大觀帖（一） 冊 南朝梁簡文帝康司馬帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23473",
+    "title": "宋搨大觀帖（一） 冊 南朝梁簡文帝康司馬帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 唐太宗江叔帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17194",
+    "title": "宋拓大觀帖（一） 冊 唐太宗江叔帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23502",
+    "title": "宋搨大觀帖（一） 冊 唐太宗江叔帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 唐太宗兩度帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17195",
+    "title": "宋拓大觀帖（一） 冊 唐太宗兩度帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23507",
+    "title": "宋搨大觀帖（一） 冊 唐太宗兩度帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 唐太宗懷讓帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17196",
+    "title": "宋拓大觀帖（一） 冊 唐太宗懷讓帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23508",
+    "title": "宋搨大觀帖（一） 冊 唐太宗懷讓帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 唐太宗藝韞帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17197",
+    "title": "宋拓大觀帖（一） 冊 唐太宗藝韞帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23511",
+    "title": "宋搨大觀帖（一） 冊 唐太宗藝韞帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 唐太宗辱書帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17199",
+    "title": "宋拓大觀帖（一） 冊 唐太宗辱書帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23514",
+    "title": "宋搨大觀帖（一） 冊 唐太宗辱書帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 唐太宗比者帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17200",
+    "title": "宋拓大觀帖（一） 冊 唐太宗比者帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23520",
+    "title": "宋搨大觀帖（一） 冊 唐太宗比者帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 唐太宗昨日帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17201",
+    "title": "宋拓大觀帖（一） 冊 唐太宗昨日帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23522",
+    "title": "宋搨大觀帖（一） 冊 唐太宗昨日帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 唐太宗三五日帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17202",
+    "title": "宋拓大觀帖（一） 冊 唐太宗三五日帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23525",
+    "title": "宋搨大觀帖（一） 冊 唐太宗三五日帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 唐太宗雅州帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17203",
+    "title": "宋拓大觀帖（一） 冊 唐太宗雅州帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23528",
+    "title": "宋搨大觀帖（一） 冊 唐太宗雅州帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 唐太宗道宗帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17204",
+    "title": "宋拓大觀帖（一） 冊 唐太宗道宗帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23529",
+    "title": "宋搨大觀帖（一） 冊 唐太宗道宗帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 唐太宗所疾帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17205",
+    "title": "宋拓大觀帖（一） 冊 唐太宗所疾帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23530",
+    "title": "宋搨大觀帖（一） 冊 唐太宗所疾帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 唐太宗北邊帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17206",
+    "title": "宋拓大觀帖（一） 冊 唐太宗北邊帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23531",
+    "title": "宋搨大觀帖（一） 冊 唐太宗北邊帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 唐太宗八柱帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17207",
+    "title": "宋拓大觀帖（一） 冊 唐太宗八柱帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23532",
+    "title": "宋搨大觀帖（一） 冊 唐太宗八柱帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 唐太宗氣發帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17208",
+    "title": "宋拓大觀帖（一） 冊 唐太宗氣發帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23533",
+    "title": "宋搨大觀帖（一） 冊 唐太宗氣發帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 唐太宗移營帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17209",
+    "title": "宋拓大觀帖（一） 冊 唐太宗移營帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23534",
+    "title": "宋搨大觀帖（一） 冊 唐太宗移營帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 唐太宗患痢帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17210",
+    "title": "宋拓大觀帖（一） 冊 唐太宗患痢帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23535",
+    "title": "宋搨大觀帖（一） 冊 唐太宗患痢帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 唐太宗高麗帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17211",
+    "title": "宋拓大觀帖（一） 冊 唐太宗高麗帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23536",
+    "title": "宋搨大觀帖（一） 冊 唐太宗高麗帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 唐太宗蜀葵帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17212",
+    "title": "宋拓大觀帖（一） 冊 唐太宗蜀葵帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23537",
+    "title": "宋搨大觀帖（一） 冊 唐太宗蜀葵帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 唐太宗唱箭帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17213",
+    "title": "宋拓大觀帖（一） 冊 唐太宗唱箭帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23538",
+    "title": "宋搨大觀帖（一） 冊 唐太宗唱箭帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 唐太宗秋日詩帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17214",
+    "title": "宋拓大觀帖（一） 冊 唐太宗秋日詩帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23539",
+    "title": "宋搨大觀帖（一） 冊 唐太宗秋日詩帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 唐太宗數年帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17215",
+    "title": "宋拓大觀帖（一） 冊 唐太宗數年帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23540",
+    "title": "宋搨大觀帖（一） 冊 唐太宗數年帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 唐太宗東都帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17216",
+    "title": "宋拓大觀帖（一） 冊 唐太宗東都帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23541",
+    "title": "宋搨大觀帖（一） 冊 唐太宗東都帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 唐高宗無事帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17218",
+    "title": "宋拓大觀帖（一） 冊 唐高宗無事帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23542",
+    "title": "宋搨大觀帖（一） 冊 唐高宗無事帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 唐高宗過午帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17217",
+    "title": "宋拓大觀帖（一） 冊 唐高宗過午帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23548",
+    "title": "宋搨大觀帖（一） 冊 唐高宗過午帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 唐高宗文瓘帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17219",
+    "title": "宋拓大觀帖（一） 冊 唐高宗文瓘帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23549",
+    "title": "宋搨大觀帖（一） 冊 唐高宗文瓘帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 唐高宗錢事帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17220",
+    "title": "宋拓大觀帖（一） 冊 唐高宗錢事帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23550",
+    "title": "宋搨大觀帖（一） 冊 唐高宗錢事帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 唐高宗六尚書帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17221",
+    "title": "宋拓大觀帖（一） 冊 唐高宗六尚書帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23551",
+    "title": "宋搨大觀帖（一） 冊 唐高宗六尚書帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 唐高宗昨日帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17222",
+    "title": "宋拓大觀帖（一） 冊 唐高宗昨日帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23552",
+    "title": "宋搨大觀帖（一） 冊 唐高宗昨日帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 唐高宗玄堂帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17223",
+    "title": "宋拓大觀帖（一） 冊 唐高宗玄堂帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23553",
+    "title": "宋搨大觀帖（一） 冊 唐高宗玄堂帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 唐高宗遣弘帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17224",
+    "title": "宋拓大觀帖（一） 冊 唐高宗遣弘帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23554",
+    "title": "宋搨大觀帖（一） 冊 唐高宗遣弘帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 東晉文孝王異暑帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17225",
+    "title": "宋拓大觀帖（一） 冊 東晉文孝王異暑帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23560",
+    "title": "宋搨大觀帖（一） 冊 東晉文孝王異暑帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 陳長沙王梅發帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17226",
+    "title": "宋拓大觀帖（一） 冊 陳長沙王梅發帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23561",
+    "title": "宋搨大觀帖（一） 冊 陳長沙王梅發帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 陳永陽王熱甚帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17227",
+    "title": "宋拓大觀帖（一） 冊 陳永陽王熱甚帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23562",
+    "title": "宋搨大觀帖（一） 冊 陳永陽王熱甚帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（一） 冊 陳永陽王寒嚴帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17228",
+    "title": "宋拓大觀帖（一） 冊 陳永陽王寒嚴帖",
+    "period": "Song"
+   },
+   {
+    "cid": "36022",
+    "title": "宋搨大觀帖（一） 冊 陳永陽王寒嚴帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二）",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "1954",
+    "title": "宋拓大觀帖（二） 冊",
+    "period": "Song"
+   },
+   {
+    "cid": "2097",
+    "title": "宋搨大觀帖（二） 冊",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 後漢崔瑗賢女帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16985",
+    "title": "宋拓大觀帖（二） 冊 後漢崔瑗賢女帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23257",
+    "title": "宋搨大觀帖（二） 冊 後漢崔瑗賢女帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 後漢張芝二月八日帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17013",
+    "title": "宋拓大觀帖（二） 冊 後漢張芝二月八日帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23259",
+    "title": "宋搨大觀帖（二） 冊 後漢張芝二月八日帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 後漢張芝八月九日帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17014",
+    "title": "宋拓大觀帖（二） 冊 後漢張芝八月九日帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23260",
+    "title": "宋搨大觀帖（二） 冊 後漢張芝八月九日帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 魏鍾繇宣示表帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17016",
+    "title": "宋拓大觀帖（二） 冊 魏鍾繇宣示表帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23261",
+    "title": "宋搨大觀帖（二） 冊 魏鍾繇宣示表帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 魏鍾繇昨疏還帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17017",
+    "title": "宋拓大觀帖（二） 冊 魏鍾繇昨疏還帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23264",
+    "title": "宋搨大觀帖（二） 冊 魏鍾繇昨疏還帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 魏鍾繇雪寒帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17020",
+    "title": "宋拓大觀帖（二） 冊 魏鍾繇雪寒帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23268",
+    "title": "宋搨大觀帖（二） 冊 魏鍾繇雪寒帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 魏鍾繇長風帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17021",
+    "title": "宋拓大觀帖（二） 冊 魏鍾繇長風帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23270",
+    "title": "宋搨大觀帖（二） 冊 魏鍾繇長風帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 吳皇象文武帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17022",
+    "title": "宋拓大觀帖（二） 冊 吳皇象文武帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23271",
+    "title": "宋搨大觀帖（二） 冊 吳皇象文武帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 吳皇象頑闇帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17023",
+    "title": "宋拓大觀帖（二） 冊 吳皇象頑闇帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23275",
+    "title": "宋搨大觀帖（二） 冊 吳皇象頑闇帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 晉衛瓘頓州帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17024",
+    "title": "宋拓大觀帖（二） 冊 晉衛瓘頓州帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23276",
+    "title": "宋搨大觀帖（二） 冊 晉衛瓘頓州帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 晉衛常一日帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17025",
+    "title": "宋拓大觀帖（二） 冊 晉衛常一日帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23277",
+    "title": "宋搨大觀帖（二） 冊 晉衛常一日帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 晉張華得書帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17026",
+    "title": "宋拓大觀帖（二） 冊 晉張華得書帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23278",
+    "title": "宋搨大觀帖（二） 冊 晉張華得書帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 晉王導省示帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17027",
+    "title": "宋拓大觀帖（二） 冊 晉王導省示帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23279",
+    "title": "宋搨大觀帖（二） 冊 晉王導省示帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 晉王導改朔帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17028",
+    "title": "宋拓大觀帖（二） 冊 晉王導改朔帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23280",
+    "title": "宋搨大觀帖（二） 冊 晉王導改朔帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 晉王洽辱告帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17029",
+    "title": "宋拓大觀帖（二） 冊 晉王洽辱告帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23281",
+    "title": "宋搨大觀帖（二） 冊 晉王洽辱告帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 晉王洽不孝帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17030",
+    "title": "宋拓大觀帖（二） 冊 晉王洽不孝帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23282",
+    "title": "宋搨大觀帖（二） 冊 晉王洽不孝帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 晉王洽兄子帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17031",
+    "title": "宋拓大觀帖（二） 冊 晉王洽兄子帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23283",
+    "title": "宋搨大觀帖（二） 冊 晉王洽兄子帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 晉王洽感塞帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17032",
+    "title": "宋拓大觀帖（二） 冊 晉王洽感塞帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23284",
+    "title": "宋搨大觀帖（二） 冊 晉王洽感塞帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 晉王珣三月帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17034",
+    "title": "宋拓大觀帖（二） 冊 晉王珣三月帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23285",
+    "title": "宋搨大觀帖（二） 冊 晉王珣三月帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 晉王珉此年帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17036",
+    "title": "宋拓大觀帖（二） 冊 晉王珉此年帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23287",
+    "title": "宋搨大觀帖（二） 冊 晉王珉此年帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 晉王珉十八日帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17037",
+    "title": "宋拓大觀帖（二） 冊 晉王珉十八日帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23288",
+    "title": "宋搨大觀帖（二） 冊 晉王珉十八日帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 晉郗鑒災禍無常帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17040",
+    "title": "宋拓大觀帖（二） 冊 晉郗鑒災禍無常帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23290",
+    "title": "宋搨大觀帖（二） 冊 晉郗鑒災禍無常帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 晉郗愔九月帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17041",
+    "title": "宋拓大觀帖（二） 冊 晉郗愔九月帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23289",
+    "title": "宋搨大觀帖（二） 冊 晉郗愔九月帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 晉郗愔廿四日帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17042",
+    "title": "宋拓大觀帖（二） 冊 晉郗愔廿四日帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23291",
+    "title": "宋搨大觀帖（二） 冊 晉郗愔廿四日帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 晉郗愔遠近帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17043",
+    "title": "宋拓大觀帖（二） 冊 晉郗愔遠近帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23292",
+    "title": "宋搨大觀帖（二） 冊 晉郗愔遠近帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 晉郗愔想親帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17044",
+    "title": "宋拓大觀帖（二） 冊 晉郗愔想親帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23293",
+    "title": "宋搨大觀帖（二） 冊 晉郗愔想親帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 晉郗超遠近帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17045",
+    "title": "宋拓大觀帖（二） 冊 晉郗超遠近帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23294",
+    "title": "宋搨大觀帖（二） 冊 晉郗超遠近帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 晉王廙廿四日帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17046",
+    "title": "宋拓大觀帖（二） 冊 晉王廙廿四日帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23295",
+    "title": "宋搨大觀帖（二） 冊 晉王廙廿四日帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 晉王廙祥除帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17047",
+    "title": "宋拓大觀帖（二） 冊 晉王廙祥除帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23296",
+    "title": "宋搨大觀帖（二） 冊 晉王廙祥除帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 晉王廙昨表帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17048",
+    "title": "宋拓大觀帖（二） 冊 晉王廙昨表帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23297",
+    "title": "宋搨大觀帖（二） 冊 晉王廙昨表帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 晉王廙七月帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17049",
+    "title": "宋拓大觀帖（二） 冊 晉王廙七月帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23298",
+    "title": "宋搨大觀帖（二） 冊 晉王廙七月帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 晉王廙嫂何如帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17050",
+    "title": "宋拓大觀帖（二） 冊 晉王廙嫂何如帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23299",
+    "title": "宋搨大觀帖（二） 冊 晉王廙嫂何如帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 晉謝安每念帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17051",
+    "title": "宋拓大觀帖（二） 冊 晉謝安每念帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23300",
+    "title": "宋搨大觀帖（二） 冊 晉謝安每念帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 晉謝安六月帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "35989",
+    "title": "宋拓大觀帖（二） 冊 晉謝安六月帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23301",
+    "title": "宋搨大觀帖（二） 冊 晉謝安六月帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 晉謝萬七月帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "35990",
+    "title": "宋拓大觀帖（二） 冊 晉謝萬七月帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23302",
+    "title": "宋搨大觀帖（二） 冊 晉謝萬七月帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 晉王敦蠟節帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "35991",
+    "title": "宋拓大觀帖（二） 冊 晉王敦蠟節帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23303",
+    "title": "宋搨大觀帖（二） 冊 晉王敦蠟節帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（二） 冊 晉桓溫大事帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "35992",
+    "title": "宋拓大觀帖（二） 冊 晉桓溫大事帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23304",
+    "title": "宋搨大觀帖（二） 冊 晉桓溫大事帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三）",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "1955",
+    "title": "宋拓大觀帖（三） 冊",
+    "period": "Song"
+   },
+   {
+    "cid": "2098",
+    "title": "宋搨大觀帖（三） 冊",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 晉司馬攸秋風帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17245",
+    "title": "宋拓大觀帖（三） 冊 晉司馬攸秋風帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23308",
+    "title": "宋搨大觀帖（三） 冊 晉司馬攸秋風帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 晉杜預歲終帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17246",
+    "title": "宋拓大觀帖（三） 冊 晉杜預歲終帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23309",
+    "title": "宋搨大觀帖（三） 冊 晉杜預歲終帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 晉杜預親故帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17247",
+    "title": "宋拓大觀帖（三） 冊 晉杜預親故帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23310",
+    "title": "宋搨大觀帖（三） 冊 晉杜預親故帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 晉山濤近啟帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17248",
+    "title": "宋拓大觀帖（三） 冊 晉山濤近啟帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23311",
+    "title": "宋搨大觀帖（三） 冊 晉山濤近啟帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 晉庾元亮書箱帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17249",
+    "title": "宋拓大觀帖（三） 冊 晉庾元亮書箱帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23312",
+    "title": "宋搨大觀帖（三） 冊 晉庾元亮書箱帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 晉庾翼故吏帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17250",
+    "title": "宋拓大觀帖（三） 冊 晉庾翼故吏帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23313",
+    "title": "宋搨大觀帖（三） 冊 晉庾翼故吏帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 晉庾翼季春帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17251",
+    "title": "宋拓大觀帖（三） 冊 晉庾翼季春帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23314",
+    "title": "宋搨大觀帖（三） 冊 晉庾翼季春帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 晉沈嘉長感懷帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17252",
+    "title": "宋拓大觀帖（三） 冊 晉沈嘉長感懷帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23315",
+    "title": "宋搨大觀帖（三） 冊 晉沈嘉長感懷帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 晉王循秋月帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17253",
+    "title": "宋拓大觀帖（三） 冊 晉王循秋月帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23316",
+    "title": "宋搨大觀帖（三） 冊 晉王循秋月帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 晉卞壼敕書帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17254",
+    "title": "宋拓大觀帖（三） 冊 晉卞壼敕書帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23317",
+    "title": "宋搨大觀帖（三） 冊 晉卞壼敕書帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 晉劉超如命帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17255",
+    "title": "宋拓大觀帖（三） 冊 晉劉超如命帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23319",
+    "title": "宋搨大觀帖（三） 冊 晉劉超如命帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 晉謝璠伯江東帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17256",
+    "title": "宋拓大觀帖（三） 冊 晉謝璠伯江東帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23322",
+    "title": "宋搨大觀帖（三） 冊 晉謝璠伯江東帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 晉王徽之得信帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17257",
+    "title": "宋拓大觀帖（三） 冊 晉王徽之得信帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23323",
+    "title": "宋搨大觀帖（三） 冊 晉王徽之得信帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 晉王操之年光帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17258",
+    "title": "宋拓大觀帖（三） 冊 晉王操之年光帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23324",
+    "title": "宋搨大觀帖（三） 冊 晉王操之年光帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 晉王凝之庾氏女帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17259",
+    "title": "宋拓大觀帖（三） 冊 晉王凝之庾氏女帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23325",
+    "title": "宋搨大觀帖（三） 冊 晉王凝之庾氏女帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 晉王渙之二嫂帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17260",
+    "title": "宋拓大觀帖（三） 冊 晉王渙之二嫂帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23326",
+    "title": "宋搨大觀帖（三） 冊 晉王渙之二嫂帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 晉劉瓌之感閏帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17261",
+    "title": "宋拓大觀帖（三） 冊 晉劉瓌之感閏帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23327",
+    "title": "宋搨大觀帖（三） 冊 晉劉瓌之感閏帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 晉王坦之謝郎帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17262",
+    "title": "宋拓大觀帖（三） 冊 晉王坦之謝郎帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23328",
+    "title": "宋搨大觀帖（三） 冊 晉王坦之謝郎帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 晉索靖皋陶帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17263",
+    "title": "宋拓大觀帖（三） 冊 晉索靖皋陶帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23329",
+    "title": "宋搨大觀帖（三） 冊 晉索靖皋陶帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 晉索靖七月廿六日帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17264",
+    "title": "宋拓大觀帖（三） 冊 晉索靖七月廿六日帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23330",
+    "title": "宋搨大觀帖（三） 冊 晉索靖七月廿六日帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 晉王劭夏節帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17265",
+    "title": "宋拓大觀帖（三） 冊 晉王劭夏節帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23331",
+    "title": "宋搨大觀帖（三） 冊 晉王劭夏節帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 晉王恬得示帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17266",
+    "title": "宋拓大觀帖（三） 冊 晉王恬得示帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23332",
+    "title": "宋搨大觀帖（三） 冊 晉王恬得示帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 晉王廞靜媛帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17267",
+    "title": "宋拓大觀帖（三） 冊 晉王廞靜媛帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23333",
+    "title": "宋搨大觀帖（三） 冊 晉王廞靜媛帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 晉紀瞻永攜帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17268",
+    "title": "宋拓大觀帖（三） 冊 晉紀瞻永攜帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23334",
+    "title": "宋搨大觀帖（三） 冊 晉紀瞻永攜帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 晉張翼節過帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17269",
+    "title": "宋拓大觀帖（三） 冊 晉張翼節過帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23335",
+    "title": "宋搨大觀帖（三） 冊 晉張翼節過帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 晉陸雲春節帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17270",
+    "title": "宋拓大觀帖（三） 冊 晉陸雲春節帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23336",
+    "title": "宋搨大觀帖（三） 冊 晉陸雲春節帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 晉王邃張丞帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17271",
+    "title": "宋拓大觀帖（三） 冊 晉王邃張丞帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23337",
+    "title": "宋搨大觀帖（三） 冊 晉王邃張丞帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 晉謝發晉安帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17272",
+    "title": "宋拓大觀帖（三） 冊 晉謝發晉安帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23338",
+    "title": "宋搨大觀帖（三） 冊 晉謝發晉安帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 晉謝庄昨還帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17273",
+    "title": "宋拓大觀帖（三） 冊 晉謝庄昨還帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23339",
+    "title": "宋搨大觀帖（三） 冊 晉謝庄昨還帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 南朝宋劉穆之家弊帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17274",
+    "title": "宋拓大觀帖（三） 冊 南朝宋劉穆之家弊帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23340",
+    "title": "宋搨大觀帖（三） 冊 南朝宋劉穆之家弊帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 南朝宋王曇首服散帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17275",
+    "title": "宋拓大觀帖（三） 冊 南朝宋王曇首服散帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23341",
+    "title": "宋搨大觀帖（三） 冊 南朝宋王曇首服散帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 南朝宋羊欣暮春帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17276",
+    "title": "宋拓大觀帖（三） 冊 南朝宋羊欣暮春帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23342",
+    "title": "宋搨大觀帖（三） 冊 南朝宋羊欣暮春帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 南朝宋孔琳之日月帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17277",
+    "title": "宋拓大觀帖（三） 冊 南朝宋孔琳之日月帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23343",
+    "title": "宋搨大觀帖（三） 冊 南朝宋孔琳之日月帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（三） 冊 南朝齊王僧虔二啟帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17278",
+    "title": "宋拓大觀帖（三） 冊 南朝齊王僧虔二啟帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23344",
+    "title": "宋搨大觀帖（三） 冊 南朝齊王僧虔二啟帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（四）",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "1956",
+    "title": "宋拓大觀帖（四） 冊",
+    "period": "Song"
+   },
+   {
+    "cid": "2099",
+    "title": "宋搨大觀帖（四） 冊",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（四） 冊 梁王筠至節帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16195",
+    "title": "宋拓大觀帖（四） 冊 梁王筠至節帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23345",
+    "title": "宋搨大觀帖（四） 冊 梁王筠至節帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（四） 冊 梁沈約今年帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16228",
+    "title": "宋拓大觀帖（四） 冊 梁沈約今年帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23346",
+    "title": "宋搨大觀帖（四） 冊 梁沈約今年帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（四） 冊 梁阮研道增帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16229",
+    "title": "宋拓大觀帖（四） 冊 梁阮研道增帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23347",
+    "title": "宋搨大觀帖（四） 冊 梁阮研道增帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（四） 冊 梁蕭確孝經帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16247",
+    "title": "宋拓大觀帖（四） 冊 梁蕭確孝經帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23348",
+    "title": "宋搨大觀帖（四） 冊 梁蕭確孝經帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（四） 冊 梁蕭思話節近帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17086",
+    "title": "宋拓大觀帖（四） 冊 梁蕭思話節近帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23349",
+    "title": "宋搨大觀帖（四） 冊 梁蕭思話節近帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（四） 冊 梁陳逵歲終帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16227",
+    "title": "宋拓大觀帖（四） 冊 梁陳逵歲終帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23350",
+    "title": "宋搨大觀帖（四） 冊 梁陳逵歲終帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（四） 冊 梁蕭子雲舜問帖國氏帖列子帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17087",
+    "title": "宋拓大觀帖（四） 冊 梁蕭子雲舜問帖國氏帖列子帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23351",
+    "title": "宋搨大觀帖（四） 冊 梁蕭子雲舜問帖國氏帖列子帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（四） 冊 唐虞世南大運帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17122",
+    "title": "宋拓大觀帖（四） 冊 唐虞世南大運帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23352",
+    "title": "宋搨大觀帖（四） 冊 唐虞世南大運帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（四） 冊 唐虞世南去月帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17098",
+    "title": "宋拓大觀帖（四） 冊 唐虞世南去月帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23353",
+    "title": "宋搨大觀帖（四） 冊 唐虞世南去月帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（四） 冊 唐虞世南賢兄帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17099",
+    "title": "宋拓大觀帖（四） 冊 唐虞世南賢兄帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23354",
+    "title": "宋搨大觀帖（四） 冊 唐虞世南賢兄帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（四） 冊 唐虞世南疲朽帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17100",
+    "title": "宋拓大觀帖（四） 冊 唐虞世南疲朽帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23355",
+    "title": "宋搨大觀帖（四） 冊 唐虞世南疲朽帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（四） 冊 唐褚遂良家姪帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17105",
+    "title": "宋拓大觀帖（四） 冊 唐褚遂良家姪帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23358",
+    "title": "宋搨大觀帖（四） 冊 唐褚遂良家姪帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（四） 冊 唐歐陽詢蘭惹帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17106",
+    "title": "宋拓大觀帖（四） 冊 唐歐陽詢蘭惹帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23359",
+    "title": "宋搨大觀帖（四） 冊 唐歐陽詢蘭惹帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（四） 冊 唐歐陽詢靜思帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17107",
+    "title": "宋拓大觀帖（四） 冊 唐歐陽詢靜思帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23360",
+    "title": "宋搨大觀帖（四） 冊 唐歐陽詢靜思帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（四） 冊 唐歐陽詢五月帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17108",
+    "title": "宋拓大觀帖（四） 冊 唐歐陽詢五月帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23361",
+    "title": "宋搨大觀帖（四） 冊 唐歐陽詢五月帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（四） 冊 唐歐陽詢足下帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17109",
+    "title": "宋拓大觀帖（四） 冊 唐歐陽詢足下帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23362",
+    "title": "宋搨大觀帖（四） 冊 唐歐陽詢足下帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（四） 冊 唐歐陽詢比年帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17110",
+    "title": "宋拓大觀帖（四） 冊 唐歐陽詢比年帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23363",
+    "title": "宋搨大觀帖（四） 冊 唐歐陽詢比年帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（四） 冊 唐歐陽詢腳氣帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17111",
+    "title": "宋拓大觀帖（四） 冊 唐歐陽詢腳氣帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23368",
+    "title": "宋搨大觀帖（四） 冊 唐歐陽詢腳氣帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（四） 冊 唐薛稷孫權帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17112",
+    "title": "宋拓大觀帖（四） 冊 唐薛稷孫權帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23364",
+    "title": "宋搨大觀帖（四） 冊 唐薛稷孫權帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（四） 冊 唐陸柬之得告帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17113",
+    "title": "宋拓大觀帖（四） 冊 唐陸柬之得告帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23365",
+    "title": "宋搨大觀帖（四） 冊 唐陸柬之得告帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（四） 冊 唐褚庭誨辭奉帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17114",
+    "title": "宋拓大觀帖（四） 冊 唐褚庭誨辭奉帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23366",
+    "title": "宋搨大觀帖（四） 冊 唐褚庭誨辭奉帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（四） 冊 唐李邕晴熱帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17115",
+    "title": "宋拓大觀帖（四） 冊 唐李邕晴熱帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23367",
+    "title": "宋搨大觀帖（四） 冊 唐李邕晴熱帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（四） 冊 唐徐嶠之春首帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17116",
+    "title": "宋拓大觀帖（四） 冊 唐徐嶠之春首帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23369",
+    "title": "宋搨大觀帖（四） 冊 唐徐嶠之春首帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（四） 冊 唐柳公權聖慈帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17117",
+    "title": "宋拓大觀帖（四） 冊 唐柳公權聖慈帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23370",
+    "title": "宋搨大觀帖（四） 冊 唐柳公權聖慈帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（四） 冊 唐柳公權伏審帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17118",
+    "title": "宋拓大觀帖（四） 冊 唐柳公權伏審帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23371",
+    "title": "宋搨大觀帖（四） 冊 唐柳公權伏審帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（四） 冊 唐柳公權榮示帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17119",
+    "title": "宋拓大觀帖（四） 冊 唐柳公權榮示帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23372",
+    "title": "宋搨大觀帖（四） 冊 唐柳公權榮示帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（四） 冊 唐柳公權十六日帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17120",
+    "title": "宋拓大觀帖（四） 冊 唐柳公權十六日帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23373",
+    "title": "宋搨大觀帖（四） 冊 唐柳公權十六日帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（四） 冊 唐柳公權辱問帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17121",
+    "title": "宋拓大觀帖（四） 冊 唐柳公權辱問帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23374",
+    "title": "宋搨大觀帖（四） 冊 唐柳公權辱問帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（五）",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "1957",
+    "title": "宋拓大觀帖（五） 冊",
+    "period": "Song"
+   },
+   {
+    "cid": "2100",
+    "title": "宋搨大觀帖（五） 冊",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（五） 冊 倉頡戊己帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17052",
+    "title": "宋拓大觀帖（五） 冊 倉頡戊己帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23588",
+    "title": "宋搨大觀帖（五） 冊 倉頡戊己帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（五） 冊 夏禹出令帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17053",
+    "title": "宋拓大觀帖（五） 冊 夏禹出令帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23597",
+    "title": "宋搨大觀帖（五） 冊 夏禹出令帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（五） 冊 周史籀敭州帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17054",
+    "title": "宋拓大觀帖（五） 冊 周史籀敭州帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23606",
+    "title": "宋搨大觀帖（五） 冊 周史籀敭州帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（五） 冊 春秋仲尼延陵帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17055",
+    "title": "宋拓大觀帖（五） 冊 春秋仲尼延陵帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23609",
+    "title": "宋搨大觀帖（五） 冊 春秋仲尼延陵帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（五） 冊 秦李斯田疇帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17056",
+    "title": "宋拓大觀帖（五） 冊 秦李斯田疇帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23611",
+    "title": "宋搨大觀帖（五） 冊 秦李斯田疇帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（五） 冊 秦程邈天清帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17057",
+    "title": "宋拓大觀帖（五） 冊 秦程邈天清帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23612",
+    "title": "宋搨大觀帖（五） 冊 秦程邈天清帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（五） 冊 漢蔡琰我生帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17058",
+    "title": "宋拓大觀帖（五） 冊 漢蔡琰我生帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23618",
+    "title": "宋搨大觀帖（五） 冊 漢蔡琰我生帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（五） 冊 晉衛夫人和南帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17060",
+    "title": "宋拓大觀帖（五） 冊 晉衛夫人和南帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23620",
+    "title": "宋搨大觀帖（五） 冊 晉衛夫人和南帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（五） 冊 唐宋儋接拜帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17062",
+    "title": "宋拓大觀帖（五） 冊 唐宋儋接拜帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23622",
+    "title": "宋搨大觀帖（五） 冊 唐宋儋接拜帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（五） 冊 隋慧則帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17063",
+    "title": "宋拓大觀帖（五） 冊 隋慧則帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23624",
+    "title": "宋搨大觀帖（五） 冊 隋慧則帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（五） 冊 隋智果評書帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17064",
+    "title": "宋拓大觀帖（五） 冊 隋智果評書帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23628",
+    "title": "宋搨大觀帖（五） 冊 隋智果評書帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（五） 冊 隋智永久別帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17067",
+    "title": "宋拓大觀帖（五） 冊 隋智永久別帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23629",
+    "title": "宋搨大觀帖（五） 冊 隋智永久別帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（五） 冊 何氏投老帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17069",
+    "title": "宋拓大觀帖（五） 冊 何氏投老帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23630",
+    "title": "宋搨大觀帖（五） 冊 何氏投老帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（五） 冊 何氏去留帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "17070",
+    "title": "宋拓大觀帖（五） 冊 何氏去留帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23632",
+    "title": "宋搨大觀帖（五） 冊 何氏去留帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（五） 冊 何氏移屋帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "35983",
+    "title": "宋拓大觀帖（五） 冊 何氏移屋帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23637",
+    "title": "宋搨大觀帖（五） 冊 何氏移屋帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（五） 冊 何氏閑曠帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "35984",
+    "title": "宋拓大觀帖（五） 冊 何氏閑曠帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23639",
+    "title": "宋搨大觀帖（五） 冊 何氏閑曠帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（六）",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "1958",
+    "title": "宋拓大觀帖（六） 冊",
+    "period": "Song"
+   },
+   {
+    "cid": "2101",
+    "title": "宋搨大觀帖（六） 冊",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（六） 冊 晉王羲之適得書帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16252",
+    "title": "宋拓大觀帖（六） 冊 晉王羲之適得書帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23039",
+    "title": "宋搨大觀帖（六） 冊 晉王羲之適得書帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（六） 冊 晉王羲之差涼帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16254",
+    "title": "宋拓大觀帖（六） 冊 晉王羲之差涼帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23041",
+    "title": "宋搨大觀帖（六） 冊 晉王羲之差涼帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（六） 冊 晉王羲之奄至帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16481",
+    "title": "宋拓大觀帖（六） 冊 晉王羲之奄至帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23044",
+    "title": "宋搨大觀帖（六） 冊 晉王羲之奄至帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（六） 冊 晉王羲之慈顏帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16483",
+    "title": "宋拓大觀帖（六） 冊 晉王羲之慈顏帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23046",
+    "title": "宋搨大觀帖（六） 冊 晉王羲之慈顏帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（六） 冊 晉王羲之諸從帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16504",
+    "title": "宋拓大觀帖（六） 冊 晉王羲之諸從帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23150",
+    "title": "宋搨大觀帖（六） 冊 晉王羲之諸從帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（六） 冊 晉王羲之噉豆帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16507",
+    "title": "宋拓大觀帖（六） 冊 晉王羲之噉豆帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23185",
+    "title": "宋搨大觀帖（六） 冊 晉王羲之噉豆帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（六） 冊 晉王羲之旃罽帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16508",
+    "title": "宋拓大觀帖（六） 冊 晉王羲之旃罽帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23186",
+    "title": "宋搨大觀帖（六） 冊 晉王羲之旃罽帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（六） 冊 晉王羲之疾不退帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16511",
+    "title": "宋拓大觀帖（六） 冊 晉王羲之疾不退帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23189",
+    "title": "宋搨大觀帖（六） 冊 晉王羲之疾不退帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（六） 冊 晉王羲之小佳帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16546",
+    "title": "宋拓大觀帖（六） 冊 晉王羲之小佳帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23200",
+    "title": "宋搨大觀帖（六） 冊 晉王羲之小佳帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（六） 冊 晉王羲之行成帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16559",
+    "title": "宋拓大觀帖（六） 冊 晉王羲之行成帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23211",
+    "title": "宋搨大觀帖（六） 冊 晉王羲之行成帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（六） 冊 晉王羲之四月廿三日帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16561",
+    "title": "宋拓大觀帖（六） 冊 晉王羲之四月廿三日帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23209",
+    "title": "宋搨大觀帖（六） 冊 晉王羲之四月廿三日帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（六） 冊 晉王羲之闊別帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16562",
+    "title": "宋拓大觀帖（六） 冊 晉王羲之闊別帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23232",
+    "title": "宋搨大觀帖（六） 冊 晉王羲之闊別帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（六） 冊 晉王羲之旦極寒帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16563",
+    "title": "宋拓大觀帖（六） 冊 晉王羲之旦極寒帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23233",
+    "title": "宋搨大觀帖（六） 冊 晉王羲之旦極寒帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（六） 冊 晉王羲之虞休帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16564",
+    "title": "宋拓大觀帖（六） 冊 晉王羲之虞休帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23235",
+    "title": "宋搨大觀帖（六） 冊 晉王羲之虞休帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（六） 冊 晉王羲之侍中帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16567",
+    "title": "宋拓大觀帖（六） 冊 晉王羲之侍中帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23238",
+    "title": "宋搨大觀帖（六） 冊 晉王羲之侍中帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（六） 冊 晉王羲之敬豫帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16568",
+    "title": "宋拓大觀帖（六） 冊 晉王羲之敬豫帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23239",
+    "title": "宋搨大觀帖（六） 冊 晉王羲之敬豫帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（六） 冊 晉王羲之知庾丹楊帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16623",
+    "title": "宋拓大觀帖（六） 冊 晉王羲之知庾丹楊帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23248",
+    "title": "宋搨大觀帖（六） 冊 晉王羲之知庾丹楊帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（六） 冊 晉王羲之袁生帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16624",
+    "title": "宋拓大觀帖（六） 冊 晉王羲之袁生帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23249",
+    "title": "宋搨大觀帖（六） 冊 晉王羲之袁生帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（六） 冊 晉王羲之司州帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16627",
+    "title": "宋拓大觀帖（六） 冊 晉王羲之司州帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23255",
+    "title": "宋搨大觀帖（六） 冊 晉王羲之司州帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（六） 冊 晉王羲之疾患帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16629",
+    "title": "宋拓大觀帖（六） 冊 晉王羲之疾患帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23262",
+    "title": "宋搨大觀帖（六） 冊 晉王羲之疾患帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（六） 冊 晉王羲之想弟帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16630",
+    "title": "宋拓大觀帖（六） 冊 晉王羲之想弟帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23263",
+    "title": "宋搨大觀帖（六） 冊 晉王羲之想弟帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（六） 冊 晉王羲之節日帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16631",
+    "title": "宋拓大觀帖（六） 冊 晉王羲之節日帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23265",
+    "title": "宋搨大觀帖（六） 冊 晉王羲之節日帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（六） 冊 晉王羲之僕可帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16632",
+    "title": "宋拓大觀帖（六） 冊 晉王羲之僕可帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23267",
+    "title": "宋搨大觀帖（六） 冊 晉王羲之僕可帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（六） 冊 晉王羲之定聽帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16633",
+    "title": "宋拓大觀帖（六） 冊 晉王羲之定聽帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23269",
+    "title": "宋搨大觀帖（六） 冊 晉王羲之定聽帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（六） 冊 晉王羲之二謝帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16635",
+    "title": "宋拓大觀帖（六） 冊 晉王羲之二謝帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23273",
+    "title": "宋搨大觀帖（六） 冊 晉王羲之二謝帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七）",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16316",
+    "title": "宋拓大觀帖（七） 冊",
+    "period": "Song"
+   },
+   {
+    "cid": "2102",
+    "title": "宋搨大觀帖（七） 冊",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之七月帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16317",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之七月帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23385",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之七月帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之都下帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16318",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之都下帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23386",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之都下帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之謝光祿帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16319",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之謝光祿帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23429",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之謝光祿帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之徂暑帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16320",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之徂暑帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23431",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之徂暑帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之月半念帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16321",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之月半念帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23435",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之月半念帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之知念帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16323",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之知念帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23441",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之知念帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之長風帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16324",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之長風帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23445",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之長風帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之謝生帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16325",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之謝生帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23447",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之謝生帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之初月帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16326",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之初月帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23449",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之初月帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之時事帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16327",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之時事帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23450",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之時事帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之參朝帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16328",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之參朝帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23466",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之參朝帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之前從洛帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16329",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之前從洛帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23467",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之前從洛帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之二書帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16330",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之二書帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23468",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之二書帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之十月七日帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16331",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之十月七日帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23469",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之十月七日帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之皇象帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16332",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之皇象帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23471",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之皇象帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之遠婦帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16333",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之遠婦帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23472",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之遠婦帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之阮生帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16334",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之阮生帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23475",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之阮生帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之君晚帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16335",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之君晚帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23477",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之君晚帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之嘉興帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16336",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之嘉興帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23474",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之嘉興帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之長平帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16342",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之長平帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23480",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之長平帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之諸疾帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16344",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之諸疾帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23486",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之諸疾帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之省飛白帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16347",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之省飛白帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23481",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之省飛白帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之丹陽帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16349",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之丹陽帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23482",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之丹陽帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之太常帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16369",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之太常帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23490",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之太常帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之得萬書帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16370",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之得萬書帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23492",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之得萬書帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之熱日帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16371",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之熱日帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23493",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之熱日帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之賢室帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16372",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之賢室帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23495",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之賢室帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之多日帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16374",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之多日帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23496",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之多日帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之舍子帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16419",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之舍子帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23498",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之舍子帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之四紙飛白帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16421",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之四紙飛白帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23499",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之四紙飛白帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之月末帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16417",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之月末帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23500",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之月末帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之擇藥帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16424",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之擇藥帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23501",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之擇藥帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之昨見帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16426",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之昨見帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23503",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之昨見帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之雪候帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16427",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之雪候帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23504",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之雪候帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之知遠帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16428",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之知遠帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23505",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之知遠帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之分住帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16430",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之分住帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23523",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之分住帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之旦反帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16431",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之旦反帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23524",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之旦反帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之自慰帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16432",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之自慰帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23526",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之自慰帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之晚復帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16433",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之晚復帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23527",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之晚復帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之足下家帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16435",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之足下家帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23509",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之足下家帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之小園帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16436",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之小園帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23510",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之小園帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之龍保帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16437",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之龍保帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23512",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之龍保帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之離不帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16439",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之離不帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23515",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之離不帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之清晏帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16440",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之清晏帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23516",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之清晏帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之愛為帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16442",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之愛為帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23518",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之愛為帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之鹽井帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16443",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之鹽井帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23519",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之鹽井帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（七） 冊 晉王羲之七十帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16444",
+    "title": "宋拓大觀帖（七） 冊 晉王羲之七十帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23521",
+    "title": "宋搨大觀帖（七） 冊 晉王羲之七十帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八）",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16656",
+    "title": "宋拓大觀帖（八） 冊",
+    "period": "Song"
+   },
+   {
+    "cid": "2103",
+    "title": "宋搨大觀帖（八） 冊",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之小大帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16657",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之小大帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23914",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之小大帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之遇信帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16658",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之遇信帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23915",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之遇信帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之伏想清和帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16659",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之伏想清和帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23916",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之伏想清和帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之運民帖勞人帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16660",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之運民帖勞人帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23917",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之運民帖勞人帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之八日帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16661",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之八日帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23918",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之八日帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之縣戶帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16662",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之縣戶帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23919",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之縣戶帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之大熱帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16663",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之大熱帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23920",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之大熱帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之周常侍帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16760",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之周常侍帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23921",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之周常侍帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之吾唯帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16761",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之吾唯帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23922",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之吾唯帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之不大思帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16762",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之不大思帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23923",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之不大思帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之西問帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16763",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之西問帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23924",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之西問帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之中郎女帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16765",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之中郎女帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23925",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之中郎女帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之發瘧帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16766",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之發瘧帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23946",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之發瘧帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之腫不差帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16767",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之腫不差帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23947",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之腫不差帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之如常帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16768",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之如常帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23948",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之如常帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之賢內妹帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16769",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之賢內妹帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23949",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之賢內妹帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之狼毒帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16770",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之狼毒帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23960",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之狼毒帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之腹痛帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16774",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之腹痛帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23966",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之腹痛帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之闊轉帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16776",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之闊轉帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23993",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之闊轉帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之冬中帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16777",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之冬中帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23994",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之冬中帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之周益州帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16781",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之周益州帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23995",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之周益州帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之執手帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16856",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之執手帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23996",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之執手帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之阮公帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16785",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之阮公帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23997",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之阮公帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之家月末帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16788",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之家月末帖",
+    "period": "Song"
+   },
+   {
+    "cid": "23998",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之家月末帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之蒸濕帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16790",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之蒸濕帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24000",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之蒸濕帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之不得西帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16803",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之不得西帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24001",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之不得西帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之丘令帖謝生帖東旋帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16808",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之丘令帖謝生帖東旋帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24002",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之丘令帖謝生帖東旋帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之飛白帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16811",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之飛白帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24003",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之飛白帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之遣書帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16813",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之遣書帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24004",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之遣書帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之採菊帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16814",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之採菊帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24005",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之採菊帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之增慨帖由為帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16815",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之增慨帖由為帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24006",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之增慨帖由為帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之月半哀感帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16816",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之月半哀感帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24007",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之月半哀感帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之獨坐帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16817",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之獨坐帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24008",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之獨坐帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之黃甘帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16819",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之黃甘帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24012",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之黃甘帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之尊夫人帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16822",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之尊夫人帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24013",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之尊夫人帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之日五期帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16823",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之日五期帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24014",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之日五期帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之先生帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16824",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之先生帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24015",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之先生帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之雨快帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16825",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之雨快帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24016",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之雨快帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之長史帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16826",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之長史帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24018",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之長史帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之得涼帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16827",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之得涼帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24019",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之得涼帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（八） 冊 晉王羲之此郡帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16830",
+    "title": "宋拓大觀帖（八） 冊 晉王羲之此郡帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24020",
+    "title": "宋搨大觀帖（八） 冊 晉王羲之此郡帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九）",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "1959",
+    "title": "宋拓大觀帖（九） 冊",
+    "period": "Song"
+   },
+   {
+    "cid": "2104",
+    "title": "宋搨大觀帖（九） 冊",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之相過帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16872",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之相過帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24023",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之相過帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之永嘉帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16874",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之永嘉帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24026",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之永嘉帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之鵝還帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16875",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之鵝還帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24028",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之鵝還帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之諸女帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16876",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之諸女帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24029",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之諸女帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之授衣帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16877",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之授衣帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24030",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之授衣帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之奉別帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16878",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之奉別帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24033",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之奉別帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之想彼帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16879",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之想彼帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24035",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之想彼帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之承姑帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16880",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之承姑帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24049",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之承姑帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之餘杭帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16881",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之餘杭帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24052",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之餘杭帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之節過帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16883",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之節過帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24050",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之節過帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之比健帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16884",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之比健帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24044",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之比健帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之夏節帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16885",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之夏節帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24045",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之夏節帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之思戀無往帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16886",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之思戀無往帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24046",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之思戀無往帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之歲盡帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16887",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之歲盡帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24047",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之歲盡帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之衛軍帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16888",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之衛軍帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24048",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之衛軍帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之靜息帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16889",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之靜息帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24041",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之靜息帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之姊性帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16890",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之姊性帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24042",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之姊性帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之不謂帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16891",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之不謂帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24043",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之不謂帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之阮新婦帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16892",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之阮新婦帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24055",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之阮新婦帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之奉對帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16894",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之奉對帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24057",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之奉對帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之夏日帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16895",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之夏日帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24059",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之夏日帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之思戀帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16896",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之思戀帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24062",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之思戀帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之天寶帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16897",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之天寶帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24064",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之天寶帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之發吳興帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16898",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之發吳興帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24065",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之發吳興帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之廿九日帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16899",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之廿九日帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24066",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之廿九日帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之腎氣丸帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16900",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之腎氣丸帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24067",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之腎氣丸帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之先夜帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16901",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之先夜帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24068",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之先夜帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之玄度帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16902",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之玄度帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24069",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之玄度帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之慕容帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16904",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之慕容帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24070",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之慕容帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之薄冷帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16905",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之薄冷帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24071",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之薄冷帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之益都帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16906",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之益都帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24074",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之益都帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之前告帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16907",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之前告帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24087",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之前告帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之澗底松帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16908",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之澗底松帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24088",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之澗底松帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之仲宗帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16909",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之仲宗帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24094",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之仲宗帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之黃門帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16910",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之黃門帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24095",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之黃門帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（九） 冊 晉王獻之冠軍帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16911",
+    "title": "宋拓大觀帖（九） 冊 晉王獻之冠軍帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24096",
+    "title": "宋搨大觀帖（九） 冊 晉王獻之冠軍帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十）",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "1960",
+    "title": "宋拓大觀帖（十） 冊",
+    "period": "Song"
+   },
+   {
+    "cid": "2105",
+    "title": "宋搨大觀帖（十） 冊",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十） 冊 晉王獻之江州帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16278",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之江州帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24248",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之江州帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十） 冊 晉王獻之疾不退帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16280",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之疾不退帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24249",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之疾不退帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十） 冊 晉王獻之集聚帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16282",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之集聚帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24251",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之集聚帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十） 冊 晉王獻之鐵石帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16283",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之鐵石帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24252",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之鐵石帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十） 冊 晉王獻之知鐵石帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16284",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之知鐵石帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24253",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之知鐵石帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十） 冊 晉王獻之玄度何來帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16285",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之玄度何來帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24254",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之玄度何來帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十） 冊 晉王獻之忽動帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16297",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之忽動帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24255",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之忽動帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十） 冊 晉王獻之慶等帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16298",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之慶等帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24257",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之慶等帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十） 冊 晉王獻之新婦帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16299",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之新婦帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24258",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之新婦帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十） 冊 晉王獻之鴨頭丸帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16914",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之鴨頭丸帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24260",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之鴨頭丸帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十） 冊 晉王獻之阿姨帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16915",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之阿姨帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24266",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之阿姨帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十） 冊 晉王獻之豹奴帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16922",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之豹奴帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24268",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之豹奴帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十） 冊 晉王獻之孫權帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16937",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之孫權帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24270",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之孫權帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十） 冊 晉王獻之鄱陽書帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16938",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之鄱陽書帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24272",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之鄱陽書帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十） 冊 晉王獻之疾得損帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16939",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之疾得損帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24275",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之疾得損帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十） 冊 晉王獻之極熱帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16940",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之極熱帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24279",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之極熱帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十） 冊 晉王獻之服油帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16942",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之服油帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24306",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之服油帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十） 冊 晉王獻之阿姑帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16943",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之阿姑帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24301",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之阿姑帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十） 冊 晉王獻之舍內帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16944",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之舍內帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24291",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之舍內帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十） 冊 晉王獻之復面帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16945",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之復面帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24294",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之復面帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十） 冊 晉王獻之還此帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16946",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之還此帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24283",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之還此帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十） 冊 晉王獻之西問帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16947",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之西問帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24286",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之西問帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十） 冊 晉王獻之月終帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16948",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之月終帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24295",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之月終帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十） 冊 晉王獻之東家帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16949",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之東家帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24296",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之東家帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十） 冊 晉王獻之諸願帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16950",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之諸願帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24281",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之諸願帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十） 冊 晉王獻之夜眠帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16951",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之夜眠帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24282",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之夜眠帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十） 冊 晉王獻之嫂等帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16952",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之嫂等帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24307",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之嫂等帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十） 冊 晉王獻之鄱陽帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16953",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之鄱陽帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24308",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之鄱陽帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十） 冊 晉王獻之鵝群帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16954",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之鵝群帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24309",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之鵝群帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "大觀帖（十） 冊 晉王獻之敬祖帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "16955",
+    "title": "宋拓大觀帖（十） 冊 晉王獻之敬祖帖",
+    "period": "Song"
+   },
+   {
+    "cid": "24310",
+    "title": "宋搨大觀帖（十） 冊 晉王獻之敬祖帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "武岡帖（五） 冊 王獻之冠軍帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "22349",
+    "title": "宋搨武岡帖（五） 冊 王獻之冠軍帖",
+    "period": "Song"
+   },
+   {
+    "cid": "22496",
+    "title": "宋搨武岡帖（五） 冊 王獻之冠軍帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "武岡帖（八） 冊 晉王羲之宰相安和帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Song"
+  ],
+  "items": [
+   {
+    "cid": "21152",
+    "title": "宋搨武岡帖（八） 冊 晉王羲之宰相安和帖",
+    "period": "Song"
+   },
+   {
+    "cid": "21154",
+    "title": "宋搨武岡帖（八） 冊 晉王羲之宰相安和帖",
+    "period": "Song"
+   }
+  ]
+ },
+ {
+  "inscription": "敬勝齋法帖（二十五） 冊 清高宗御臨宋蔡襄詩帖",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "24746",
+    "title": "拓本敬勝齋法帖（二十五） 冊 清高宗御臨宋蔡襄詩帖",
+    "period": "unspecified"
+   },
+   {
+    "cid": "24747",
+    "title": "拓本敬勝齋法帖（二十五） 冊 清高宗御臨宋蔡襄詩帖",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "御書五福德經",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "60752",
+    "title": "御書五福德經拓本 冊",
+    "period": "unspecified"
+   },
+   {
+    "cid": "60753",
+    "title": "御書五福德經拓本 冊",
+    "period": "unspecified"
+   }
+  ]
+ },
+ {
+  "inscription": "寶賢堂集古法帖冊（第二冊） 冊 晉王羲之月半帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Ming"
+  ],
+  "items": [
+   {
+    "cid": "29858",
+    "title": "明拓寶賢堂集古法帖冊（第二冊） 冊 晉王羲之月半帖",
+    "period": "Ming"
+   },
+   {
+    "cid": "29903",
+    "title": "明拓寶賢堂集古法帖冊（第二冊） 冊 晉王羲之月半帖",
+    "period": "Ming"
+   }
+  ]
+ },
+ {
+  "inscription": "寶賢堂集古法帖冊（第三冊） 冊 晉王羲之安西帖",
+  "n": 2,
+  "n_dated": 2,
+  "span": 0,
+  "periods": [
+   "Ming"
+  ],
+  "items": [
+   {
+    "cid": "29287",
+    "title": "明拓寶賢堂集古法帖冊（第三冊） 冊 晉王羲之安西帖",
+    "period": "Ming"
+   },
+   {
+    "cid": "29302",
+    "title": "明拓寶賢堂集古法帖冊（第三冊） 冊 晉王羲之安西帖",
+    "period": "Ming"
+   }
+  ]
+ },
+ {
+  "inscription": "英光堂米帖（上海徐氏） 冊 宋米芾書昨夕帖",
+  "n": 2,
+  "n_dated": 0,
+  "span": 0,
+  "periods": [
+   "unspecified"
+  ],
+  "items": [
+   {
+    "cid": "27147",
+    "title": "英光堂米帖（上海徐氏本） 冊 宋米芾書昨夕帖",
+    "period": "unspecified"
+   },
+   {
+    "cid": "27187",
+    "title": "英光堂米帖（上海徐氏本） 冊 宋米芾書昨夕帖",
+    "period": "unspecified"
+   }
+  ]
+ }
+]

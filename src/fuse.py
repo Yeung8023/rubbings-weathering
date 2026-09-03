@@ -45,7 +45,8 @@ class Fusion(torch.nn.Module):
                  warp_ctrl=8, dtype=torch.float32, dt=None,
                  relief="levelset", depth_mm=1.4, half_width_mm=0.55,
                  tau=0.6, spall_stride=8, spall_model="levelset",
-                 spall_soft=0.35, fix_a=None, fix_b=None, gain=False):
+                 spall_soft=0.35, fix_a=None, fix_b=None, gain=False,
+                 free_dt=None):
         """dt: (n,) elapsed centuries since the stele was carved.  If given,
         the weathering trajectory is the two-parameter rate law
             sigma(t) = a * t,   kappa(t) = exp(-b * t),
@@ -55,8 +56,12 @@ class Fusion(torch.nn.Module):
         super().__init__()
         self.C, self.n, self.H, self.W, self.px_mm = C, n, H, Wd, px_mm
         self.use_spall = spall
-        self.register_buffer("dt", None if dt is None
+        self.register_buffer("dt0", None if dt is None
                              else torch.as_tensor(dt, dtype=dtype))
+        # elapsed time of selected sheets may itself be unknown: an impression
+        # whose catalogue entry carries no date can be placed in time by the
+        # model, which is the inverse of the dating problem a connoisseur solves
+        self.free_dt = list(free_dt or [])
         self.relief = relief
         self.depth_mm, self.half_width_mm, self.tau = depth_mm, half_width_mm, tau
         self.spall_soft = spall_soft
@@ -105,6 +110,7 @@ class Fusion(torch.nn.Module):
         self.b = P(torch.zeros(C, n, dtype=dtype))
         self.log_g = P(torch.zeros(n, dtype=dtype))
         self.use_gain = gain
+        self.d_age = P(torch.zeros(n, dtype=dtype))
         self.to(device)
         self.device = device
 
@@ -138,6 +144,16 @@ class Fusion(torch.nn.Module):
         s = 0.015 + 0.135 * torch.sigmoid(self.a_s)        # 0.015.. 0.15 mm
         alpha = 0.35 + 0.64 * torch.sigmoid(self.a_alpha)  # 0.35 .. 0.99
         return lam, eps, s, alpha
+
+    @property
+    def dt(self):
+        if self.dt0 is None:
+            return None
+        if not self.free_dt:
+            return self.dt0
+        mask = torch.zeros_like(self.dt0)
+        mask[self.free_dt] = 1.0
+        return self.dt0 * (1 - mask) + mask * _sp(self.d_age) * 4.0
 
     def rates(self):
         a = self.fix_a if self.fix_a is not None else _sp(self.a_rate)
@@ -237,7 +253,8 @@ def fit(images, px_mm, depth_anchor_mm=1.4, sizes=(128, 256), iters=(700, 900),
         dt=None, chunk=6, relief="free", half_width_mm=0.55, tau=0.6,
         w_perim=4e-3, w_dw=0.0, spall_stride=8, huber_c=0.15,
         spall_model="levelset", w_style=0.0, fix_a=None, fix_b=None,
-        fix_styles=None, return_loss=False, gain=False, w_gain=1.0):
+        fix_styles=None, return_loss=False, gain=False, w_gain=1.0,
+        free_dt=None):
     """images: (C, n, H, W) in [0,1].  Returns recovered relief + trajectory."""
     torch.manual_seed(seed)
     C, n = images.shape[:2]
@@ -251,7 +268,7 @@ def fit(images, px_mm, depth_anchor_mm=1.4, sizes=(128, 256), iters=(700, 900),
                      relief=relief, depth_mm=depth_anchor_mm,
                      half_width_mm=half_width_mm, tau=tau,
                      spall_stride=spall_stride, spall_model=spall_model,
-                     fix_a=fix_a, fix_b=fix_b, gain=gain)
+                     fix_a=fix_a, fix_b=fix_b, gain=gain, free_dt=free_dt)
         if model is not None:
             with torch.no_grad():
                 new.a_h0.copy_(F.interpolate(model.a_h0.detach(), size=(sz, sz),
@@ -270,7 +287,8 @@ def fit(images, px_mm, depth_anchor_mm=1.4, sizes=(128, 256), iters=(700, 900),
                         size=new.d_spall.shape[-2:], mode="bilinear",
                         align_corners=False).reshape(new.d_spall.shape))
                 for k in ("a_lam", "a_eps", "a_s", "a_alpha", "d_sigma",
-                          "d_kappa", "wctrl", "b", "a_rate", "b_rate", "log_g"):
+                          "d_kappa", "wctrl", "b", "a_rate", "b_rate", "log_g",
+                          "d_age"):
                     getattr(new, k).copy_(getattr(model, k).detach())
         else:
             with torch.no_grad():
@@ -285,6 +303,10 @@ def fit(images, px_mm, depth_anchor_mm=1.4, sizes=(128, 256), iters=(700, 900),
                     init = init * depth_anchor_mm
                     new.a_h0.copy_(torch.log(torch.expm1(init.clamp_min(1e-3)))[:, None])
         model = new
+        if free_dt and dt is not None:
+            with torch.no_grad():
+                mid = float(np.mean(dt)) / 4.0
+                model.d_age.fill_(float(np.log(np.expm1(max(mid, 1e-3)))))
         if fix_styles is not None:
             with torch.no_grad():
                 inv = lambda v, lo, hi: torch.log(
@@ -359,6 +381,7 @@ def fit(images, px_mm, depth_anchor_mm=1.4, sizes=(128, 256), iters=(700, 900),
         kappa=model.kappa().detach().cpu().numpy(),
         spall=(model.spall().detach().cpu().numpy() if spall else None),
         gain=torch.exp(model.log_g).detach().cpu().numpy(),
+        dt=(model.dt.detach().cpu().numpy() if model.dt is not None else None),
         lam=lam.detach().cpu().numpy(), eps=eps.detach().cpu().numpy(),
         s=s.detach().cpu().numpy(), alpha=alpha.detach().cpu().numpy(),
         recon=yh.detach().cpu().numpy(),

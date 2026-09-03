@@ -25,13 +25,21 @@ TEXT = "九成宮醴泉銘祕書監檢校侍中鉅鹿郡公臣魏徵奉勅撰維
 CHARS = list(dict.fromkeys(TEXT))
 
 
-def flake_fraction(img, q=0.72, core_open_mm=0.6, px_mm=0.117):
+def flake_fraction(img, core_open_mm=0.6, px_mm=0.117):
     """White area that is not part of a stroke core.
 
-    Strokes are long and thin; flakes are blobby.  A morphological opening with
-    a disc wider than a stroke removes the strokes and keeps the blobs.
+    Strokes are long and thin; flakes are blobby, so a morphological opening
+    with a disc wider than a stroke removes the strokes and keeps the blobs.
+    The threshold must be *absolute* (Otsu between the ink and paper modes),
+    not a fixed quantile: a quantile fixes the white area by construction and
+    the statistic would be blind to exactly what it is meant to measure.
     """
-    w = (img > np.quantile(img, q)).astype(np.float32)
+    from skimage.filters import threshold_otsu
+    try:
+        t = threshold_otsu(img)
+    except Exception:
+        t = 0.5
+    w = (img > t).astype(np.float32)
     r = max(1, int(core_open_mm / px_mm))
     yy, xx = np.mgrid[-r:r + 1, -r:r + 1]
     disc = (yy ** 2 + xx ** 2) <= r ** 2

@@ -72,13 +72,14 @@ def canvases(man):
     return out
 
 
-def fetch(cid, dep="P"):
+def fetch(cid, dep="P", with_images=True):
     d = parse_detail(get(f"{BASE}/Collection/Detail/{cid}?dep={dep}"))
-    try:
-        man = manifest(cid, dep)
-        cv = canvases(man)
-    except Exception as e:
-        cv = []
+    cv = []
+    if with_images:
+        try:
+            cv = canvases(manifest(cid, dep))
+        except Exception:
+            cv = []
     return dict(cid=str(cid), meta=d, canvases=cv)
 
 
