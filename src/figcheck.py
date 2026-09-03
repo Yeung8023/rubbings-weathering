@@ -113,6 +113,8 @@ def data_boxes(ax, r):
     for pa in ax.patches:
         if not pa.get_visible():
             continue
+        if pa.get_gid() == "deco":                   # full-canvas decoration
+            continue
         if pa.get_transform() is not ax.transData:   # axvspan / axhspan shading
             continue
         try:
