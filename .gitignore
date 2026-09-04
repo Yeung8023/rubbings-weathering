@@ -6,3 +6,4 @@ results/_*.log
 __pycache__/
 *.pyc
 .pytest_cache/
+results/steles_*.npz

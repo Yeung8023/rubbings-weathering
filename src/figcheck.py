@@ -312,10 +312,11 @@ def main():
     Figure.savefig = _savefig
     plt.close = _close
     import figures as F, fig_pipeline, fig_mechanism, fig_results, fig_real
-    import fig_ablation
+    import fig_ablation, fig_steles
     fig_pipeline.main()
     F.fig1_stack(); fig_mechanism.main(); F.fig3_shiwen(); F.fig4_identify()
     fig_results.fig5(); fig_results.fig6(); fig_real.main(); fig_ablation.main()
+    fig_steles.main()
     Figure.savefig = _orig_savefig
     plt.close = _orig_close
     total = 0

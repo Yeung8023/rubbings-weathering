@@ -1,0 +1,336 @@
+{
+ "Lushan Temple stele (730 CE)": {
+  "carve": 730,
+  "names": [
+   "pre-Ming (colophon 1863)",
+   "undated ink rubbing"
+  ],
+  "ref_len": 1701,
+  "covered": [
+   1701,
+   1526
+  ],
+  "unreadable_pct": [
+   3.1746031746031744,
+   5.6356487549148095
+  ],
+  "catalogue_order": {
+   "rate": 0.9862385321100917,
+   "total": 1526,
+   "violations": 21
+  },
+  "best_order": "pre-Ming (colophon 1863) -> undated ink rubbing",
+  "best": {
+   "rate": 0.9862385321100917,
+   "total": 1526,
+   "violations": 21
+  },
+  "all_orders": {
+   "pre-Ming (colophon 1863) -> undated ink rubbing": {
+    "rate": 0.9862385321100917,
+    "total": 1526,
+    "viol": 21
+   },
+   "undated ink rubbing -> pre-Ming (colophon 1863)": {
+    "rate": 0.9626474442988204,
+    "total": 1526,
+    "viol": 57
+   }
+  }
+ },
+ "Ode on the Stone Gate (148 CE)": {
+  "carve": 148,
+  "names": [
+   "old rubbing (gu ta)",
+   "Ming A",
+   "Ming B (colophon 1694)"
+  ],
+  "ref_len": 781,
+  "covered": [
+   613,
+   738,
+   781
+  ],
+  "unreadable_pct": [
+   3.2626427406199023,
+   3.116531165311653,
+   0.2560819462227913
+  ],
+  "catalogue_order": {
+   "rate": 0.9740740740740741,
+   "total": 1350,
+   "violations": 35
+  },
+  "best_order": "Ming B (colophon 1694) -> old rubbing (gu ta) -> Ming A",
+  "best": {
+   "rate": 0.9885714285714285,
+   "total": 1225,
+   "violations": 14
+  },
+  "all_orders": {
+   "old rubbing (gu ta) -> Ming A -> Ming B (colophon 1694)": {
+    "rate": 0.9740740740740741,
+    "total": 1350,
+    "viol": 35
+   },
+   "old rubbing (gu ta) -> Ming B (colophon 1694) -> Ming A": {
+    "rate": 0.9844559585492227,
+    "total": 1351,
+    "viol": 21
+   },
+   "Ming A -> old rubbing (gu ta) -> Ming B (colophon 1694)": {
+    "rate": 0.9714285714285714,
+    "total": 1225,
+    "viol": 35
+   },
+   "Ming A -> Ming B (colophon 1694) -> old rubbing (gu ta)": {
+    "rate": 0.9829755736491488,
+    "total": 1351,
+    "viol": 23
+   },
+   "Ming B (colophon 1694) -> old rubbing (gu ta) -> Ming A": {
+    "rate": 0.9885714285714285,
+    "total": 1225,
+    "viol": 14
+   },
+   "Ming B (colophon 1694) -> Ming A -> old rubbing (gu ta)": {
+    "rate": 0.9881481481481481,
+    "total": 1350,
+    "viol": 16
+   }
+  }
+ },
+ "Monk Daoyin stele (663 CE)": {
+  "carve": 663,
+  "names": [
+   "Ming A",
+   "Ming B (yu/xian undamaged)"
+  ],
+  "ref_len": 2952,
+  "covered": [
+   2952,
+   2944
+  ],
+  "unreadable_pct": [
+   0.508130081300813,
+   0.9850543478260869
+  ],
+  "catalogue_order": {
+   "rate": 0.9966032608695652,
+   "total": 2944,
+   "violations": 10
+  },
+  "best_order": "Ming A -> Ming B (yu/xian undamaged)",
+  "best": {
+   "rate": 0.9966032608695652,
+   "total": 2944,
+   "violations": 10
+  },
+  "all_orders": {
+   "Ming A -> Ming B (yu/xian undamaged)": {
+    "rate": 0.9966032608695652,
+    "total": 2944,
+    "viol": 10
+   },
+   "Ming B (yu/xian undamaged) -> Ming A": {
+    "rate": 0.9918478260869565,
+    "total": 2944,
+    "viol": 24
+   }
+  }
+ },
+ "Zang Huaike stele (c. 768 CE)": {
+  "carve": 768,
+  "names": [
+   "Ming A (Yang Shoujing)",
+   "Ming B"
+  ],
+  "ref_len": 952,
+  "covered": [
+   99,
+   952
+  ],
+  "unreadable_pct": [
+   0.0,
+   0.5252100840336135
+  ],
+  "catalogue_order": {
+   "rate": 1.0,
+   "total": 99,
+   "violations": 0
+  },
+  "best_order": "Ming A (Yang Shoujing) -> Ming B",
+  "best": {
+   "rate": 1.0,
+   "total": 99,
+   "violations": 0
+  },
+  "all_orders": {
+   "Ming A (Yang Shoujing) -> Ming B": {
+    "rate": 1.0,
+    "total": 99,
+    "viol": 0
+   },
+   "Ming B -> Ming A (Yang Shoujing)": {
+    "rate": 0.9696969696969697,
+    "total": 99,
+    "viol": 3
+   }
+  }
+ },
+ "Jiucheng Palace stele (632 CE), baseline": {
+  "carve": 632,
+  "names": [
+   "Song A",
+   "Song B",
+   "Qing A",
+   "Qing B"
+  ],
+  "ref_len": 1352,
+  "covered": [
+   1335,
+   1352,
+   1345,
+   1345
+  ],
+  "unreadable_pct": [
+   1.8726591760299625,
+   2.0710059171597632,
+   2.1561338289962824,
+   4.386617100371748
+  ],
+  "catalogue_order": {
+   "rate": 0.9915527950310559,
+   "total": 4025,
+   "violations": 34
+  },
+  "best_order": "Qing A -> Song A -> Song B -> Qing B",
+  "best": {
+   "rate": 0.9917664670658682,
+   "total": 4008,
+   "violations": 33
+  },
+  "all_orders": {
+   "Song A -> Song B -> Qing A -> Qing B": {
+    "rate": 0.9915527950310559,
+    "total": 4025,
+    "viol": 34
+   },
+   "Song A -> Song B -> Qing B -> Qing A": {
+    "rate": 0.9860869565217392,
+    "total": 4025,
+    "viol": 56
+   },
+   "Song A -> Qing A -> Song B -> Qing B": {
+    "rate": 0.9912891986062717,
+    "total": 4018,
+    "viol": 35
+   },
+   "Song A -> Qing A -> Qing B -> Song B": {
+    "rate": 0.9840716774514684,
+    "total": 4018,
+    "viol": 64
+   },
+   "Song A -> Qing B -> Song B -> Qing A": {
+    "rate": 0.9855649576903932,
+    "total": 4018,
+    "viol": 58
+   },
+   "Song A -> Qing B -> Qing A -> Song B": {
+    "rate": 0.9838227974116476,
+    "total": 4018,
+    "viol": 65
+   },
+   "Song B -> Song A -> Qing A -> Qing B": {
+    "rate": 0.9900199600798403,
+    "total": 4008,
+    "viol": 40
+   },
+   "Song B -> Song A -> Qing B -> Qing A": {
+    "rate": 0.9842814371257484,
+    "total": 4008,
+    "viol": 63
+   },
+   "Song B -> Qing A -> Song A -> Qing B": {
+    "rate": 0.9897525618595351,
+    "total": 4001,
+    "viol": 41
+   },
+   "Song B -> Qing A -> Qing B -> Song A": {
+    "rate": 0.9830761572921851,
+    "total": 4018,
+    "viol": 68
+   },
+   "Song B -> Qing B -> Song A -> Qing A": {
+    "rate": 0.9840039990002499,
+    "total": 4001,
+    "viol": 64
+   },
+   "Song B -> Qing B -> Qing A -> Song A": {
+    "rate": 0.9835739173718268,
+    "total": 4018,
+    "viol": 66
+   },
+   "Qing A -> Song A -> Song B -> Qing B": {
+    "rate": 0.9917664670658682,
+    "total": 4008,
+    "viol": 33
+   },
+   "Qing A -> Song A -> Qing B -> Song B": {
+    "rate": 0.9840039990002499,
+    "total": 4001,
+    "viol": 64
+   },
+   "Qing A -> Song B -> Song A -> Qing B": {
+    "rate": 0.9912674650698603,
+    "total": 4008,
+    "viol": 35
+   },
+   "Qing A -> Song B -> Qing B -> Song A": {
+    "rate": 0.98456943753111,
+    "total": 4018,
+    "viol": 62
+   },
+   "Qing A -> Qing B -> Song A -> Song B": {
+    "rate": 0.9840319361277445,
+    "total": 4008,
+    "viol": 64
+   },
+   "Qing A -> Qing B -> Song B -> Song A": {
+    "rate": 0.9850931677018634,
+    "total": 4025,
+    "viol": 60
+   },
+   "Qing B -> Song A -> Song B -> Qing A": {
+    "rate": 0.9837824351297405,
+    "total": 4008,
+    "viol": 65
+   },
+   "Qing B -> Song A -> Qing A -> Song B": {
+    "rate": 0.9817545613596601,
+    "total": 4001,
+    "viol": 73
+   },
+   "Qing B -> Song B -> Song A -> Qing A": {
+    "rate": 0.9840319361277445,
+    "total": 4008,
+    "viol": 64
+   },
+   "Qing B -> Song B -> Qing A -> Song A": {
+    "rate": 0.9830761572921851,
+    "total": 4018,
+    "viol": 68
+   },
+   "Qing B -> Qing A -> Song A -> Song B": {
+    "rate": 0.9825349301397206,
+    "total": 4008,
+    "viol": 70
+   },
+   "Qing B -> Qing A -> Song B -> Song A": {
+    "rate": 0.9831055900621118,
+    "total": 4025,
+    "viol": 68
+   }
+  }
+ }
+}
