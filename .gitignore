@@ -14,3 +14,6 @@ results/_*.npy
 lit/
 FINDINGS-day0.md
 idea-16-*.md
+
+# manuscript stays private until publication
+paper/
