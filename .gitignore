@@ -20,3 +20,6 @@ paper/
 
 # submission package stays private
 submission/
+
+# rendered figures stay private until publication
+results/figs/
